@@ -130,9 +130,8 @@ from astropy.table import Table
 from dateutil.relativedelta import relativedelta
 from pykoa.koa import Koa
 
-# Paths resolve against this file, not the shell's cwd -- fetch_std_red.py is run
-# from the repo root and analyze_gratings.py from pyKOA/, and this script should
-# work from either.
+# Paths resolve against this file, not the shell's cwd, so the script works from
+# anywhere -- the other two are written to run from the repo root.
 HERE = os.path.dirname(os.path.abspath(__file__))
 MATCHED_CSV = os.path.join(HERE, "outputKC", "std_red_matched.csv")
 FITSDIR = os.path.join(HERE, "fits")

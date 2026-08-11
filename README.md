@@ -20,8 +20,47 @@ fits/calib_same_night/lev0/     their calibrations
 fits/by_night/<night>/          the same files, one directory per night  -> PypeIt
 ```
 
-Run `fetch_std_red.py` from the repo root, the other two from `pyKOA/`. Paths
-inside `download_std_red.py` resolve against the script, so it works from either.
+All three run from the repo root.
+
+## Install
+
+```bash
+pip install -r requirements.txt
+```
+
+`pykoa` reaches the archive over the network. Public frames need no account;
+frames still inside their proprietary period need a KOA login, which
+`download_std_red.py` prompts for and caches as a cookie.
+
+## Quickstart
+
+```bash
+# 1. find every red standard-star frame and label it with its star  (~9 s)
+python fetch_std_red.py
+
+# 2. see which star covers which grating                             (offline)
+python analyze_gratings.py
+
+# 3. see what one night would give you, download nothing             (offline*)
+python download_std_red.py --stars feige110 --same-night --nights 2023-12-17 --dry-run
+
+# 4. actually fetch it, science + same-night calibrations
+python download_std_red.py --stars feige110 --same-night --nights 2023-12-17
+
+# 5. reduce that night
+pypeit_setup -s keck_kcrm -r fits/by_night/2023-12-17
+```
+
+\* step 3 does query the archive for the night's biases, and for any calibration
+associations it has not cached yet.
+
+Step 1 is optional on a fresh clone: its output,
+`outputKC/std_red_matched.csv`, is checked in, so steps 2 and 3 work straight
+away. Re-run it to pick up frames taken since.
+
+Everything else the scripts produce — the FITS, the manifests, the pairs table,
+the caliblist cache — is generated locally and deliberately not tracked. See
+[.gitignore](.gitignore).
 
 ---
 
@@ -125,9 +164,9 @@ strings.
 
 | Option               | Default                     | What it does                                                                                      |
 | -------------------- | --------------------------- | ------------------------------------------------------------------------------------------------- |
-| `--outdir DIR`       | `pyKOA/fits`                | science lands in `<outdir>/lev0`, the per-night tree in `<outdir>/by_night`                       |
-| `--calib-outdir DIR` | `<outdir>/calib_same_night` | calibrations. Kept apart from `<outdir>/calib`, which is where an unfiltered `--calib` run writes |
-| `--cookie PATH`      | `outputKC/koa_cookie.txt`   | KOA login cookie, for proprietary frames                                                          |
+| `--outdir DIR`       | `<repo>/fits`                                   | science lands in `<outdir>/lev0`, the per-night tree in `<outdir>/by_night`                       |
+| `--calib-outdir DIR` | `<outdir>/calib_same_night`                     | calibrations. Kept apart from `<outdir>/calib`, which is where an unfiltered `--calib` run writes |
+| `--cookie PATH`      | `outputKC/koa_cookie.txt`                       | KOA login cookie, for proprietary frames                                                          |
 
 
 **Running**
@@ -270,7 +309,8 @@ records the difference. Every `bias` row is `night`-sourced.
 
 ```bash
 python fetch_std_red.py                 # once; ~9 s, writes std_red_matched.csv
-cd pyKOA && python analyze_gratings.py  # which star covers which grating
+cd KCWI_RED_channel_characterization
+python analyze_gratings.py              # which star covers which grating
 ```
 
 **Check what a selection would give you**

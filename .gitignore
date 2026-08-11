@@ -1,0 +1,24 @@
+# This directory holds ~45 GB of FITS and PypeIt output alongside the pipeline,
+# so the rule is an allowlist: ignore everything, then name what belongs in the
+# repo.  A blocklist here would be one forgotten pattern away from staging 39 GB.
+
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/kcwi_stds_selected.txt
+!/*.py
+
+# std_red_matched.csv is the table both analyze_gratings.py and
+# download_std_red.py read, so a fresh clone is usable without a KOA query.  The
+# other tables are per-run artifacts and the caliblists are a fetch cache.
+!/outputKC/
+outputKC/*
+!outputKC/std_red_matched.csv
+
+# Never: the KOA login cookie is a credential.
+koa_cookie.txt
+
+__pycache__/
+*.pyc
+.DS_Store

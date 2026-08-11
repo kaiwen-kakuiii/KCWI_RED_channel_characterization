@@ -16,8 +16,8 @@ import astropy.units as u
 from pykoa.koa import Koa
 
 STARLIST = "kcwi_stds_selected.txt"
-OUT = "pyKOA/outputKC"
-FITSDIR = "pyKOA/fits"
+OUT = "outputKC"
+FITSDIR = "fits"
 # Server-side cone.  Must stay well wider than the FOV: it has to catch frames the
 # observer took at a star's proper-motion-corrected position (up to ~30" away from
 # the epoch-2000 coordinates in the starlist) before any local cut can see them.

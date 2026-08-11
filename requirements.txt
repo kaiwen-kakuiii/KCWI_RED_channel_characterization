@@ -1,0 +1,8 @@
+# Versions this was developed and tested against.  pandas 3 matters: it gives
+# strings their own 'str' dtype, and the CSV readers here check for it by name
+# when stripping the fixed-width padding IPAC tables arrive with.
+pykoa>=1.7.2
+pandas>=2.2
+numpy>=1.26
+astropy>=6.0
+python-dateutil>=2.9
