@@ -1,24 +1,70 @@
-# This directory holds ~45 GB of FITS and PypeIt output alongside the pipeline,
+# This directory holds ~100 GB of FITS and PypeIt output alongside the pipeline,
 # so the rule is an allowlist: ignore everything, then name what belongs in the
-# repo.  A blocklist here would be one forgotten pattern away from staging 39 GB.
+# repo.  A blocklist here would be one forgotten pattern away from staging tens
+# of gigabytes.
 
 /*
 !/.gitignore
-!/README.md
+!/*.md
+!/*.py
+!/*.csv
+!/*.png
 !/requirements.txt
 !/kcwi_stds_selected.txt
-!/*.py
 
 # std_red_matched.csv is the table both analyze_gratings.py and
 # download_std_red.py read, so a fresh clone is usable without a KOA query.  The
 # other tables are per-run artifacts and the caliblists are a fetch cache.
 !/outputKC/
-outputKC/*
-!outputKC/std_red_matched.csv
+/outputKC/*
+!/outputKC/std_red_matched.csv
+
+# Combined blaze figures.  The directory also holds nothing but PNGs; the
+# re-ignore is still required or git will not look inside.
+!/blaze_plots/
+/blaze_plots/*
+!/blaze_plots/*.png
+
+# Method code, wavelength templates, and linelists.  keck_kcrm_A/ and
+# keck_kcrm_B/ are local reductions (GB) and stay out.
+!/pypeit_test/
+/pypeit_test/*
+!/pypeit_test/*.py
+!/pypeit_test/*.dat
+!/pypeit_test/*.md
+!/pypeit_test/*.fits
+
+# Per-grating drivers sit next to the night trees they write.  Un-ignore the
+# directory, re-ignore its contents, then take only the Python at the root.
+!/RH1 pypeit run/
+/RH1 pypeit run/*
+!/RH1 pypeit run/*.py
+
+!/RH2 pypeit run/
+/RH2 pypeit run/*
+!/RH2 pypeit run/*.py
+
+!/RH3 pypeit run/
+/RH3 pypeit run/*
+!/RH3 pypeit run/*.py
+
+!/RH4 pypeit run/
+/RH4 pypeit run/*
+!/RH4 pypeit run/*.py
+
+!/RM1 pypeit run/
+/RM1 pypeit run/*
+!/RM1 pypeit run/*.py
+
+!/RM2 pypeit run/
+/RM2 pypeit run/*
+!/RM2 pypeit run/*.py
 
 # Never: the KOA login cookie is a credential.
 koa_cookie.txt
 
 __pycache__/
 *.pyc
+*.py.bak
+*.prerh3
 .DS_Store

@@ -1,4 +1,34 @@
-# KCWI red-channel standard stars
+# KCRM red-channel throughput
+
+Measured throughput of the seven KCRM gratings, from KOA standard-star frames
+reduced with PypeIt. Raw FITS and PypeIt night trees (~100 GB) are not in this
+repo; they are fetched and reduced locally with the scripts below.
+
+**Results.** [GRATING_SUMMARY.md](GRATING_SUMMARY.md) is the register: nights,
+configurations, blaze peaks, and the two all-grating figures
+[`kcrm_superblaze.png`](kcrm_superblaze.png) (upper envelope) and
+[`kcrm_composite.png`](kcrm_composite.png) (mean over observed settings).
+Per-grating blaze plots live in [`blaze_plots/`](blaze_plots/). The numbers are
+in `blaze_summary.csv`, `blaze_peaks.csv`, and `composite_by_grating.csv`.
+
+**Method.** [PYPEIT.md](PYPEIT.md) is the reduction, [THROUGHPUT_PROCEDURE.md](THROUGHPUT_PROCEDURE.md)
+is spec2d → throughput (worked on RL). Everything else is a delta:
+[RH1_PROCEDURE.md](RH1_PROCEDURE.md), [RH1_WAVELENGTH.md](RH1_WAVELENGTH.md),
+[RH2.md](RH2.md), [RH3.md](RH3.md), [RH4.md](RH4.md), [RM1.md](RM1.md),
+[RM2.md](RM2.md). Drivers sit in `<GRATING> pypeit run/`; wavelength templates
+and linelists sit in [`pypeit_test/`](pypeit_test/).
+
+```bash
+python pypeit_test/plot_blaze_summary.py   # rewrite figures + CSVs from sensfuncs
+python pypeit_test/blaze_tables.py --render  # rewrite GRATING_SUMMARY.md
+```
+
+The second command reads `pypeit_test/grating_summary.template.md`; do not edit
+`GRATING_SUMMARY.md` by hand.
+
+---
+
+# Archive: find and download standard-star frames
 
 Three scripts that find the KCWI/KCRM standard-star frames in the Keck archive,
 tell you what coverage they give, and download them together with calibrations
@@ -17,10 +47,12 @@ outputKC/std_red_matched.csv    1307 red science frames, 27 standards
         v
 fits/lev0/                      science frames
 fits/calib_same_night/lev0/     their calibrations
-fits/by_night/<night>/          the same files, one directory per night  -> PypeIt
+fits/by_night/<grating>/<night>/  hardlinks, one directory per grating night  -> PypeIt
 ```
 
-All three run from the repo root.
+All three run from the repo root. Once a night is downloaded,
+[PYPEIT.md](PYPEIT.md) takes it from there — setup, reduction, datacube,
+sensitivity function, with a check after every stage.
 
 ## Install
 
@@ -48,7 +80,7 @@ python download_std_red.py --stars feige110 --same-night --nights 2023-12-17 --d
 python download_std_red.py --stars feige110 --same-night --nights 2023-12-17
 
 # 5. reduce that night
-pypeit_setup -s keck_kcrm -r fits/by_night/2023-12-17
+pypeit_setup -s keck_kcrm -r fits/by_night/RL/2023-12-17
 ```
 
 \* step 3 does query the archive for the night's biases, and for any calibration
@@ -218,14 +250,15 @@ For feige110, 218 frames:
 
 | `--require`                 | frames kept | calibs | of which bias |
 | --------------------------- | ----------- | ------ | ------------- |
-| all five lamps (default)    | 114         | 1126   | 252           |
+| all five lamps              | 114         | 1126   | 252           |
 | `arclamp contbars flatlamp` | 209         | 1731   | 378           |
 
 
-`twiflat` is what binds the default down to 114 — it is often associated across
-nights. Arc lamps carry the wavelength solution and flexure moves it overnight,
-so same-night arcs genuinely matter; twilight flats are stable for weeks. Bias
-drops nobody, in either case.
+The current default drops `twiflat` (the pypeit configs here do not use it).
+`twiflat` is what binds the five-lamp gate down to 114 — it is often associated
+across nights. Arc lamps carry the wavelength solution and flexure moves it
+overnight, so same-night arcs genuinely matter; twilight flats are stable for
+weeks. Bias drops nobody, in either case.
 
 ### One directory per night
 
@@ -237,10 +270,11 @@ single master arc out of four nights of arcs, undoing the gate above. Measured
 here: 7 of 27 configurations span more than one night, covering 56 of 114
 frames.
 
-So the frames are also laid out one night per directory:
+So the frames are also laid out one night per directory, grouped by the science
+frame's grating:
 
 ```
-pypeit_setup -s keck_kcrm -r fits/by_night/2023-12-17
+pypeit_setup -s keck_kcrm -r fits/by_night/RL/2023-12-17
 ```
 
 Nothing is copied. Every file already sits in `lev0` or
@@ -295,7 +329,7 @@ records the difference. Every `bias` row is `night`-sourced.
 | ----------------------------- | ----------------------------------------------------------------------- |
 | `fits/lev0/`                  | science frames                                                          |
 | `fits/calib_same_night/lev0/` | their calibrations, lamps and biases together                           |
-| `fits/by_night/<night>/`      | hardlinks to both, one directory per night — **point PypeIt here**      |
+| `fits/by_night/<grating>/<night>/` | hardlinks to both, one directory per grating night — **point PypeIt here** |
 | `fits/calib/`                 | only from an unfiltered `--calib` run. Also holds cached caliblist JSON |
 
 
@@ -329,7 +363,7 @@ survive the filtering.
 
 ```bash
 python download_std_red.py --stars feige110 --same-night --nights 2023-12-17
-pypeit_setup -s keck_kcrm -r fits/by_night/2023-12-17
+pypeit_setup -s keck_kcrm -r fits/by_night/RL/2023-12-17
 ```
 
 **Everything for one standard**

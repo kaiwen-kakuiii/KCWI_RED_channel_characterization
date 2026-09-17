@@ -47,11 +47,14 @@ over 22803 associations, KOA's own diff_date column disagrees with this on 354 -
 every one of them taken between 12:00 and 14:00 HST, the boundary this exists to
 place.  diff_date subtracts UT dates, so on all 354 it is the one that is wrong.
 
-Requiring all five lamp types same-night is strict, because twiflat is often
-associated across nights -- feige110 keeps 114 of 218 frames under the full set
-and 209 under arclamp+contbars+flatlamp.  Both are defensible: arc lamps carry the
-wavelength solution and flexure moves it overnight, while twilight flats are
-stable for weeks.  --require is how you choose.
+The default --require is arclamp contbars flatlamp domeflat: exactly the types
+the pypeit configs here consume (arc/tilt, align, pixelflat/scattlight,
+illumflat/trace).  twiflat is deliberately not among them -- no config in
+pypeit_test uses twilight flats, and requiring them was expensive because KOA
+often associates them across nights: feige110 keeps 114 of 218 frames when all
+five types are required same-night, 209 under arclamp+contbars+flatlamp.  Lamp
+types not in --require are not downloaded either, so add twiflat back to
+--require if a reduction ever starts using it.  --require is how you choose.
 
 bias
 ----
@@ -85,10 +88,16 @@ single flat directory invites it to build one master arc out of four nights of
 arcs, undoing the gate above.  Here 7 of 27 configurations span more than one
 night, covering 56 of 114 frames.
 
-So the frames are also laid out one night per directory, under <outdir>/by_night,
-and pypeit_setup is pointed at a single night:
+So the frames are also laid out one night per directory, grouped by grating,
+under <outdir>/by_night/<grating>, and pypeit_setup is pointed at a single night:
 
-    pypeit_setup -s keck_kcrm -r fits/by_night/2023-12-17
+    pypeit_setup -s keck_kcrm -r fits/by_night/RL/2023-12-17
+
+A frame's directory is its science frame's grating, not its own header: biases
+and darks never see the grating, so RGRATNAM on them merely records where the
+wheel was parked (sometimes a grating nobody here observed with).  A calib
+paired with science frames of two gratings is linked into both -- hardlinks,
+so the second name is free.
 
 Nothing is copied.  Every file already sits in lev0 or calib_same_night/lev0, and
 these are hardlinks -- another name for the same inode -- so a night costs no
@@ -149,6 +158,11 @@ CALIB_CACHE = os.path.join(HERE, "outputKC", "caliblists")
 # Lamp calibrations only.  Bias is absent deliberately -- see the module docstring:
 # the association returns test biases, so they are asked for by night instead.
 LAMP_TYPES = ["arclamp", "contbars", "flatlamp", "domeflat", "twiflat"]
+# What the pypeit configs in pypeit_test actually consume: arc/tilt <- arclamp,
+# align <- contbars, pixelflat/scattlight <- flatlamp, illumflat/trace <- domeflat.
+# twiflat rows there are commented out, so it is neither required nor fetched by
+# default -- pass --require with twiflat to bring it back.
+REQUIRE_DEFAULT = ["arclamp", "contbars", "flatlamp", "domeflat"]
 
 # binning and ampmode are the match keys; ccdspeed is carried for the report only.
 BIAS_COLS = ("koaid, instrume, filehand, koaimtyp, camera, binning, ampmode, "
@@ -320,10 +334,12 @@ ap.add_argument("--calib", action="store_true",
 ap.add_argument("--same-night", action="store_true",
                 help="keep only frames whose own night supplies the calibrations "
                      "listed in --require, and fetch just those calibrations")
-ap.add_argument("--require", nargs="+", metavar="TYPE", default=LAMP_TYPES,
+ap.add_argument("--require", nargs="+", metavar="TYPE", default=REQUIRE_DEFAULT,
                 choices=LAMP_TYPES,
                 help="lamp calib types that must come from the science frame's "
-                     f"own night (default: all of {' '.join(LAMP_TYPES)}).  bias "
+                     f"own night (default: {' '.join(REQUIRE_DEFAULT)} -- what "
+                     "the pypeit configs consume; twiflat is unused there, and "
+                     "types not listed here are not downloaded at all).  bias "
                      "is not listed: it is always required, and comes from a "
                      "query for the night rather than from the association")
 ap.add_argument("--keep-blue-calibs", action="store_true",
@@ -420,9 +436,13 @@ if args.same_night:
         # test biases, and leaving them in the manifest would download the very
         # frames the night query exists to replace.  _source records where a row
         # came from, which koaimtyp cannot -- both mechanisms yield biases.
+        # Lamp types outside --require are dropped too: a twiflat nothing in the
+        # pypeit configs consumes would only cost download bytes and then sit in
+        # every by_night view.  Non-lamp oddities (darks) pass through as before.
         mine = [dict(r, _source="caliblist")
                 for r in same_night(rows, nights[k], args.keep_blue_calibs)
-                if r["koaimtyp"] != "bias"]
+                if r["koaimtyp"] != "bias"
+                and (r["koaimtyp"] not in LAMP_TYPES or r["koaimtyp"] in required)]
         missing = required - {r["koaimtyp"] for r in mine}
         if missing:
             short.update(missing)
@@ -638,16 +658,22 @@ if calib_rows:
     # unlinking one never destroys data.  That makes the tree disposable, which
     # matters because it is derived -- change --require or the bias match and the
     # nights repartition, so it is wiped and rebuilt rather than patched.
+    # Keyed by (grating, night), and every koaid -- calib or science -- files
+    # under the *science frame's* grating: biases and darks never see the
+    # grating, so their own RGRATNAM just records where the wheel was parked.
+    # A calib paired with science of two gratings lands in both dirs; the
+    # links are hard, so the second name costs nothing.
+    grat = dict(zip(df.koaid, df.rgratnam.astype(str).str.strip()))
     tree = collections.defaultdict(set)
     for sci in df.koaid:
-        n = str(nights[sci])
-        tree[n].add(sci)
-        tree[n].update(r["koaid"] for r in pairs.get(sci, []))
+        key = (grat[sci] or "UNKNOWN", str(nights[sci]))
+        tree[key].add(sci)
+        tree[key].update(r["koaid"] for r in pairs.get(sci, []))
 
     by_night = os.path.join(args.outdir, "by_night")
     linked = absent = cleared = 0
-    for n, koaids in sorted(tree.items()):
-        d = os.path.join(by_night, n)
+    for (g, n), koaids in sorted(tree.items()):
+        d = os.path.join(by_night, g, n)
         os.makedirs(d, exist_ok=True)
         # Only KOAID-named regular files are cleared -- anything else you put in
         # here is yours and survives the rebuild.
@@ -670,9 +696,10 @@ if calib_rows:
             else:
                 absent += 1
 
-    print(f"\nper-night views in {by_night}: {linked} links over {len(tree)} nights"
+    print(f"\nper-night views in {by_night}: {linked} links over "
+          f"{len(tree)} grating/night dirs"
           f"{f', {cleared} stale cleared' if cleared else ''}")
     if absent:
         print(f"   {absent} file(s) not linked -- not downloaded yet; "
               f"re-run to finish, the tree is rebuilt each time")
-    print(f"   pypeit_setup -s keck_kcrm -r {os.path.join(by_night, sorted(tree)[0])}")
+    print(f"   pypeit_setup -s keck_kcrm -r {os.path.join(by_night, *sorted(tree)[0])}")
