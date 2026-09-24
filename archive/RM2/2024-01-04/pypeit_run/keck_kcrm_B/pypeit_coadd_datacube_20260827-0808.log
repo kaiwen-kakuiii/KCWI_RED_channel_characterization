@@ -1,0 +1,1334 @@
+    INFO | 2026-08-26 22:08:57 | inputfiles.py:from_file:136 | Loading the reduction file
+    INFO | 2026-08-26 22:08:57 | inputfiles.py:from_file:214 | Coadd3d input file loaded successfully.
+    INFO | 2026-08-26 22:08:57 | inputfiles.py:vet:927 | .coadd3d file successfully vetted.
+    INFO | 2026-08-26 22:08:57 | coadd_datacube.py:main:55 | Restricting to detector=1
+    INFO | 2026-08-26 22:08:57 | coadd3d.py:__init__:495 | No RA or Dec offsets have been provided.
+    INFO | 2026-08-26 22:08:57 | coadd3d.py:__init__:536 | Adopting the subpixel algorithm to generate the datacube, with subpixellation scales:
+  Spectral: 5
+  Spatial: 5
+  Slices: 5
+    INFO | 2026-08-26 22:08:57 | coadd3d.py:set_default_skysub:736 | The sky model in the spec2d science frames will be used for sky subtraction
+(unless specific skysub frames have been specified)
+    INFO | 2026-08-26 22:08:57 | coadd3d.py:load:1019 | Loading PypeIt spec2d frame (1/3):
+Science/spec2d_KR.20240105.57512.71-feige34_KCRM_20240105T155832.678.fits
+    INFO | 2026-08-26 22:08:58 | coadd3d.py:load:1035 | Constructing slit image
+    INFO | 2026-08-26 22:08:58 | coadd3d.py:get_current_skysub:829 | Using the following frame for sky subtraction:
+image
+    INFO | 2026-08-26 22:08:58 | coadd3d.py:get_current_scalecorr:718 | Relative spectral illumination correction will not be performed.
+    INFO | 2026-08-26 22:08:58 | datacube.py:make_good_skymask:436 | Masking edge pixels where the sky model is poor
+    INFO | 2026-08-26 22:08:59 | coadd3d.py:load:1090 | Using wavelength solution: wave0=7834.416, dispersion=0.975 Angstrom/pixel
+    INFO | 2026-08-26 22:08:59 | coadd3d.py:get_alignments:962 | Loading alignments
+    INFO | 2026-08-26 22:08:59 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM2 pypeit run/2024-01-04/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-26 22:08:59 | coadd3d.py:get_alignments:978 | Generating alignment splines
+   DEBUG | 2026-08-26 22:08:59 | alignframe.py:__init__:350 | Spatial flexure is not currently implemented for the astrometric alignment
+    INFO | 2026-08-26 22:08:59 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 1/24
+    INFO | 2026-08-26 22:08:59 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 2/24
+    INFO | 2026-08-26 22:08:59 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 3/24
+    INFO | 2026-08-26 22:08:59 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 4/24
+    INFO | 2026-08-26 22:08:59 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 5/24
+    INFO | 2026-08-26 22:09:00 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 6/24
+    INFO | 2026-08-26 22:09:00 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 7/24
+    INFO | 2026-08-26 22:09:00 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 8/24
+    INFO | 2026-08-26 22:09:00 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 9/24
+    INFO | 2026-08-26 22:09:00 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 10/24
+    INFO | 2026-08-26 22:09:00 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 11/24
+    INFO | 2026-08-26 22:09:01 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 12/24
+    INFO | 2026-08-26 22:09:01 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 13/24
+    INFO | 2026-08-26 22:09:01 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 14/24
+    INFO | 2026-08-26 22:09:01 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 15/24
+    INFO | 2026-08-26 22:09:01 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 16/24
+    INFO | 2026-08-26 22:09:01 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 17/24
+    INFO | 2026-08-26 22:09:01 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 18/24
+    INFO | 2026-08-26 22:09:02 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 19/24
+    INFO | 2026-08-26 22:09:02 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 20/24
+    INFO | 2026-08-26 22:09:02 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 21/24
+    INFO | 2026-08-26 22:09:02 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 22/24
+    INFO | 2026-08-26 22:09:02 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 23/24
+    INFO | 2026-08-26 22:09:03 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 24/24
+    INFO | 2026-08-26 22:09:03 | keck_kcwi.py:get_wcs:634 | Generating KCRM WCS
+    INFO | 2026-08-26 22:09:03 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image
+    INFO | 2026-08-26 22:09:04 | coadd3d.py:__init__:278 | Preparing the parameters for the DAR correction
+    INFO | 2026-08-26 22:09:04 | coadd3d.py:__init__:294 | DAR correction parameters:
+   Airmass = 1.20
+   Pressure = 618.18 mbar
+   Humidity = 10.40 %
+   Temperature = -1.40 deg C
+   Reference wavelength = 4500.00 Angstrom
+    INFO | 2026-08-26 22:09:04 | coadd3d.py:load:1019 | Loading PypeIt spec2d frame (2/3):
+Science/spec2d_KR.20240105.57701.41-feige34_KCRM_20240105T160141.376.fits
+    INFO | 2026-08-26 22:09:05 | coadd3d.py:load:1035 | Constructing slit image
+    INFO | 2026-08-26 22:09:05 | coadd3d.py:get_current_skysub:829 | Using the following frame for sky subtraction:
+image
+    INFO | 2026-08-26 22:09:05 | coadd3d.py:get_current_scalecorr:718 | Relative spectral illumination correction will not be performed.
+    INFO | 2026-08-26 22:09:05 | datacube.py:make_good_skymask:436 | Masking edge pixels where the sky model is poor
+    INFO | 2026-08-26 22:09:06 | coadd3d.py:load:1090 | Using wavelength solution: wave0=7834.416, dispersion=0.975 Angstrom/pixel
+    INFO | 2026-08-26 22:09:06 | coadd3d.py:get_alignments:962 | Loading alignments
+    INFO | 2026-08-26 22:09:06 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM2 pypeit run/2024-01-04/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-26 22:09:06 | coadd3d.py:get_alignments:978 | Generating alignment splines
+   DEBUG | 2026-08-26 22:09:06 | alignframe.py:__init__:350 | Spatial flexure is not currently implemented for the astrometric alignment
+    INFO | 2026-08-26 22:09:06 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 1/24
+    INFO | 2026-08-26 22:09:06 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 2/24
+    INFO | 2026-08-26 22:09:06 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 3/24
+    INFO | 2026-08-26 22:09:06 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 4/24
+    INFO | 2026-08-26 22:09:06 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 5/24
+    INFO | 2026-08-26 22:09:06 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 6/24
+    INFO | 2026-08-26 22:09:07 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 7/24
+    INFO | 2026-08-26 22:09:07 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 8/24
+    INFO | 2026-08-26 22:09:07 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 9/24
+    INFO | 2026-08-26 22:09:07 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 10/24
+    INFO | 2026-08-26 22:09:07 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 11/24
+    INFO | 2026-08-26 22:09:07 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 12/24
+    INFO | 2026-08-26 22:09:08 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 13/24
+    INFO | 2026-08-26 22:09:08 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 14/24
+    INFO | 2026-08-26 22:09:08 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 15/24
+    INFO | 2026-08-26 22:09:08 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 16/24
+    INFO | 2026-08-26 22:09:08 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 17/24
+    INFO | 2026-08-26 22:09:08 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 18/24
+    INFO | 2026-08-26 22:09:08 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 19/24
+    INFO | 2026-08-26 22:09:09 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 20/24
+    INFO | 2026-08-26 22:09:09 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 21/24
+    INFO | 2026-08-26 22:09:09 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 22/24
+    INFO | 2026-08-26 22:09:09 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 23/24
+    INFO | 2026-08-26 22:09:09 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 24/24
+    INFO | 2026-08-26 22:09:09 | keck_kcwi.py:get_wcs:634 | Generating KCRM WCS
+    INFO | 2026-08-26 22:09:09 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image
+    INFO | 2026-08-26 22:09:11 | coadd3d.py:__init__:278 | Preparing the parameters for the DAR correction
+    INFO | 2026-08-26 22:09:11 | coadd3d.py:__init__:294 | DAR correction parameters:
+   Airmass = 1.20
+   Pressure = 618.20 mbar
+   Humidity = 10.30 %
+   Temperature = -1.50 deg C
+   Reference wavelength = 4500.00 Angstrom
+    INFO | 2026-08-26 22:09:11 | coadd3d.py:load:1019 | Loading PypeIt spec2d frame (3/3):
+Science/spec2d_KR.20240105.57862.57-feige34_KCRM_20240105T160422.598.fits
+    INFO | 2026-08-26 22:09:11 | coadd3d.py:load:1035 | Constructing slit image
+    INFO | 2026-08-26 22:09:12 | coadd3d.py:get_current_skysub:829 | Using the following frame for sky subtraction:
+image
+    INFO | 2026-08-26 22:09:12 | coadd3d.py:get_current_scalecorr:718 | Relative spectral illumination correction will not be performed.
+    INFO | 2026-08-26 22:09:12 | datacube.py:make_good_skymask:436 | Masking edge pixels where the sky model is poor
+    INFO | 2026-08-26 22:09:12 | coadd3d.py:load:1090 | Using wavelength solution: wave0=7834.416, dispersion=0.975 Angstrom/pixel
+    INFO | 2026-08-26 22:09:12 | coadd3d.py:get_alignments:962 | Loading alignments
+    INFO | 2026-08-26 22:09:12 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM2 pypeit run/2024-01-04/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-26 22:09:12 | coadd3d.py:get_alignments:978 | Generating alignment splines
+   DEBUG | 2026-08-26 22:09:12 | alignframe.py:__init__:350 | Spatial flexure is not currently implemented for the astrometric alignment
+    INFO | 2026-08-26 22:09:12 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 1/24
+    INFO | 2026-08-26 22:09:12 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 2/24
+    INFO | 2026-08-26 22:09:13 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 3/24
+    INFO | 2026-08-26 22:09:13 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 4/24
+    INFO | 2026-08-26 22:09:13 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 5/24
+    INFO | 2026-08-26 22:09:13 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 6/24
+    INFO | 2026-08-26 22:09:13 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 7/24
+    INFO | 2026-08-26 22:09:14 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 8/24
+    INFO | 2026-08-26 22:09:14 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 9/24
+    INFO | 2026-08-26 22:09:14 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 10/24
+    INFO | 2026-08-26 22:09:14 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 11/24
+    INFO | 2026-08-26 22:09:14 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 12/24
+    INFO | 2026-08-26 22:09:14 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 13/24
+    INFO | 2026-08-26 22:09:14 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 14/24
+    INFO | 2026-08-26 22:09:15 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 15/24
+    INFO | 2026-08-26 22:09:15 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 16/24
+    INFO | 2026-08-26 22:09:15 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 17/24
+    INFO | 2026-08-26 22:09:15 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 18/24
+    INFO | 2026-08-26 22:09:15 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 19/24
+    INFO | 2026-08-26 22:09:16 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 20/24
+    INFO | 2026-08-26 22:09:16 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 21/24
+    INFO | 2026-08-26 22:09:16 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 22/24
+    INFO | 2026-08-26 22:09:16 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 23/24
+    INFO | 2026-08-26 22:09:16 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 24/24
+    INFO | 2026-08-26 22:09:17 | keck_kcwi.py:get_wcs:634 | Generating KCRM WCS
+    INFO | 2026-08-26 22:09:17 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image
+    INFO | 2026-08-26 22:09:19 | coadd3d.py:__init__:278 | Preparing the parameters for the DAR correction
+    INFO | 2026-08-26 22:09:19 | coadd3d.py:__init__:294 | DAR correction parameters:
+   Airmass = 1.21
+   Pressure = 618.25 mbar
+   Humidity = 10.30 %
+   Temperature = -1.40 deg C
+   Reference wavelength = 4500.00 Angstrom
+    INFO | 2026-08-26 22:09:19 | datacube.py:set_voxel_sampling:776 | Adopting a square pixel spatial scale of 0.678924 arcsec
+    INFO | 2026-08-26 22:09:19 | datacube.py:set_voxel_sampling:779 | Adopting a wavelength sampling of 0.975272 Angstrom
+    INFO | 2026-08-26 22:09:19 | datacube.py:get_whitelight_range:606 | The white light images will cover the wavelength range: 8070.18A - 9860.72A
+    INFO | 2026-08-26 22:09:20 | datacube.py:generate_WCS:1049 | Generating WCS
+    INFO | 2026-08-26 22:09:20 | datacube.py:create_wcs:1008 | 
+----------------------------------------
+Parameters of the WCS:
+RA   min = 159.89853670765223
+DEC  min = 43.09866380429283
+WAVE min, max = 8070.179706716407, 9860.716851342127
+Spaxel size = 0.6789240000000001 arcsec
+Wavelength step = 1790.5371446257204 A
+----------------------------------------
+    INFO | 2026-08-26 22:09:20 | datacube.py:subpixellate:1772 | Resampling slit 1/24 of frame 1/3
+    INFO | 2026-08-26 22:09:20 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:21 | datacube.py:subpixellate:1772 | Resampling slit 2/24 of frame 1/3
+    INFO | 2026-08-26 22:09:21 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:21 | datacube.py:subpixellate:1772 | Resampling slit 3/24 of frame 1/3
+    INFO | 2026-08-26 22:09:21 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:22 | datacube.py:subpixellate:1772 | Resampling slit 4/24 of frame 1/3
+    INFO | 2026-08-26 22:09:22 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:22 | datacube.py:subpixellate:1772 | Resampling slit 5/24 of frame 1/3
+    INFO | 2026-08-26 22:09:22 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:23 | datacube.py:subpixellate:1772 | Resampling slit 6/24 of frame 1/3
+    INFO | 2026-08-26 22:09:23 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:23 | datacube.py:subpixellate:1772 | Resampling slit 7/24 of frame 1/3
+    INFO | 2026-08-26 22:09:23 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:24 | datacube.py:subpixellate:1772 | Resampling slit 8/24 of frame 1/3
+    INFO | 2026-08-26 22:09:24 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:25 | datacube.py:subpixellate:1772 | Resampling slit 9/24 of frame 1/3
+    INFO | 2026-08-26 22:09:25 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:25 | datacube.py:subpixellate:1772 | Resampling slit 10/24 of frame 1/3
+    INFO | 2026-08-26 22:09:25 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:25 | datacube.py:subpixellate:1772 | Resampling slit 11/24 of frame 1/3
+    INFO | 2026-08-26 22:09:25 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:26 | datacube.py:subpixellate:1772 | Resampling slit 12/24 of frame 1/3
+    INFO | 2026-08-26 22:09:26 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:26 | datacube.py:subpixellate:1772 | Resampling slit 13/24 of frame 1/3
+    INFO | 2026-08-26 22:09:26 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:27 | datacube.py:subpixellate:1772 | Resampling slit 14/24 of frame 1/3
+    INFO | 2026-08-26 22:09:27 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:28 | datacube.py:subpixellate:1772 | Resampling slit 15/24 of frame 1/3
+    INFO | 2026-08-26 22:09:28 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:29 | datacube.py:subpixellate:1772 | Resampling slit 16/24 of frame 1/3
+    INFO | 2026-08-26 22:09:29 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:29 | datacube.py:subpixellate:1772 | Resampling slit 17/24 of frame 1/3
+    INFO | 2026-08-26 22:09:29 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:29 | datacube.py:subpixellate:1772 | Resampling slit 18/24 of frame 1/3
+    INFO | 2026-08-26 22:09:29 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:30 | datacube.py:subpixellate:1772 | Resampling slit 19/24 of frame 1/3
+    INFO | 2026-08-26 22:09:30 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:30 | datacube.py:subpixellate:1772 | Resampling slit 20/24 of frame 1/3
+    INFO | 2026-08-26 22:09:30 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:31 | datacube.py:subpixellate:1772 | Resampling slit 21/24 of frame 1/3
+    INFO | 2026-08-26 22:09:31 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:31 | datacube.py:subpixellate:1772 | Resampling slit 22/24 of frame 1/3
+    INFO | 2026-08-26 22:09:31 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:32 | datacube.py:subpixellate:1772 | Resampling slit 23/24 of frame 1/3
+    INFO | 2026-08-26 22:09:32 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:32 | datacube.py:subpixellate:1772 | Resampling slit 24/24 of frame 1/3
+    INFO | 2026-08-26 22:09:32 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:33 | datacube.py:subpixellate:1772 | Resampling slit 1/24 of frame 2/3
+    INFO | 2026-08-26 22:09:33 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:33 | datacube.py:subpixellate:1772 | Resampling slit 2/24 of frame 2/3
+    INFO | 2026-08-26 22:09:33 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:34 | datacube.py:subpixellate:1772 | Resampling slit 3/24 of frame 2/3
+    INFO | 2026-08-26 22:09:34 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:34 | datacube.py:subpixellate:1772 | Resampling slit 4/24 of frame 2/3
+    INFO | 2026-08-26 22:09:34 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:35 | datacube.py:subpixellate:1772 | Resampling slit 5/24 of frame 2/3
+    INFO | 2026-08-26 22:09:35 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:35 | datacube.py:subpixellate:1772 | Resampling slit 6/24 of frame 2/3
+    INFO | 2026-08-26 22:09:35 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:35 | datacube.py:subpixellate:1772 | Resampling slit 7/24 of frame 2/3
+    INFO | 2026-08-26 22:09:35 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:36 | datacube.py:subpixellate:1772 | Resampling slit 8/24 of frame 2/3
+    INFO | 2026-08-26 22:09:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:36 | datacube.py:subpixellate:1772 | Resampling slit 9/24 of frame 2/3
+    INFO | 2026-08-26 22:09:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:36 | datacube.py:subpixellate:1772 | Resampling slit 10/24 of frame 2/3
+    INFO | 2026-08-26 22:09:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:37 | datacube.py:subpixellate:1772 | Resampling slit 11/24 of frame 2/3
+    INFO | 2026-08-26 22:09:37 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:37 | datacube.py:subpixellate:1772 | Resampling slit 12/24 of frame 2/3
+    INFO | 2026-08-26 22:09:37 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:37 | datacube.py:subpixellate:1772 | Resampling slit 13/24 of frame 2/3
+    INFO | 2026-08-26 22:09:37 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:38 | datacube.py:subpixellate:1772 | Resampling slit 14/24 of frame 2/3
+    INFO | 2026-08-26 22:09:38 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:38 | datacube.py:subpixellate:1772 | Resampling slit 15/24 of frame 2/3
+    INFO | 2026-08-26 22:09:38 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:39 | datacube.py:subpixellate:1772 | Resampling slit 16/24 of frame 2/3
+    INFO | 2026-08-26 22:09:39 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:39 | datacube.py:subpixellate:1772 | Resampling slit 17/24 of frame 2/3
+    INFO | 2026-08-26 22:09:39 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:39 | datacube.py:subpixellate:1772 | Resampling slit 18/24 of frame 2/3
+    INFO | 2026-08-26 22:09:39 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:40 | datacube.py:subpixellate:1772 | Resampling slit 19/24 of frame 2/3
+    INFO | 2026-08-26 22:09:40 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:40 | datacube.py:subpixellate:1772 | Resampling slit 20/24 of frame 2/3
+    INFO | 2026-08-26 22:09:40 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:40 | datacube.py:subpixellate:1772 | Resampling slit 21/24 of frame 2/3
+    INFO | 2026-08-26 22:09:40 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:41 | datacube.py:subpixellate:1772 | Resampling slit 22/24 of frame 2/3
+    INFO | 2026-08-26 22:09:41 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:41 | datacube.py:subpixellate:1772 | Resampling slit 23/24 of frame 2/3
+    INFO | 2026-08-26 22:09:41 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:41 | datacube.py:subpixellate:1772 | Resampling slit 24/24 of frame 2/3
+    INFO | 2026-08-26 22:09:42 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:42 | datacube.py:subpixellate:1772 | Resampling slit 1/24 of frame 3/3
+    INFO | 2026-08-26 22:09:42 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:43 | datacube.py:subpixellate:1772 | Resampling slit 2/24 of frame 3/3
+    INFO | 2026-08-26 22:09:43 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:43 | datacube.py:subpixellate:1772 | Resampling slit 3/24 of frame 3/3
+    INFO | 2026-08-26 22:09:43 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:44 | datacube.py:subpixellate:1772 | Resampling slit 4/24 of frame 3/3
+    INFO | 2026-08-26 22:09:44 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:44 | datacube.py:subpixellate:1772 | Resampling slit 5/24 of frame 3/3
+    INFO | 2026-08-26 22:09:44 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:44 | datacube.py:subpixellate:1772 | Resampling slit 6/24 of frame 3/3
+    INFO | 2026-08-26 22:09:44 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:45 | datacube.py:subpixellate:1772 | Resampling slit 7/24 of frame 3/3
+    INFO | 2026-08-26 22:09:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:45 | datacube.py:subpixellate:1772 | Resampling slit 8/24 of frame 3/3
+    INFO | 2026-08-26 22:09:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:45 | datacube.py:subpixellate:1772 | Resampling slit 9/24 of frame 3/3
+    INFO | 2026-08-26 22:09:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:46 | datacube.py:subpixellate:1772 | Resampling slit 10/24 of frame 3/3
+    INFO | 2026-08-26 22:09:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:46 | datacube.py:subpixellate:1772 | Resampling slit 11/24 of frame 3/3
+    INFO | 2026-08-26 22:09:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:47 | datacube.py:subpixellate:1772 | Resampling slit 12/24 of frame 3/3
+    INFO | 2026-08-26 22:09:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:47 | datacube.py:subpixellate:1772 | Resampling slit 13/24 of frame 3/3
+    INFO | 2026-08-26 22:09:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:47 | datacube.py:subpixellate:1772 | Resampling slit 14/24 of frame 3/3
+    INFO | 2026-08-26 22:09:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:48 | datacube.py:subpixellate:1772 | Resampling slit 15/24 of frame 3/3
+    INFO | 2026-08-26 22:09:48 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:48 | datacube.py:subpixellate:1772 | Resampling slit 16/24 of frame 3/3
+    INFO | 2026-08-26 22:09:48 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:48 | datacube.py:subpixellate:1772 | Resampling slit 17/24 of frame 3/3
+    INFO | 2026-08-26 22:09:48 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:49 | datacube.py:subpixellate:1772 | Resampling slit 18/24 of frame 3/3
+    INFO | 2026-08-26 22:09:49 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:49 | datacube.py:subpixellate:1772 | Resampling slit 19/24 of frame 3/3
+    INFO | 2026-08-26 22:09:49 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:50 | datacube.py:subpixellate:1772 | Resampling slit 20/24 of frame 3/3
+    INFO | 2026-08-26 22:09:50 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:50 | datacube.py:subpixellate:1772 | Resampling slit 21/24 of frame 3/3
+    INFO | 2026-08-26 22:09:50 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:50 | datacube.py:subpixellate:1772 | Resampling slit 22/24 of frame 3/3
+    INFO | 2026-08-26 22:09:50 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:51 | datacube.py:subpixellate:1772 | Resampling slit 23/24 of frame 3/3
+    INFO | 2026-08-26 22:09:51 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:51 | datacube.py:subpixellate:1772 | Resampling slit 24/24 of frame 3/3
+    INFO | 2026-08-26 22:09:51 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:51 | datacube.py:compute_weights:1304 | Calculating the optimal weights of each pixel
+    INFO | 2026-08-26 22:09:52 | datacube.py:compute_weights:1329 | Highest S/N object located at spaxel (x, y) = 14, 15
+    INFO | 2026-08-26 22:09:52 | datacube.py:generate_WCS:1049 | Generating WCS
+    INFO | 2026-08-26 22:09:52 | datacube.py:compute_weights:1353 | Extracting spectrum of highest S/N detection from frame 1/3
+    INFO | 2026-08-26 22:09:52 | datacube.py:subpixellate:1770 | Resampling slit 1/24
+    INFO | 2026-08-26 22:09:52 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:52 | datacube.py:subpixellate:1770 | Resampling slit 2/24
+    INFO | 2026-08-26 22:09:52 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:53 | datacube.py:subpixellate:1770 | Resampling slit 3/24
+    INFO | 2026-08-26 22:09:53 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:53 | datacube.py:subpixellate:1770 | Resampling slit 4/24
+    INFO | 2026-08-26 22:09:53 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:54 | datacube.py:subpixellate:1770 | Resampling slit 5/24
+    INFO | 2026-08-26 22:09:54 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:54 | datacube.py:subpixellate:1770 | Resampling slit 6/24
+    INFO | 2026-08-26 22:09:54 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:54 | datacube.py:subpixellate:1770 | Resampling slit 7/24
+    INFO | 2026-08-26 22:09:54 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:55 | datacube.py:subpixellate:1770 | Resampling slit 8/24
+    INFO | 2026-08-26 22:09:55 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:55 | datacube.py:subpixellate:1770 | Resampling slit 9/24
+    INFO | 2026-08-26 22:09:55 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:56 | datacube.py:subpixellate:1770 | Resampling slit 10/24
+    INFO | 2026-08-26 22:09:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:56 | datacube.py:subpixellate:1770 | Resampling slit 11/24
+    INFO | 2026-08-26 22:09:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:56 | datacube.py:subpixellate:1770 | Resampling slit 12/24
+    INFO | 2026-08-26 22:09:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:57 | datacube.py:subpixellate:1770 | Resampling slit 13/24
+    INFO | 2026-08-26 22:09:57 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:58 | datacube.py:subpixellate:1770 | Resampling slit 14/24
+    INFO | 2026-08-26 22:09:58 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:58 | datacube.py:subpixellate:1770 | Resampling slit 15/24
+    INFO | 2026-08-26 22:09:58 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:59 | datacube.py:subpixellate:1770 | Resampling slit 16/24
+    INFO | 2026-08-26 22:09:59 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:59 | datacube.py:subpixellate:1770 | Resampling slit 17/24
+    INFO | 2026-08-26 22:09:59 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:09:59 | datacube.py:subpixellate:1770 | Resampling slit 18/24
+    INFO | 2026-08-26 22:09:59 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:00 | datacube.py:subpixellate:1770 | Resampling slit 19/24
+    INFO | 2026-08-26 22:10:00 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:00 | datacube.py:subpixellate:1770 | Resampling slit 20/24
+    INFO | 2026-08-26 22:10:00 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:01 | datacube.py:subpixellate:1770 | Resampling slit 21/24
+    INFO | 2026-08-26 22:10:01 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:01 | datacube.py:subpixellate:1770 | Resampling slit 22/24
+    INFO | 2026-08-26 22:10:01 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:02 | datacube.py:subpixellate:1770 | Resampling slit 23/24
+    INFO | 2026-08-26 22:10:02 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:02 | datacube.py:subpixellate:1770 | Resampling slit 24/24
+    INFO | 2026-08-26 22:10:02 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:03 | datacube.py:compute_weights:1353 | Extracting spectrum of highest S/N detection from frame 2/3
+    INFO | 2026-08-26 22:10:03 | datacube.py:subpixellate:1770 | Resampling slit 1/24
+    INFO | 2026-08-26 22:10:03 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:03 | datacube.py:subpixellate:1770 | Resampling slit 2/24
+    INFO | 2026-08-26 22:10:03 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:03 | datacube.py:subpixellate:1770 | Resampling slit 3/24
+    INFO | 2026-08-26 22:10:03 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:04 | datacube.py:subpixellate:1770 | Resampling slit 4/24
+    INFO | 2026-08-26 22:10:04 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:04 | datacube.py:subpixellate:1770 | Resampling slit 5/24
+    INFO | 2026-08-26 22:10:04 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:05 | datacube.py:subpixellate:1770 | Resampling slit 6/24
+    INFO | 2026-08-26 22:10:05 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:05 | datacube.py:subpixellate:1770 | Resampling slit 7/24
+    INFO | 2026-08-26 22:10:05 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:06 | datacube.py:subpixellate:1770 | Resampling slit 8/24
+    INFO | 2026-08-26 22:10:06 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:06 | datacube.py:subpixellate:1770 | Resampling slit 9/24
+    INFO | 2026-08-26 22:10:06 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:07 | datacube.py:subpixellate:1770 | Resampling slit 10/24
+    INFO | 2026-08-26 22:10:07 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:07 | datacube.py:subpixellate:1770 | Resampling slit 11/24
+    INFO | 2026-08-26 22:10:07 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:07 | datacube.py:subpixellate:1770 | Resampling slit 12/24
+    INFO | 2026-08-26 22:10:07 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:08 | datacube.py:subpixellate:1770 | Resampling slit 13/24
+    INFO | 2026-08-26 22:10:08 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:08 | datacube.py:subpixellate:1770 | Resampling slit 14/24
+    INFO | 2026-08-26 22:10:08 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:08 | datacube.py:subpixellate:1770 | Resampling slit 15/24
+    INFO | 2026-08-26 22:10:08 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:09 | datacube.py:subpixellate:1770 | Resampling slit 16/24
+    INFO | 2026-08-26 22:10:09 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:10 | datacube.py:subpixellate:1770 | Resampling slit 17/24
+    INFO | 2026-08-26 22:10:10 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:10 | datacube.py:subpixellate:1770 | Resampling slit 18/24
+    INFO | 2026-08-26 22:10:10 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:10 | datacube.py:subpixellate:1770 | Resampling slit 19/24
+    INFO | 2026-08-26 22:10:10 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:11 | datacube.py:subpixellate:1770 | Resampling slit 20/24
+    INFO | 2026-08-26 22:10:11 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:11 | datacube.py:subpixellate:1770 | Resampling slit 21/24
+    INFO | 2026-08-26 22:10:11 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:11 | datacube.py:subpixellate:1770 | Resampling slit 22/24
+    INFO | 2026-08-26 22:10:11 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:12 | datacube.py:subpixellate:1770 | Resampling slit 23/24
+    INFO | 2026-08-26 22:10:12 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:12 | datacube.py:subpixellate:1770 | Resampling slit 24/24
+    INFO | 2026-08-26 22:10:12 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:13 | datacube.py:compute_weights:1353 | Extracting spectrum of highest S/N detection from frame 3/3
+    INFO | 2026-08-26 22:10:13 | datacube.py:subpixellate:1770 | Resampling slit 1/24
+    INFO | 2026-08-26 22:10:13 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:13 | datacube.py:subpixellate:1770 | Resampling slit 2/24
+    INFO | 2026-08-26 22:10:13 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:14 | datacube.py:subpixellate:1770 | Resampling slit 3/24
+    INFO | 2026-08-26 22:10:14 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:14 | datacube.py:subpixellate:1770 | Resampling slit 4/24
+    INFO | 2026-08-26 22:10:14 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:15 | datacube.py:subpixellate:1770 | Resampling slit 5/24
+    INFO | 2026-08-26 22:10:15 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:15 | datacube.py:subpixellate:1770 | Resampling slit 6/24
+    INFO | 2026-08-26 22:10:15 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:15 | datacube.py:subpixellate:1770 | Resampling slit 7/24
+    INFO | 2026-08-26 22:10:15 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:16 | datacube.py:subpixellate:1770 | Resampling slit 8/24
+    INFO | 2026-08-26 22:10:16 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:16 | datacube.py:subpixellate:1770 | Resampling slit 9/24
+    INFO | 2026-08-26 22:10:16 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:17 | datacube.py:subpixellate:1770 | Resampling slit 10/24
+    INFO | 2026-08-26 22:10:17 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:17 | datacube.py:subpixellate:1770 | Resampling slit 11/24
+    INFO | 2026-08-26 22:10:17 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:17 | datacube.py:subpixellate:1770 | Resampling slit 12/24
+    INFO | 2026-08-26 22:10:17 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:18 | datacube.py:subpixellate:1770 | Resampling slit 13/24
+    INFO | 2026-08-26 22:10:18 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:18 | datacube.py:subpixellate:1770 | Resampling slit 14/24
+    INFO | 2026-08-26 22:10:18 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:19 | datacube.py:subpixellate:1770 | Resampling slit 15/24
+    INFO | 2026-08-26 22:10:19 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:19 | datacube.py:subpixellate:1770 | Resampling slit 16/24
+    INFO | 2026-08-26 22:10:19 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:19 | datacube.py:subpixellate:1770 | Resampling slit 17/24
+    INFO | 2026-08-26 22:10:19 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:20 | datacube.py:subpixellate:1770 | Resampling slit 18/24
+    INFO | 2026-08-26 22:10:20 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:20 | datacube.py:subpixellate:1770 | Resampling slit 19/24
+    INFO | 2026-08-26 22:10:20 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:21 | datacube.py:subpixellate:1770 | Resampling slit 20/24
+    INFO | 2026-08-26 22:10:21 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:21 | datacube.py:subpixellate:1770 | Resampling slit 21/24
+    INFO | 2026-08-26 22:10:21 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:22 | datacube.py:subpixellate:1770 | Resampling slit 22/24
+    INFO | 2026-08-26 22:10:22 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:22 | datacube.py:subpixellate:1770 | Resampling slit 23/24
+    INFO | 2026-08-26 22:10:22 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:22 | datacube.py:subpixellate:1770 | Resampling slit 24/24
+    INFO | 2026-08-26 22:10:22 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:23 | datacube.py:compute_weights:1384 | Optimal weighting complete
+    INFO | 2026-08-26 22:10:23 | datacube.py:generate_WCS:1049 | Generating WCS
+    INFO | 2026-08-26 22:10:23 | datacube.py:create_wcs:1008 | 
+----------------------------------------
+Parameters of the WCS:
+RA   min = 159.89853670765223
+DEC  min = 43.09866380429283
+WAVE min, max = 7834.844989700508, 10076.910906736206
+Spaxel size = 0.6789240000000001 arcsec
+Wavelength step = 0.9752721377190028 A
+----------------------------------------
+    INFO | 2026-08-26 22:10:23 | datacube.py:get_whitelight_range:606 | The white light images will cover the wavelength range: 8070.18A - 9860.72A
+    INFO | 2026-08-26 22:10:23 | datacube.py:subpixellate:1772 | Resampling slit 1/24 of frame 1/3
+    INFO | 2026-08-26 22:10:24 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:10:24 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:10:25 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:10:25 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:10:26 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:10:26 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:27 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:10:27 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:10:29 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:10:29 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:10:30 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:10:33 | datacube.py:subpixellate:1772 | Resampling slit 2/24 of frame 1/3
+    INFO | 2026-08-26 22:10:34 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:10:34 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:10:35 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:10:35 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:10:36 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:10:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:37 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:10:37 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:10:39 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:10:39 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:10:41 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:10:46 | datacube.py:subpixellate:1772 | Resampling slit 3/24 of frame 1/3
+    INFO | 2026-08-26 22:10:46 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:10:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:10:47 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:10:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:10:49 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:10:49 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:10:50 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:10:50 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:10:51 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:10:51 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:10:52 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:10:56 | datacube.py:subpixellate:1772 | Resampling slit 4/24 of frame 1/3
+    INFO | 2026-08-26 22:10:57 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:10:57 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:10:58 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:10:58 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:10:59 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:10:59 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:11:01 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:11:01 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:11:03 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:11:03 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:11:04 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:11:07 | datacube.py:subpixellate:1772 | Resampling slit 5/24 of frame 1/3
+    INFO | 2026-08-26 22:11:09 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:11:09 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:11:10 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:11:10 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:11:11 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:11:11 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:11:13 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:11:13 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:11:15 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:11:15 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:11:16 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:11:21 | datacube.py:subpixellate:1772 | Resampling slit 6/24 of frame 1/3
+    INFO | 2026-08-26 22:11:21 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:11:21 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:11:23 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:11:23 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:11:24 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:11:24 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:11:25 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:11:25 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:11:26 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:11:26 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:11:27 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:11:31 | datacube.py:subpixellate:1772 | Resampling slit 7/24 of frame 1/3
+    INFO | 2026-08-26 22:11:32 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:11:32 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:11:34 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:11:34 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:11:35 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:11:35 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:11:36 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:11:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:11:38 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:11:38 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:11:39 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:11:42 | datacube.py:subpixellate:1772 | Resampling slit 8/24 of frame 1/3
+    INFO | 2026-08-26 22:11:43 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:11:43 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:11:44 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:11:44 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:11:45 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:11:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:11:46 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:11:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:11:46 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:11:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:11:47 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:11:51 | datacube.py:subpixellate:1772 | Resampling slit 9/24 of frame 1/3
+    INFO | 2026-08-26 22:11:51 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:11:51 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:11:53 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:11:53 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:11:54 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:11:54 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:11:55 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:11:55 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:11:57 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:11:57 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:11:58 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:12:01 | datacube.py:subpixellate:1772 | Resampling slit 10/24 of frame 1/3
+    INFO | 2026-08-26 22:12:02 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:12:02 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:12:03 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:12:03 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:12:05 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:12:05 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:12:05 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:12:05 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:12:06 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:12:06 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:12:07 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:12:10 | datacube.py:subpixellate:1772 | Resampling slit 11/24 of frame 1/3
+    INFO | 2026-08-26 22:12:10 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:12:10 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:12:11 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:12:11 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:12:12 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:12:12 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:12:13 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:12:13 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:12:14 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:12:14 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:12:15 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:12:18 | datacube.py:subpixellate:1772 | Resampling slit 12/24 of frame 1/3
+    INFO | 2026-08-26 22:12:18 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:12:18 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:12:19 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:12:19 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:12:20 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:12:20 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:12:21 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:12:21 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:12:22 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:12:22 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:12:22 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:12:25 | datacube.py:subpixellate:1772 | Resampling slit 13/24 of frame 1/3
+    INFO | 2026-08-26 22:12:25 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:12:25 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:12:27 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:12:27 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:12:27 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:12:27 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:12:28 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:12:28 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:12:29 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:12:29 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:12:30 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:12:33 | datacube.py:subpixellate:1772 | Resampling slit 14/24 of frame 1/3
+    INFO | 2026-08-26 22:12:33 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:12:33 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:12:34 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:12:34 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:12:35 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:12:35 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:12:36 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:12:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:12:37 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:12:37 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:12:38 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:12:41 | datacube.py:subpixellate:1772 | Resampling slit 15/24 of frame 1/3
+    INFO | 2026-08-26 22:12:42 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:12:42 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:12:43 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:12:43 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:12:44 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:12:44 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:12:46 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:12:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:12:47 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:12:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:12:48 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:12:52 | datacube.py:subpixellate:1772 | Resampling slit 16/24 of frame 1/3
+    INFO | 2026-08-26 22:12:52 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:12:52 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:12:54 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:12:54 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:12:55 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:12:55 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:12:56 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:12:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:12:58 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:12:58 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:13:00 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:13:04 | datacube.py:subpixellate:1772 | Resampling slit 17/24 of frame 1/3
+    INFO | 2026-08-26 22:13:05 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:13:05 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:13:07 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:13:07 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:13:08 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:13:08 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:13:10 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:13:10 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:13:11 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:13:11 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:13:12 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:13:16 | datacube.py:subpixellate:1772 | Resampling slit 18/24 of frame 1/3
+    INFO | 2026-08-26 22:13:17 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:13:17 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:13:19 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:13:19 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:13:20 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:13:20 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:13:22 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:13:22 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:13:24 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:13:24 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:13:26 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:13:31 | datacube.py:subpixellate:1772 | Resampling slit 19/24 of frame 1/3
+    INFO | 2026-08-26 22:13:31 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:13:31 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:13:33 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:13:33 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:13:34 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:13:34 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:13:35 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:13:35 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:13:36 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:13:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:13:38 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:13:42 | datacube.py:subpixellate:1772 | Resampling slit 20/24 of frame 1/3
+    INFO | 2026-08-26 22:13:43 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:13:43 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:13:45 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:13:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:13:46 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:13:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:13:48 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:13:48 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:13:49 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:13:49 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:13:50 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:13:54 | datacube.py:subpixellate:1772 | Resampling slit 21/24 of frame 1/3
+    INFO | 2026-08-26 22:13:55 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:13:55 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:13:56 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:13:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:13:58 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:13:58 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:14:00 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:14:00 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:14:02 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:14:02 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:14:04 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:14:10 | datacube.py:subpixellate:1772 | Resampling slit 22/24 of frame 1/3
+    INFO | 2026-08-26 22:14:11 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:14:11 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:14:12 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:14:12 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:14:13 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:14:13 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:14:14 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:14:14 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:14:15 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:14:15 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:14:17 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:14:23 | datacube.py:subpixellate:1772 | Resampling slit 23/24 of frame 1/3
+    INFO | 2026-08-26 22:14:25 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:14:25 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:14:27 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:14:28 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:14:31 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:14:31 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:14:32 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:14:32 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:14:36 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:14:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:14:38 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:14:41 | datacube.py:subpixellate:1772 | Resampling slit 24/24 of frame 1/3
+    INFO | 2026-08-26 22:14:42 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:14:42 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:14:43 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:14:43 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:14:44 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:14:44 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:14:45 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:14:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:14:47 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:14:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:14:48 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:14:55 | datacube.py:subpixellate:1772 | Resampling slit 1/24 of frame 2/3
+    INFO | 2026-08-26 22:14:56 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:14:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:14:57 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:14:57 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:14:58 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:14:58 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:14:59 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:14:59 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:15:00 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:15:00 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:15:01 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:15:05 | datacube.py:subpixellate:1772 | Resampling slit 2/24 of frame 2/3
+    INFO | 2026-08-26 22:15:06 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:15:06 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:15:07 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:15:07 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:15:09 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:15:09 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:15:10 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:15:10 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:15:11 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:15:11 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:15:13 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:15:16 | datacube.py:subpixellate:1772 | Resampling slit 3/24 of frame 2/3
+    INFO | 2026-08-26 22:15:17 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:15:17 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:15:18 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:15:18 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:15:19 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:15:19 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:15:20 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:15:20 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:15:21 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:15:21 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:15:22 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:15:25 | datacube.py:subpixellate:1772 | Resampling slit 4/24 of frame 2/3
+    INFO | 2026-08-26 22:15:26 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:15:26 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:15:28 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:15:28 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:15:29 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:15:29 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:15:30 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:15:30 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:15:31 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:15:31 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:15:32 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:15:35 | datacube.py:subpixellate:1772 | Resampling slit 5/24 of frame 2/3
+    INFO | 2026-08-26 22:15:36 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:15:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:15:37 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:15:37 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:15:38 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:15:38 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:15:39 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:15:39 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:15:40 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:15:40 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:15:41 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:15:45 | datacube.py:subpixellate:1772 | Resampling slit 6/24 of frame 2/3
+    INFO | 2026-08-26 22:15:46 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:15:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:15:47 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:15:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:15:49 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:15:49 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:15:50 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:15:50 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:15:52 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:15:52 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:15:53 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:15:57 | datacube.py:subpixellate:1772 | Resampling slit 7/24 of frame 2/3
+    INFO | 2026-08-26 22:15:57 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:15:57 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:15:58 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:15:58 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:15:59 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:15:59 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:16:00 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:16:00 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:16:01 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:16:01 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:16:02 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:16:06 | datacube.py:subpixellate:1772 | Resampling slit 8/24 of frame 2/3
+    INFO | 2026-08-26 22:16:06 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:16:06 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:16:07 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:16:07 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:16:08 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:16:08 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:16:09 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:16:09 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:16:10 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:16:10 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:16:11 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:16:14 | datacube.py:subpixellate:1772 | Resampling slit 9/24 of frame 2/3
+    INFO | 2026-08-26 22:16:14 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:16:14 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:16:15 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:16:15 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:16:16 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:16:16 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:16:17 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:16:17 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:16:18 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:16:18 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:16:19 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:16:22 | datacube.py:subpixellate:1772 | Resampling slit 10/24 of frame 2/3
+    INFO | 2026-08-26 22:16:22 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:16:22 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:16:23 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:16:23 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:16:24 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:16:24 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:16:26 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:16:26 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:16:27 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:16:27 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:16:28 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:16:31 | datacube.py:subpixellate:1772 | Resampling slit 11/24 of frame 2/3
+    INFO | 2026-08-26 22:16:31 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:16:31 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:16:33 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:16:33 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:16:34 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:16:34 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:16:35 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:16:35 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:16:36 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:16:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:16:37 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:16:43 | datacube.py:subpixellate:1772 | Resampling slit 12/24 of frame 2/3
+    INFO | 2026-08-26 22:16:44 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:16:44 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:16:45 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:16:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:16:46 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:16:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:16:47 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:16:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:16:48 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:16:48 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:16:49 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:16:52 | datacube.py:subpixellate:1772 | Resampling slit 13/24 of frame 2/3
+    INFO | 2026-08-26 22:16:52 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:16:52 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:16:53 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:16:53 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:16:54 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:16:54 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:16:55 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:16:55 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:16:56 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:16:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:16:57 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:17:01 | datacube.py:subpixellate:1772 | Resampling slit 14/24 of frame 2/3
+    INFO | 2026-08-26 22:17:01 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:17:01 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:17:03 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:17:03 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:17:04 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:17:04 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:17:05 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:17:05 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:17:06 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:17:06 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:17:08 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:17:11 | datacube.py:subpixellate:1772 | Resampling slit 15/24 of frame 2/3
+    INFO | 2026-08-26 22:17:12 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:17:12 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:17:13 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:17:13 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:17:15 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:17:15 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:17:16 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:17:16 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:17:17 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:17:17 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:17:18 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:17:22 | datacube.py:subpixellate:1772 | Resampling slit 16/24 of frame 2/3
+    INFO | 2026-08-26 22:17:22 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:17:22 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:17:23 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:17:23 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:17:24 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:17:24 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:17:25 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:17:25 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:17:26 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:17:26 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:17:27 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:17:30 | datacube.py:subpixellate:1772 | Resampling slit 17/24 of frame 2/3
+    INFO | 2026-08-26 22:17:30 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:17:30 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:17:31 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:17:31 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:17:32 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:17:32 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:17:33 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:17:33 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:17:34 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:17:34 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:17:36 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:17:39 | datacube.py:subpixellate:1772 | Resampling slit 18/24 of frame 2/3
+    INFO | 2026-08-26 22:17:40 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:17:40 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:17:41 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:17:41 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:17:43 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:17:43 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:17:45 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:17:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:17:46 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:17:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:17:48 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:17:54 | datacube.py:subpixellate:1772 | Resampling slit 19/24 of frame 2/3
+    INFO | 2026-08-26 22:17:55 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:17:55 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:17:56 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:17:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:17:57 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:17:57 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:17:58 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:17:58 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:17:59 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:17:59 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:18:00 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:18:03 | datacube.py:subpixellate:1772 | Resampling slit 20/24 of frame 2/3
+    INFO | 2026-08-26 22:18:03 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:18:03 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:18:04 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:18:04 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:18:05 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:18:05 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:18:06 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:18:06 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:18:07 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:18:07 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:18:08 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:18:11 | datacube.py:subpixellate:1772 | Resampling slit 21/24 of frame 2/3
+    INFO | 2026-08-26 22:18:12 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:18:12 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:18:13 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:18:13 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:18:14 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:18:14 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:18:15 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:18:15 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:18:16 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:18:16 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:18:18 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:18:22 | datacube.py:subpixellate:1772 | Resampling slit 22/24 of frame 2/3
+    INFO | 2026-08-26 22:18:23 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:18:23 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:18:24 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:18:24 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:18:25 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:18:25 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:18:27 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:18:27 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:18:28 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:18:28 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:18:29 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:18:33 | datacube.py:subpixellate:1772 | Resampling slit 23/24 of frame 2/3
+    INFO | 2026-08-26 22:18:34 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:18:34 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:18:35 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:18:35 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:18:36 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:18:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:18:37 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:18:37 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:18:38 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:18:38 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:18:39 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:18:43 | datacube.py:subpixellate:1772 | Resampling slit 24/24 of frame 2/3
+    INFO | 2026-08-26 22:18:44 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:18:44 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:18:45 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:18:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:18:45 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:18:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:18:47 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:18:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:18:48 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:18:48 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:18:49 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:18:55 | datacube.py:subpixellate:1772 | Resampling slit 1/24 of frame 3/3
+    INFO | 2026-08-26 22:18:56 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:18:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:18:57 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:18:57 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:18:58 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:18:58 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:19:00 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:19:00 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:19:01 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:19:01 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:19:02 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:19:07 | datacube.py:subpixellate:1772 | Resampling slit 2/24 of frame 3/3
+    INFO | 2026-08-26 22:19:08 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:19:08 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:19:09 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:19:09 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:19:10 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:19:10 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:19:11 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:19:11 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:19:12 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:19:12 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:19:13 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:19:16 | datacube.py:subpixellate:1772 | Resampling slit 3/24 of frame 3/3
+    INFO | 2026-08-26 22:19:17 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:19:17 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:19:18 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:19:18 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:19:19 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:19:19 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:19:20 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:19:20 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:19:21 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:19:21 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:19:22 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:19:26 | datacube.py:subpixellate:1772 | Resampling slit 4/24 of frame 3/3
+    INFO | 2026-08-26 22:19:26 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:19:26 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:19:27 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:19:27 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:19:29 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:19:29 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:19:30 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:19:30 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:19:31 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:19:31 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:19:32 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:19:35 | datacube.py:subpixellate:1772 | Resampling slit 5/24 of frame 3/3
+    INFO | 2026-08-26 22:19:36 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:19:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:19:37 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:19:37 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:19:38 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:19:38 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:19:39 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:19:39 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:19:41 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:19:41 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:19:42 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:19:45 | datacube.py:subpixellate:1772 | Resampling slit 6/24 of frame 3/3
+    INFO | 2026-08-26 22:19:46 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:19:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:19:47 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:19:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:19:48 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:19:48 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:19:50 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:19:50 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:19:51 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:19:51 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:19:52 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:19:55 | datacube.py:subpixellate:1772 | Resampling slit 7/24 of frame 3/3
+    INFO | 2026-08-26 22:19:56 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:19:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:19:57 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:19:57 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:19:58 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:19:58 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:20:00 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:20:00 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:20:02 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:20:02 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:20:03 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:20:07 | datacube.py:subpixellate:1772 | Resampling slit 8/24 of frame 3/3
+    INFO | 2026-08-26 22:20:07 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:20:07 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:20:08 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:20:08 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:20:10 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:20:10 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:20:11 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:20:11 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:20:13 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:20:13 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:20:14 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:20:19 | datacube.py:subpixellate:1772 | Resampling slit 9/24 of frame 3/3
+    INFO | 2026-08-26 22:20:20 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:20:20 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:20:21 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:20:21 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:20:22 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:20:22 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:20:23 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:20:23 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:20:24 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:20:24 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:20:25 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:20:28 | datacube.py:subpixellate:1772 | Resampling slit 10/24 of frame 3/3
+    INFO | 2026-08-26 22:20:28 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:20:28 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:20:30 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:20:30 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:20:31 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:20:31 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:20:32 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:20:32 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:20:34 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:20:34 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:20:36 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:20:40 | datacube.py:subpixellate:1772 | Resampling slit 11/24 of frame 3/3
+    INFO | 2026-08-26 22:20:41 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:20:41 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:20:42 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:20:42 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:20:43 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:20:43 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:20:44 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:20:44 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:20:45 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:20:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:20:47 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:20:52 | datacube.py:subpixellate:1772 | Resampling slit 12/24 of frame 3/3
+    INFO | 2026-08-26 22:20:52 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:20:52 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:20:54 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:20:54 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:20:55 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:20:55 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:20:56 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:20:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:20:56 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:20:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:20:57 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:21:01 | datacube.py:subpixellate:1772 | Resampling slit 13/24 of frame 3/3
+    INFO | 2026-08-26 22:21:01 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:21:01 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:21:02 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:21:02 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:21:04 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:21:04 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:21:05 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:21:05 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:21:06 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:21:06 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:21:08 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:21:12 | datacube.py:subpixellate:1772 | Resampling slit 14/24 of frame 3/3
+    INFO | 2026-08-26 22:21:12 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:21:12 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:21:14 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:21:14 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:21:15 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:21:15 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:21:16 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:21:16 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:21:17 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:21:17 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:21:18 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:21:23 | datacube.py:subpixellate:1772 | Resampling slit 15/24 of frame 3/3
+    INFO | 2026-08-26 22:21:23 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:21:23 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:21:25 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:21:25 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:21:26 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:21:26 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:21:27 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:21:27 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:21:28 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:21:28 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:21:29 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:21:32 | datacube.py:subpixellate:1772 | Resampling slit 16/24 of frame 3/3
+    INFO | 2026-08-26 22:21:32 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:21:32 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:21:33 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:21:33 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:21:34 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:21:34 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:21:35 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:21:35 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:21:36 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:21:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:21:37 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:21:40 | datacube.py:subpixellate:1772 | Resampling slit 17/24 of frame 3/3
+    INFO | 2026-08-26 22:21:41 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:21:41 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:21:42 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:21:42 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:21:44 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:21:44 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:21:45 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:21:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:21:46 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:21:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:21:47 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:21:51 | datacube.py:subpixellate:1772 | Resampling slit 18/24 of frame 3/3
+    INFO | 2026-08-26 22:21:52 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:21:52 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:21:53 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:21:53 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:21:54 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:21:54 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:21:55 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:21:55 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:21:57 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:21:57 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:21:58 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:22:01 | datacube.py:subpixellate:1772 | Resampling slit 19/24 of frame 3/3
+    INFO | 2026-08-26 22:22:01 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:22:01 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:22:02 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:22:02 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:22:03 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:22:03 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:22:05 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:22:05 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:22:05 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:22:05 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:22:07 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:22:13 | datacube.py:subpixellate:1772 | Resampling slit 20/24 of frame 3/3
+    INFO | 2026-08-26 22:22:13 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:22:13 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:22:15 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:22:15 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:22:17 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:22:17 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:22:19 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:22:19 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:22:21 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:22:21 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:22:22 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:22:27 | datacube.py:subpixellate:1772 | Resampling slit 21/24 of frame 3/3
+    INFO | 2026-08-26 22:22:27 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:22:27 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:22:28 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:22:28 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:22:29 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:22:29 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:22:30 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:22:30 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:22:31 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:22:31 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:22:32 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:22:35 | datacube.py:subpixellate:1772 | Resampling slit 22/24 of frame 3/3
+    INFO | 2026-08-26 22:22:36 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:22:36 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:22:38 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:22:38 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:22:38 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:22:38 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:22:39 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:22:39 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:22:40 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:22:40 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:22:41 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:22:44 | datacube.py:subpixellate:1772 | Resampling slit 23/24 of frame 3/3
+    INFO | 2026-08-26 22:22:45 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:22:45 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:22:46 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:22:46 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:22:47 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:22:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:22:47 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:22:47 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:22:48 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:22:48 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:22:49 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:22:52 | datacube.py:subpixellate:1772 | Resampling slit 24/24 of frame 3/3
+    INFO | 2026-08-26 22:22:53 | datacube.py:subpixellate:1807 | Resampling subslice 1/5
+    INFO | 2026-08-26 22:22:53 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.400
+    INFO | 2026-08-26 22:22:54 | datacube.py:subpixellate:1807 | Resampling subslice 2/5
+    INFO | 2026-08-26 22:22:54 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=-0.200
+    INFO | 2026-08-26 22:22:55 | datacube.py:subpixellate:1807 | Resampling subslice 3/5
+    INFO | 2026-08-26 22:22:55 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.000
+    INFO | 2026-08-26 22:22:56 | datacube.py:subpixellate:1807 | Resampling subslice 4/5
+    INFO | 2026-08-26 22:22:56 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.200
+    INFO | 2026-08-26 22:22:58 | datacube.py:subpixellate:1807 | Resampling subslice 5/5
+    INFO | 2026-08-26 22:22:58 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image with slice_offset=0.400
+    INFO | 2026-08-26 22:22:59 | datacube.py:subpixellate:1832 | Preparing subpixel weights
+    INFO | 2026-08-26 22:23:03 | datacube.py:generate_cube_subpixel:1625 | White light image covers the wavelength range 8070.18 A - 9860.72 A
+    INFO | 2026-08-26 22:23:03 | datacube.py:generate_cube_subpixel:1630 | Saving white light image as: feige34_2024-01-04_B_whitelight.fits
+    INFO | 2026-08-26 22:23:03 | coadd3d.py:run:1479 | Saving datacube as: feige34_2024-01-04_B.fits
+    INFO | 2026-08-26 22:23:03 | io.py:write_to_fits:672 | File written to: feige34_2024-01-04_B.fits
+    INFO | 2026-08-26 22:23:03 | coadd_datacube.py:main:75 | Execution time: 14m 6.09s

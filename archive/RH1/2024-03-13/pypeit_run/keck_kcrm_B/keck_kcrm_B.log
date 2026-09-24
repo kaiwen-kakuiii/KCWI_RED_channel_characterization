@@ -1,0 +1,1476 @@
+    INFO | 2026-08-23 19:53:36 | inputfiles.py:from_file:136 | Loading the reduction file
+    INFO | 2026-08-23 19:53:36 | inputfiles.py:from_file:214 | PypeIt input file loaded successfully.
+    INFO | 2026-08-23 19:53:36 | inputfiles.py:vet:685 | PypeIt file successfully vetted.
+ WARNING | 2026-08-23 19:53:36 | keck_kcwi.py:config_specific_par:156 | Full template solution is unavailable
+    INFO | 2026-08-23 19:53:36 | keck_kcwi.py:config_specific_par:157 | Adopting holy-grail algorithm - Check the wavelength solution!
+    INFO | 2026-08-23 19:53:36 | pypeit.py:__init__:82 | Loaded spectrograph keck_kcrm
+    INFO | 2026-08-23 19:53:36 | pypeit.py:__init__:83 | Setting configuration-specific parameters using KR.20240314.25803.28.fits.
+ WARNING | 2026-08-23 19:53:36 | parset.py:to_config:662 | Selected configuration file already exists and will be overwritten!
+    INFO | 2026-08-23 19:53:36 | pypeit.py:__init__:99 | Compiling metadata
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:206 | Building metadata for 26 files.
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.11088.00.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.11121.66.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.11156.34.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.11339.97.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.11483.80.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.11628.64.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.06884.77.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.08166.51.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.08210.38.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.08254.24.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.08298.10.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.12677.30.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.12821.13.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.12964.98.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.12138.70.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.12192.76.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.12246.82.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.12300.89.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.12354.95.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.12409.40.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.25803.28.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.25946.80.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.26057.27.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.11791.87.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.11935.71.fits
+    INFO | 2026-08-23 19:53:36 | metadata.py:_build:235 | Adding metadata for KR.20240314.12080.56.fits
+ WARNING | 2026-08-23 19:53:36 | metadata.py:_vet_instrument:180 | The instrument name in the headers of the raw files does not match the expected one! Found KCWI, expected KCRM.  You may have chosen the wrong PypeIt spectrograph name!
+ WARNING | 2026-08-23 19:53:36 | metadata.py:get_frame_types:1384 | Removing existing frametype and framebit columns.
+    INFO | 2026-08-23 19:53:36 | metadata.py:get_frame_types:1391 | Typing files
+    INFO | 2026-08-23 19:53:36 | metadata.py:get_frame_types:1401 | Using user-provided frame types.
+    INFO | 2026-08-23 19:53:36 | calibrations.py:check_for_calibs:1862 | Congrats!!  You passed the calibrations inspection!!
+    INFO | 2026-08-23 19:53:36 | metadata.py:unique_configurations:696 | Setup column already set.  Finding unique configurations.
+    INFO | 2026-08-23 19:53:36 | metadata.py:unique_configurations:706 | Found 1 unique configurations.
+    INFO | 2026-08-23 19:53:36 | calibrations.py:association_summary:1731 | Calibration association file written to: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/keck_kcrm_B.calib
+    INFO | 2026-08-23 19:53:36 | pypeit.py:__init__:133 | Setting reduction path to /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B
+    INFO | 2026-08-23 19:53:36 | pypeit.py:__init__:134 | Calibration frames saved to: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations
+    INFO | 2026-08-23 19:53:36 | pypeit.py:__init__:135 | Science data output to: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Science
+    INFO | 2026-08-23 19:53:36 | pypeit.py:__init__:136 | Quality assessment plots output to: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/QA
+    INFO | 2026-08-23 19:53:36 | pypeit.py:reduce_calibID:311 | Found 3 science frames in calibration group 1.
+    INFO | 2026-08-23 19:53:36 | exposure.py:reduce_exposure:406 | Reducing target feige34
+Combining frames:
+KR.20240314.25803.28.fits
+
+    INFO | 2026-08-23 19:53:36 | exposure.py:reduce_exposure:417 | Detectors to work on: [1]
+    INFO | 2026-08-23 19:53:36 | exposure.py:reduce_exposure:422 | Calibrating detector 1
+    INFO | 2026-08-23 19:53:36 | pypeit_steps.py:calib_one:173 | Building/loading calibrations for detector 1
+    INFO | 2026-08-23 19:53:36 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:53:36 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:53:36 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.11088.00.fits
+ WARNING | 2026-08-23 19:53:36 | keck_kcwi.py:bpm:820 | KCRM bad pixel mask is not available for ampmode=L2U2L1U1 binning=2,2
+    INFO | 2026-08-23 19:53:36 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:36 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:37 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:53:37 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:37 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:37 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:37 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:53:37 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:38 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:53:38 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:53:38 | exposure.py:process_exposure:126 | Reducing detector 1
+    INFO | 2026-08-23 19:53:38 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:53:38 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:53:38 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.25803.28.fits
+    INFO | 2026-08-23 19:53:38 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:38 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:38 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:53:38 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:38 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:38 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:38 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:53:38 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:39 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:53:39 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:53:39 | pypeit_steps.py:process_one_det:260 | Image processing begins for KR.20240314.25803.28-feige34_KCRM_20240314T071003.792 on det=1
+    INFO | 2026-08-23 19:53:39 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.25803.28.fits
+    INFO | 2026-08-23 19:53:39 | rawimage.py:process:564 | Performing basic image processing on KR.20240314.25803.28.fits.
+    INFO | 2026-08-23 19:53:39 | rawimage.py:estimate_readnoise:359 | Estimated readnoise of amplifier 1 = 3.812 e-
+    INFO | 2026-08-23 19:53:39 | rawimage.py:estimate_readnoise:359 | Estimated readnoise of amplifier 2 = 3.807 e-
+    INFO | 2026-08-23 19:53:42 | procimg.py:lacosmic:170 | Detecting cosmic rays with the L.A.Cosmic algorithm
+    INFO | 2026-08-23 19:53:42 | procimg.py:lacosmic:218 | Convolving image with Laplacian kernel
+    INFO | 2026-08-23 19:53:43 | procimg.py:lacosmic:229 | Found 4388 candidate cosmic-ray pixels
+    INFO | 2026-08-23 19:53:43 | procimg.py:lacosmic:235 | Reduced to 4388 candidates after excluding known bad pixels.
+    INFO | 2026-08-23 19:53:46 | procimg.py:lacosmic:246 | Reduced to 1949 candidates after excluding compact objects.
+    INFO | 2026-08-23 19:53:46 | procimg.py:lacosmic:250 | Finding neighboring pixels affected by cosmic rays
+    INFO | 2026-08-23 19:53:46 | procimg.py:lacosmic:260 | Changed to 5491 candidates after evaluating neighboring pixels.
+    INFO | 2026-08-23 19:53:46 | procimg.py:lacosmic:266 | Reduced to 5491 candidates after excluding known bad pixels.
+    INFO | 2026-08-23 19:53:46 | procimg.py:lacosmic:271 | Iteration 1: 5491 pixels identified as cosmic rays (5491 are new)
+    INFO | 2026-08-23 19:53:46 | procimg.py:lacosmic:300 | 5457 pixels identified as cosmic rays after removing false positives
+    INFO | 2026-08-23 19:53:47 | pypeit_steps.py:findobj_on_det:381 | Object finding begins for KR.20240314.25803.28-feige34_KCRM_20240314T071003.792 on det=1
+    INFO | 2026-08-23 19:53:47 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:53:47 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:53:47 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.25803.28.fits
+    INFO | 2026-08-23 19:53:47 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:47 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:47 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:53:47 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:47 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:47 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:47 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:53:47 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:53:48 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:53:48 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:53:48 | pypeit_steps.py:findobj_on_det:387 | Reducing detector 1
+    INFO | 2026-08-23 19:53:48 | pypeit_steps.py:load_skyregions:606 | Generating skysub mask based on the user defined regions: :32,74:
+    INFO | 2026-08-23 19:53:48 | find_objects.py:__init__:164 | Initializing slits
+    INFO | 2026-08-23 19:53:48 | find_objects.py:__init__:232 | Generating tilts image from fit in waveTilts
+    INFO | 2026-08-23 19:53:48 | wavetilts.py:fit2tiltimg:143 | Generating a tilts image from the fit parameters
+    INFO | 2026-08-23 19:53:55 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 59
+    INFO | 2026-08-23 19:53:55 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1158 |     ngood = 70575/142980 measurements
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1257 |                      1     0.993    72461    1.00                  
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1257 |                      2     0.982    72461    1.00                  
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1272 |                   DONE     0.982    72461    1.00                  
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:53:55 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 140
+    INFO | 2026-08-23 19:53:55 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1158 |     ngood = 70288/142968 measurements
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:53:55 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1257 |                      1     1.110    72756    1.00                  
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1257 |                      2     0.977    72757    1.00                  
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1257 |                      3     0.977    72757    1.00                  
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1272 |                   DONE     0.977    72757    1.00                  
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:53:56 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 216
+    INFO | 2026-08-23 19:53:56 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1158 |     ngood = 71092/143824 measurements
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1257 |                      1     1.016    72818    1.00                  
+    INFO | 2026-08-23 19:53:56 | fitting.py:bspline_profile:1257 |                      2     0.975    72819    1.00                  
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1257 |                      3     0.975    72819    1.00                  
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1272 |                   DONE     0.975    72819    1.00                  
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:53:57 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 294
+    INFO | 2026-08-23 19:53:57 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1158 |     ngood = 70478/143415 measurements
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1257 |                      1     0.999    73007    1.00                  
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1257 |                      2     0.985    73008    1.00                  
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1257 |                      3     0.985    73008    1.00                  
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1272 |                   DONE     0.985    73008    1.00                  
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:53:57 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 368
+    INFO | 2026-08-23 19:53:57 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1158 |     ngood = 70971/143521 measurements
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:53:57 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1257 |                      1     0.987    72614    1.00                  
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1257 |                      2     0.974    72615    1.00                  
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1257 |                      3     0.974    72615    1.00                  
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1272 |                   DONE     0.974    72615    1.00                  
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:53:58 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 443
+    INFO | 2026-08-23 19:53:58 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1158 |     ngood = 70843/143504 measurements
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1257 |                      1     0.990    72748    1.00                  
+    INFO | 2026-08-23 19:53:58 | fitting.py:bspline_profile:1257 |                      2     0.973    72749    1.00                  
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1257 |                      3     0.973    72749    1.00                  
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1272 |                   DONE     0.973    72749    1.00                  
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:53:59 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 516
+    INFO | 2026-08-23 19:53:59 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1158 |     ngood = 70842/143675 measurements
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1257 |                      1     1.004    72909    1.00                  
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1257 |                      2     0.976    72909    1.00                  
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1272 |                   DONE     0.976    72909    1.00                  
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:53:59 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 589
+    INFO | 2026-08-23 19:53:59 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1158 |     ngood = 71225/144195 measurements
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1257 |                      1     1.250    73130    1.00                  
+    INFO | 2026-08-23 19:53:59 | fitting.py:bspline_profile:1257 |                      2     0.970    73131    1.00                  
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1257 |                      3     0.970    73131    1.00                  
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1272 |                   DONE     0.970    73131    1.00                  
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:00 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 663
+    INFO | 2026-08-23 19:54:00 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1158 |     ngood = 71365/144345 measurements
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1257 |                      1     1.002    73089    1.00                  
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1257 |                      2     0.981    73089    1.00                  
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1272 |                   DONE     0.981    73089    1.00                  
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:00 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 737
+    INFO | 2026-08-23 19:54:00 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1158 |     ngood = 70943/143658 measurements
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:00 | fitting.py:bspline_profile:1257 |                      1     1.115    72829    1.00                  
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1257 |                      2     0.999    72829    1.00                  
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1272 |                   DONE     0.999    72829    1.00                  
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:01 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 810
+    INFO | 2026-08-23 19:54:01 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1158 |     ngood = 71124/144211 measurements
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1257 |                      1     1.054    73225    1.00                  
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1257 |                      2     1.026    73226    1.00                  
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1257 |                      3     1.026    73226    1.00                  
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1272 |                   DONE     1.026    73226    1.00                  
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:01 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 884
+    INFO | 2026-08-23 19:54:01 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1158 |     ngood = 71298/144330 measurements
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:01 | fitting.py:bspline_profile:1257 |                      1     1.260    73416    1.00                  
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1257 |                      2     1.146    73429    1.00                  
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1257 |                      3     1.144    73430    1.00                  
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1257 |                      4     1.143    73430    1.00                  
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1272 |                   DONE     1.143    73430    1.00                  
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:02 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1163
+    INFO | 2026-08-23 19:54:02 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1158 |     ngood = 71745/144689 measurements
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1257 |                      1     1.402    73633    1.00                  
+    INFO | 2026-08-23 19:54:02 | fitting.py:bspline_profile:1257 |                      2     1.240    73671    1.00                  
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1257 |                      3     1.234    73674    1.00                  
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1257 |                      4     1.233    73674    1.00                  
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1272 |                   DONE     1.233    73674    1.00                  
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:03 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1236
+    INFO | 2026-08-23 19:54:03 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1158 |     ngood = 71852/144630 measurements
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1257 |                      1     1.944    73029    1.00                  
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1257 |                      2     1.114    73037    1.00                  
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1257 |                      3     1.113    73037    1.00                  
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1272 |                   DONE     1.113    73037    1.00                  
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:03 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1310
+    INFO | 2026-08-23 19:54:03 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1158 |     ngood = 71996/144852 measurements
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:03 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:04 | fitting.py:bspline_profile:1257 |                      1     1.105    72999    1.00                  
+    INFO | 2026-08-23 19:54:04 | fitting.py:bspline_profile:1257 |                      2     1.032    73003    1.00                  
+    INFO | 2026-08-23 19:54:04 | fitting.py:bspline_profile:1257 |                      3     1.031    73003    1.00                  
+    INFO | 2026-08-23 19:54:04 | fitting.py:bspline_profile:1272 |                   DONE     1.031    73003    1.00                  
+    INFO | 2026-08-23 19:54:04 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:04 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1384
+    INFO | 2026-08-23 19:54:04 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:04 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:04 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:04 | fitting.py:bspline_profile:1158 |     ngood = 71521/144712 measurements
+    INFO | 2026-08-23 19:54:04 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:04 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:04 | fitting.py:bspline_profile:1257 |                      1     1.024    73289    1.00                  
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1257 |                      2     1.005    73289    1.00                  
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1272 |                   DONE     1.005    73289    1.00                  
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:05 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1458
+    INFO | 2026-08-23 19:54:05 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1158 |     ngood = 70763/144669 measurements
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1257 |                      1     1.012    73999    1.00                  
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1257 |                      2     0.994    74000    1.00                  
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1257 |                      3     0.994    74000    1.00                  
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1272 |                   DONE     0.994    74000    1.00                  
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:05 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1532
+    INFO | 2026-08-23 19:54:05 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1158 |     ngood = 71715/144784 measurements
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:05 | fitting.py:bspline_profile:1257 |                      1     1.020    73173    1.00                  
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1257 |                      2     0.999    73174    1.00                  
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1257 |                      3     0.999    73174    1.00                  
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1272 |                   DONE     0.999    73174    1.00                  
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:06 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1606
+    INFO | 2026-08-23 19:54:06 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1158 |     ngood = 71408/144743 measurements
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1257 |                      1     1.010    73420    1.00                  
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1257 |                      2     0.993    73421    1.00                  
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1257 |                      3     0.993    73421    1.00                  
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1272 |                   DONE     0.993    73421    1.00                  
+    INFO | 2026-08-23 19:54:06 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:06 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1681
+    INFO | 2026-08-23 19:54:07 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1158 |     ngood = 71530/144957 measurements
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1257 |                      1     1.015    73513    1.00                  
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1257 |                      2     0.997    73513    1.00                  
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1272 |                   DONE     0.997    73513    1.00                  
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:07 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1756
+    INFO | 2026-08-23 19:54:07 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1158 |     ngood = 71434/144693 measurements
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1257 |                      1     1.023    73357    1.00                  
+    INFO | 2026-08-23 19:54:07 | fitting.py:bspline_profile:1257 |                      2     0.982    73358    1.00                  
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1257 |                      3     0.982    73358    1.00                  
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1272 |                   DONE     0.982    73358    1.00                  
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:08 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1835
+    INFO | 2026-08-23 19:54:08 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1158 |     ngood = 71920/144883 measurements
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1257 |                      1     1.014    73048    1.00                  
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1257 |                      2     0.998    73048    1.00                  
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1272 |                   DONE     0.998    73048    1.00                  
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:08 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1912
+    INFO | 2026-08-23 19:54:08 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1158 |     ngood = 71922/144687 measurements
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1257 |                      1     0.994    72837    1.00                  
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1257 |                      2     0.980    72837    1.00                  
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1272 |                   DONE     0.980    72837    1.00                  
+    INFO | 2026-08-23 19:54:08 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:08 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1994
+    INFO | 2026-08-23 19:54:09 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:09 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:09 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:09 | fitting.py:bspline_profile:1158 |     ngood = 71345/144669 measurements
+    INFO | 2026-08-23 19:54:09 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:09 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:09 | fitting.py:bspline_profile:1257 |                      1     1.000    73393    1.00                  
+    INFO | 2026-08-23 19:54:09 | fitting.py:bspline_profile:1257 |                      2     0.987    73394    1.00                  
+    INFO | 2026-08-23 19:54:09 | fitting.py:bspline_profile:1257 |                      3     0.986    73394    1.00                  
+    INFO | 2026-08-23 19:54:09 | fitting.py:bspline_profile:1272 |                   DONE     0.986    73394    1.00                  
+    INFO | 2026-08-23 19:54:09 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:09 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 59
+    INFO | 2026-08-23 19:54:10 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:10 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 140
+    INFO | 2026-08-23 19:54:10 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:10 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 216
+    INFO | 2026-08-23 19:54:10 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:10 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 294
+    INFO | 2026-08-23 19:54:10 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:10 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 368
+    INFO | 2026-08-23 19:54:11 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:11 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 443
+    INFO | 2026-08-23 19:54:11 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:11 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 516
+    INFO | 2026-08-23 19:54:11 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:11 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 589
+    INFO | 2026-08-23 19:54:11 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:54:11 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:54:11 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:54:11 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:54:11 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:54:11 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 663
+    INFO | 2026-08-23 19:54:12 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:54:12 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:54:12 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:54:12 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:54:12 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:54:12 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 737
+    INFO | 2026-08-23 19:54:12 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:54:12 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:54:12 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:54:12 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:54:12 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:54:12 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 810
+    INFO | 2026-08-23 19:54:13 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:54:13 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:54:13 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:54:13 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:54:13 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:54:13 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 884
+    INFO | 2026-08-23 19:54:13 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:54:13 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:54:13 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:54:13 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:54:13 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:54:13 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1163
+    INFO | 2026-08-23 19:54:13 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:54:13 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:54:13 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:54:13 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:54:14 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:54:14 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1236
+    INFO | 2026-08-23 19:54:14 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:54:14 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:54:14 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:54:14 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:54:14 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:54:14 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1310
+    INFO | 2026-08-23 19:54:14 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:54:14 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:54:14 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:54:14 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:54:15 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:54:15 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1384
+    INFO | 2026-08-23 19:54:15 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:54:15 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:54:15 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:54:15 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:54:15 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:54:15 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1458
+    INFO | 2026-08-23 19:54:15 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:54:15 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:54:15 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:54:15 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:54:15 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:54:15 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1532
+    INFO | 2026-08-23 19:54:16 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:54:16 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:54:16 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:54:16 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:54:16 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:54:16 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1606
+    INFO | 2026-08-23 19:54:16 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:16 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1681
+    INFO | 2026-08-23 19:54:16 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:16 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1756
+    INFO | 2026-08-23 19:54:17 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:17 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1835
+    INFO | 2026-08-23 19:54:17 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:17 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1912
+    INFO | 2026-08-23 19:54:17 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:17 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1994
+    INFO | 2026-08-23 19:54:17 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:54:17 | find_objects.py:run:373 | Either no objects were found or a user-provided sky mask was used.  Skipping second pass of sky-subtraction and object finding.
+    INFO | 2026-08-23 19:54:17 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:54:17 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:54:17 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.25803.28.fits
+    INFO | 2026-08-23 19:54:17 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:17 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:17 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:54:17 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:18 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:18 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:18 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:54:18 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:18 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:54:18 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:54:18 | pypeit_steps.py:extract_det:732 | Extraction skipped for KR.20240314.25803.28-feige34_KCRM_20240314T071003.792 on det=1
+    INFO | 2026-08-23 19:54:19 | wavetilts.py:fit2tiltimg:143 | Generating a tilts image from the fit parameters
+    INFO | 2026-08-23 19:54:25 | pypeit_steps.py:refframe_correct:906 | Performing a heliocentric correction
+    INFO | 2026-08-23 19:54:26 | pypeit_steps.py:refframe_correct:915 | Applying heliocentric correction = -12.25597 km/s
+    INFO | 2026-08-23 19:54:27 | spec2dobj.py:write_to_fits:721 | Wrote: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Science/spec2d_KR.20240314.25803.28-feige34_KCRM_20240314T071003.792.fits
+    INFO | 2026-08-23 19:54:27 | exposure.py:reduce_exposure:406 | Reducing target feige34
+Combining frames:
+KR.20240314.25946.80.fits
+
+    INFO | 2026-08-23 19:54:27 | exposure.py:reduce_exposure:417 | Detectors to work on: [1]
+    INFO | 2026-08-23 19:54:27 | exposure.py:reduce_exposure:422 | Calibrating detector 1
+    INFO | 2026-08-23 19:54:27 | pypeit_steps.py:calib_one:173 | Building/loading calibrations for detector 1
+    INFO | 2026-08-23 19:54:27 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:54:27 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:54:27 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.11088.00.fits
+ WARNING | 2026-08-23 19:54:27 | keck_kcwi.py:bpm:820 | KCRM bad pixel mask is not available for ampmode=L2U2L1U1 binning=2,2
+    INFO | 2026-08-23 19:54:27 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:27 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:27 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:54:27 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:27 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:27 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:27 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:54:28 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:28 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:54:28 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:54:28 | exposure.py:process_exposure:126 | Reducing detector 1
+    INFO | 2026-08-23 19:54:28 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:54:28 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:54:28 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.25946.80.fits
+    INFO | 2026-08-23 19:54:28 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:28 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:28 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:54:28 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:29 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:29 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:29 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:54:29 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:29 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:54:29 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:54:29 | pypeit_steps.py:process_one_det:260 | Image processing begins for KR.20240314.25946.80-feige34_KCRM_20240314T071226.611 on det=1
+    INFO | 2026-08-23 19:54:29 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.25946.80.fits
+    INFO | 2026-08-23 19:54:29 | rawimage.py:process:564 | Performing basic image processing on KR.20240314.25946.80.fits.
+    INFO | 2026-08-23 19:54:29 | rawimage.py:estimate_readnoise:359 | Estimated readnoise of amplifier 1 = 3.693 e-
+    INFO | 2026-08-23 19:54:29 | rawimage.py:estimate_readnoise:359 | Estimated readnoise of amplifier 2 = 3.711 e-
+    INFO | 2026-08-23 19:54:32 | procimg.py:lacosmic:170 | Detecting cosmic rays with the L.A.Cosmic algorithm
+    INFO | 2026-08-23 19:54:32 | procimg.py:lacosmic:218 | Convolving image with Laplacian kernel
+    INFO | 2026-08-23 19:54:34 | procimg.py:lacosmic:229 | Found 4963 candidate cosmic-ray pixels
+    INFO | 2026-08-23 19:54:34 | procimg.py:lacosmic:235 | Reduced to 4963 candidates after excluding known bad pixels.
+    INFO | 2026-08-23 19:54:36 | procimg.py:lacosmic:246 | Reduced to 2478 candidates after excluding compact objects.
+    INFO | 2026-08-23 19:54:36 | procimg.py:lacosmic:250 | Finding neighboring pixels affected by cosmic rays
+    INFO | 2026-08-23 19:54:36 | procimg.py:lacosmic:260 | Changed to 6346 candidates after evaluating neighboring pixels.
+    INFO | 2026-08-23 19:54:36 | procimg.py:lacosmic:266 | Reduced to 6345 candidates after excluding known bad pixels.
+    INFO | 2026-08-23 19:54:36 | procimg.py:lacosmic:271 | Iteration 1: 6345 pixels identified as cosmic rays (6345 are new)
+    INFO | 2026-08-23 19:54:37 | procimg.py:lacosmic:300 | 6256 pixels identified as cosmic rays after removing false positives
+    INFO | 2026-08-23 19:54:37 | pypeit_steps.py:findobj_on_det:381 | Object finding begins for KR.20240314.25946.80-feige34_KCRM_20240314T071226.611 on det=1
+    INFO | 2026-08-23 19:54:37 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:54:37 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:54:37 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.25946.80.fits
+    INFO | 2026-08-23 19:54:37 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:37 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:37 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:54:37 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:37 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:37 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:37 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:54:38 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:54:38 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:54:38 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:54:38 | pypeit_steps.py:findobj_on_det:387 | Reducing detector 1
+    INFO | 2026-08-23 19:54:38 | pypeit_steps.py:load_skyregions:606 | Generating skysub mask based on the user defined regions: :32,74:
+    INFO | 2026-08-23 19:54:38 | find_objects.py:__init__:164 | Initializing slits
+    INFO | 2026-08-23 19:54:39 | find_objects.py:__init__:232 | Generating tilts image from fit in waveTilts
+    INFO | 2026-08-23 19:54:39 | wavetilts.py:fit2tiltimg:143 | Generating a tilts image from the fit parameters
+    INFO | 2026-08-23 19:54:45 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 59
+    INFO | 2026-08-23 19:54:45 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:45 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:45 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:45 | fitting.py:bspline_profile:1158 |     ngood = 70344/142980 measurements
+    INFO | 2026-08-23 19:54:45 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:45 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:45 | fitting.py:bspline_profile:1257 |                      1     1.051    72697    1.00                  
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1257 |                      2     1.004    72698    1.00                  
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1257 |                      3     1.004    72698    1.00                  
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1272 |                   DONE     1.004    72698    1.00                  
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:46 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 140
+    INFO | 2026-08-23 19:54:46 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1158 |     ngood = 70504/142968 measurements
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1257 |                      1     0.983    72525    1.00                  
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1257 |                      2     0.971    72525    1.00                  
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1272 |                   DONE     0.971    72525    1.00                  
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:46 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 216
+    INFO | 2026-08-23 19:54:46 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1158 |     ngood = 71335/143824 measurements
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:46 | fitting.py:bspline_profile:1257 |                      1     0.990    72564    1.00                  
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1257 |                      2     0.975    72565    1.00                  
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1257 |                      3     0.975    72565    1.00                  
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1272 |                   DONE     0.975    72565    1.00                  
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:47 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 294
+    INFO | 2026-08-23 19:54:47 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1158 |     ngood = 69898/143415 measurements
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1257 |                      1     1.002    73601    1.00                  
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1257 |                      2     0.985    73602    1.00                  
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1257 |                      3     0.985    73602    1.00                  
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1272 |                   DONE     0.985    73602    1.00                  
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:47 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 368
+    INFO | 2026-08-23 19:54:47 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1158 |     ngood = 70527/143521 measurements
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:47 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:48 | fitting.py:bspline_profile:1257 |                      1     1.043    73086    1.00                  
+    INFO | 2026-08-23 19:54:48 | fitting.py:bspline_profile:1257 |                      2     0.974    73086    1.00                  
+    INFO | 2026-08-23 19:54:48 | fitting.py:bspline_profile:1272 |                   DONE     0.974    73086    1.00                  
+    INFO | 2026-08-23 19:54:48 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:48 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 443
+    INFO | 2026-08-23 19:54:48 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:48 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:48 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:48 | fitting.py:bspline_profile:1158 |     ngood = 70734/143504 measurements
+    INFO | 2026-08-23 19:54:48 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:48 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:48 | fitting.py:bspline_profile:1257 |                      1     0.984    72846    1.00                  
+    INFO | 2026-08-23 19:54:48 | fitting.py:bspline_profile:1257 |                      2     0.969    72847    1.00                  
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1257 |                      3     0.969    72847    1.00                  
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1272 |                   DONE     0.969    72847    1.00                  
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:49 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 516
+    INFO | 2026-08-23 19:54:49 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1158 |     ngood = 70611/143675 measurements
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1257 |                      1     1.080    73158    1.00                  
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1257 |                      2     0.983    73158    1.00                  
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1272 |                   DONE     0.983    73158    1.00                  
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:49 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 589
+    INFO | 2026-08-23 19:54:49 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1158 |     ngood = 71246/144195 measurements
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1257 |                      1     1.000    73041    1.00                  
+    INFO | 2026-08-23 19:54:49 | fitting.py:bspline_profile:1257 |                      2     0.982    73044    1.00                  
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1257 |                      3     0.981    73044    1.00                  
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1272 |                   DONE     0.981    73044    1.00                  
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:50 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 663
+    INFO | 2026-08-23 19:54:50 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1158 |     ngood = 71566/144345 measurements
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1257 |                      1     1.081    72884    1.00                  
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1257 |                      2     1.008    72886    1.00                  
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1257 |                      3     1.008    72886    1.00                  
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1272 |                   DONE     1.008    72886    1.00                  
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:50 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 737
+    INFO | 2026-08-23 19:54:50 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1158 |     ngood = 70971/143658 measurements
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:50 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1257 |                      1     1.081    72842    1.00                  
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1257 |                      2     1.050    72845    1.00                  
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1257 |                      3     1.050    72845    1.00                  
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1272 |                   DONE     1.050    72845    1.00                  
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:51 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 810
+    INFO | 2026-08-23 19:54:51 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1158 |     ngood = 71324/144211 measurements
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1257 |                      1     1.162    73131    1.00                  
+    INFO | 2026-08-23 19:54:51 | fitting.py:bspline_profile:1257 |                      2     1.111    73142    1.00                  
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1257 |                      3     1.110    73142    1.00                  
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1272 |                   DONE     1.110    73142    1.00                  
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:52 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 884
+    INFO | 2026-08-23 19:54:52 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1158 |     ngood = 70811/144330 measurements
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1257 |                      1     1.705    74837    1.00                  
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1257 |                      2     1.402    74956    1.00                  
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1257 |                      3     1.380    74968    1.00                  
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1257 |                      4     1.378    74968    1.00                  
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1272 |                   DONE     1.378    74968    1.00                  
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:52 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1163
+    INFO | 2026-08-23 19:54:52 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1158 |     ngood = 71558/144689 measurements
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:52 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1257 |                      1     2.196    75888    1.00                  
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1257 |                      2     1.482    76265    1.00                  
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1257 |                      3     1.413    76306    1.00                  
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1257 |                      4     1.406    76308    1.00                  
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1257 |                      5     1.406    76308    1.00                  
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1272 |                   DONE     1.406    76308    1.00                  
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:53 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1236
+    INFO | 2026-08-23 19:54:53 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1158 |     ngood = 71606/144630 measurements
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:53 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1257 |                      1     1.514    73850    1.00                  
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1257 |                      2     1.341    73922    1.00                  
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1257 |                      3     1.329    73930    1.00                  
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1257 |                      4     1.328    73930    1.00                  
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1272 |                   DONE     1.328    73930    1.00                  
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:54 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1310
+    INFO | 2026-08-23 19:54:54 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1158 |     ngood = 71803/144852 measurements
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:54 | fitting.py:bspline_profile:1257 |                      1     1.183    73317    1.00                  
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1257 |                      2     1.129    73325    1.00                  
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1257 |                      3     1.128    73325    1.00                  
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1272 |                   DONE     1.128    73325    1.00                  
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:55 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1384
+    INFO | 2026-08-23 19:54:55 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1158 |     ngood = 71345/144712 measurements
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1257 |                      1     1.094    73512    1.00                  
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1257 |                      2     1.064    73515    1.00                  
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1257 |                      3     1.064    73515    1.00                  
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1272 |                   DONE     1.064    73515    1.00                  
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:55 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1458
+    INFO | 2026-08-23 19:54:55 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1158 |     ngood = 71132/144669 measurements
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:55 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:56 | fitting.py:bspline_profile:1257 |                      1     1.057    73658    1.00                  
+    INFO | 2026-08-23 19:54:56 | fitting.py:bspline_profile:1257 |                      2     1.032    73659    1.00                  
+    INFO | 2026-08-23 19:54:56 | fitting.py:bspline_profile:1257 |                      3     1.032    73659    1.00                  
+    INFO | 2026-08-23 19:54:56 | fitting.py:bspline_profile:1272 |                   DONE     1.032    73659    1.00                  
+    INFO | 2026-08-23 19:54:56 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:56 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1532
+    INFO | 2026-08-23 19:54:56 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:56 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:56 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:56 | fitting.py:bspline_profile:1158 |     ngood = 71916/144784 measurements
+    INFO | 2026-08-23 19:54:56 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:56 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:56 | fitting.py:bspline_profile:1257 |                      1     1.029    72985    1.00                  
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1257 |                      2     1.005    72988    1.00                  
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1257 |                      3     1.004    72988    1.00                  
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1272 |                   DONE     1.004    72988    1.00                  
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:57 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1606
+    INFO | 2026-08-23 19:54:57 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1158 |     ngood = 71496/144743 measurements
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1257 |                      1     1.020    73354    1.00                  
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1257 |                      2     0.999    73355    1.00                  
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1257 |                      3     0.999    73355    1.00                  
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1272 |                   DONE     0.999    73355    1.00                  
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:57 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1681
+    INFO | 2026-08-23 19:54:57 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1158 |     ngood = 71699/144957 measurements
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:57 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1257 |                      1     1.019    73354    1.00                  
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1257 |                      2     1.000    73355    1.00                  
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1257 |                      3     1.000    73355    1.00                  
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1272 |                   DONE     1.000    73355    1.00                  
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:58 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1756
+    INFO | 2026-08-23 19:54:58 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1158 |     ngood = 71263/144693 measurements
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1257 |                      1     1.010    73496    1.00                  
+    INFO | 2026-08-23 19:54:58 | fitting.py:bspline_profile:1257 |                      2     0.998    73497    1.00                  
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1257 |                      3     0.997    73497    1.00                  
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1272 |                   DONE     0.997    73497    1.00                  
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:59 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1835
+    INFO | 2026-08-23 19:54:59 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1158 |     ngood = 71480/144883 measurements
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1257 |                      1     1.115    73529    1.00                  
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1257 |                      2     1.000    73529    1.00                  
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1272 |                   DONE     1.000    73529    1.00                  
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:54:59 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1912
+    INFO | 2026-08-23 19:54:59 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1158 |     ngood = 71765/144687 measurements
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:54:59 | fitting.py:bspline_profile:1257 |                      1     1.009    73015    1.00                  
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1257 |                      2     0.990    73015    1.00                  
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1272 |                   DONE     0.990    73015    1.00                  
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:00 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1994
+    INFO | 2026-08-23 19:55:00 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1158 |     ngood = 71273/144669 measurements
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1257 |                      1     1.079    73494    1.00                  
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1257 |                      2     0.985    73495    1.00                  
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1257 |                      3     0.985    73495    1.00                  
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1272 |                   DONE     0.985    73495    1.00                  
+    INFO | 2026-08-23 19:55:00 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:00 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 59
+    INFO | 2026-08-23 19:55:00 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:00 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 140
+    INFO | 2026-08-23 19:55:01 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:01 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 216
+    INFO | 2026-08-23 19:55:01 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:01 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 294
+    INFO | 2026-08-23 19:55:01 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:01 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 368
+    INFO | 2026-08-23 19:55:01 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:01 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 443
+    INFO | 2026-08-23 19:55:02 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:02 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 516
+    INFO | 2026-08-23 19:55:02 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:02 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:02 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:02 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:02 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:02 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 589
+    INFO | 2026-08-23 19:55:02 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:02 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:02 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:02 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:03 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:03 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 663
+    INFO | 2026-08-23 19:55:03 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:03 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:03 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:03 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:03 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:03 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 737
+    INFO | 2026-08-23 19:55:03 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:03 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:03 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:03 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:04 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:04 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 810
+    INFO | 2026-08-23 19:55:04 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:04 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:04 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:04 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:04 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:04 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 884
+    INFO | 2026-08-23 19:55:04 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:04 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:04 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:04 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:04 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:04 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1163
+    INFO | 2026-08-23 19:55:05 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:05 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:05 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:05 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:05 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:05 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1236
+    INFO | 2026-08-23 19:55:05 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:05 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:05 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:05 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:05 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:05 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1310
+    INFO | 2026-08-23 19:55:06 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:06 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:06 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:06 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:06 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:06 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1384
+    INFO | 2026-08-23 19:55:06 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:06 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:06 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:06 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:06 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:06 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1458
+    INFO | 2026-08-23 19:55:06 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:06 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:06 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:06 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:07 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:07 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1532
+    INFO | 2026-08-23 19:55:07 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:07 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:07 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:07 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:07 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:07 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1606
+    INFO | 2026-08-23 19:55:07 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:07 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:07 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:07 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:07 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:07 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1681
+    INFO | 2026-08-23 19:55:08 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:08 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1756
+    INFO | 2026-08-23 19:55:08 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:08 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1835
+    INFO | 2026-08-23 19:55:08 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:08 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1912
+    INFO | 2026-08-23 19:55:08 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:08 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1994
+    INFO | 2026-08-23 19:55:09 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:09 | find_objects.py:run:373 | Either no objects were found or a user-provided sky mask was used.  Skipping second pass of sky-subtraction and object finding.
+    INFO | 2026-08-23 19:55:09 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:55:09 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:55:09 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.25946.80.fits
+    INFO | 2026-08-23 19:55:09 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:09 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:09 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:55:09 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:09 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:09 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:09 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:55:09 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:10 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:55:10 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:55:10 | pypeit_steps.py:extract_det:732 | Extraction skipped for KR.20240314.25946.80-feige34_KCRM_20240314T071226.611 on det=1
+    INFO | 2026-08-23 19:55:10 | wavetilts.py:fit2tiltimg:143 | Generating a tilts image from the fit parameters
+    INFO | 2026-08-23 19:55:17 | pypeit_steps.py:refframe_correct:906 | Performing a heliocentric correction
+    INFO | 2026-08-23 19:55:17 | pypeit_steps.py:refframe_correct:915 | Applying heliocentric correction = -12.25932 km/s
+    INFO | 2026-08-23 19:55:18 | spec2dobj.py:write_to_fits:721 | Wrote: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Science/spec2d_KR.20240314.25946.80-feige34_KCRM_20240314T071226.611.fits
+    INFO | 2026-08-23 19:55:18 | exposure.py:reduce_exposure:406 | Reducing target feige34
+Combining frames:
+KR.20240314.26057.27.fits
+
+    INFO | 2026-08-23 19:55:18 | exposure.py:reduce_exposure:417 | Detectors to work on: [1]
+    INFO | 2026-08-23 19:55:18 | exposure.py:reduce_exposure:422 | Calibrating detector 1
+    INFO | 2026-08-23 19:55:18 | pypeit_steps.py:calib_one:173 | Building/loading calibrations for detector 1
+    INFO | 2026-08-23 19:55:18 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:55:18 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:55:18 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.11088.00.fits
+ WARNING | 2026-08-23 19:55:18 | keck_kcwi.py:bpm:820 | KCRM bad pixel mask is not available for ampmode=L2U2L1U1 binning=2,2
+    INFO | 2026-08-23 19:55:18 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:18 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:18 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:55:18 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:18 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:18 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:18 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:55:19 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:19 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:55:19 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:55:19 | exposure.py:process_exposure:126 | Reducing detector 1
+    INFO | 2026-08-23 19:55:19 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:55:19 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:55:19 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.26057.27.fits
+    INFO | 2026-08-23 19:55:19 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:19 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:19 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:55:19 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:19 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:20 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:20 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:55:20 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:20 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:55:20 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:55:20 | pypeit_steps.py:process_one_det:260 | Image processing begins for KR.20240314.26057.27-feige34_KCRM_20240314T071416.771 on det=1
+    INFO | 2026-08-23 19:55:20 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.26057.27.fits
+    INFO | 2026-08-23 19:55:20 | rawimage.py:process:564 | Performing basic image processing on KR.20240314.26057.27.fits.
+    INFO | 2026-08-23 19:55:20 | rawimage.py:estimate_readnoise:359 | Estimated readnoise of amplifier 1 = 3.814 e-
+    INFO | 2026-08-23 19:55:20 | rawimage.py:estimate_readnoise:359 | Estimated readnoise of amplifier 2 = 3.810 e-
+    INFO | 2026-08-23 19:55:23 | procimg.py:lacosmic:170 | Detecting cosmic rays with the L.A.Cosmic algorithm
+    INFO | 2026-08-23 19:55:23 | procimg.py:lacosmic:218 | Convolving image with Laplacian kernel
+    INFO | 2026-08-23 19:55:25 | procimg.py:lacosmic:229 | Found 4871 candidate cosmic-ray pixels
+    INFO | 2026-08-23 19:55:25 | procimg.py:lacosmic:235 | Reduced to 4871 candidates after excluding known bad pixels.
+    INFO | 2026-08-23 19:55:27 | procimg.py:lacosmic:246 | Reduced to 2336 candidates after excluding compact objects.
+    INFO | 2026-08-23 19:55:27 | procimg.py:lacosmic:250 | Finding neighboring pixels affected by cosmic rays
+    INFO | 2026-08-23 19:55:27 | procimg.py:lacosmic:260 | Changed to 6028 candidates after evaluating neighboring pixels.
+    INFO | 2026-08-23 19:55:27 | procimg.py:lacosmic:266 | Reduced to 6028 candidates after excluding known bad pixels.
+    INFO | 2026-08-23 19:55:27 | procimg.py:lacosmic:271 | Iteration 1: 6028 pixels identified as cosmic rays (6028 are new)
+    INFO | 2026-08-23 19:55:28 | procimg.py:lacosmic:300 | 5994 pixels identified as cosmic rays after removing false positives
+    INFO | 2026-08-23 19:55:28 | pypeit_steps.py:findobj_on_det:381 | Object finding begins for KR.20240314.26057.27-feige34_KCRM_20240314T071416.771 on det=1
+    INFO | 2026-08-23 19:55:28 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:55:28 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:55:28 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.26057.27.fits
+    INFO | 2026-08-23 19:55:28 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:28 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:28 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:55:28 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:28 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:28 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:28 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:55:29 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:55:29 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:55:29 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:55:29 | pypeit_steps.py:findobj_on_det:387 | Reducing detector 1
+    INFO | 2026-08-23 19:55:29 | pypeit_steps.py:load_skyregions:606 | Generating skysub mask based on the user defined regions: :32,74:
+    INFO | 2026-08-23 19:55:29 | find_objects.py:__init__:164 | Initializing slits
+    INFO | 2026-08-23 19:55:30 | find_objects.py:__init__:232 | Generating tilts image from fit in waveTilts
+    INFO | 2026-08-23 19:55:30 | wavetilts.py:fit2tiltimg:143 | Generating a tilts image from the fit parameters
+    INFO | 2026-08-23 19:55:36 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 59
+    INFO | 2026-08-23 19:55:36 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1158 |     ngood = 70559/142980 measurements
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1257 |                      1     1.267    72531    1.00                  
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1257 |                      2     0.987    72531    1.00                  
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1272 |                   DONE     0.987    72531    1.00                  
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:36 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 140
+    INFO | 2026-08-23 19:55:36 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1158 |     ngood = 70313/142968 measurements
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:36 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1257 |                      1     1.251    72756    1.00                  
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1257 |                      2     0.973    72760    1.00                  
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1257 |                      3     0.972    72760    1.00                  
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1272 |                   DONE     0.972    72760    1.00                  
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:37 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 216
+    INFO | 2026-08-23 19:55:37 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1158 |     ngood = 71146/143824 measurements
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1257 |                      1     1.137    72791    1.00                  
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1257 |                      2     0.963    72791    1.00                  
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1272 |                   DONE     0.963    72791    1.00                  
+    INFO | 2026-08-23 19:55:37 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:37 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 294
+    INFO | 2026-08-23 19:55:38 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1158 |     ngood = 70262/143415 measurements
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1257 |                      1     1.021    73277    1.00                  
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1257 |                      2     0.989    73278    1.00                  
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1257 |                      3     0.989    73278    1.00                  
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1272 |                   DONE     0.989    73278    1.00                  
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:38 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 368
+    INFO | 2026-08-23 19:55:38 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1158 |     ngood = 70813/143521 measurements
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:38 | fitting.py:bspline_profile:1257 |                      1     0.984    72795    1.00                  
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1257 |                      2     0.962    72796    1.00                  
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1257 |                      3     0.962    72796    1.00                  
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1272 |                   DONE     0.962    72796    1.00                  
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:39 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 443
+    INFO | 2026-08-23 19:55:39 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1158 |     ngood = 70661/143504 measurements
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1257 |                      1     1.004    72938    1.00                  
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1257 |                      2     0.985    72940    1.00                  
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1257 |                      3     0.985    72940    1.00                  
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1272 |                   DONE     0.985    72940    1.00                  
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:39 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 516
+    INFO | 2026-08-23 19:55:39 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1158 |     ngood = 70964/143675 measurements
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:39 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:40 | fitting.py:bspline_profile:1257 |                      1     0.994    72789    1.00                  
+    INFO | 2026-08-23 19:55:40 | fitting.py:bspline_profile:1257 |                      2     0.978    72793    1.00                  
+    INFO | 2026-08-23 19:55:40 | fitting.py:bspline_profile:1257 |                      3     0.977    72793    1.00                  
+    INFO | 2026-08-23 19:55:40 | fitting.py:bspline_profile:1272 |                   DONE     0.977    72793    1.00                  
+    INFO | 2026-08-23 19:55:40 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:40 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 589
+    INFO | 2026-08-23 19:55:40 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:40 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:40 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:40 | fitting.py:bspline_profile:1158 |     ngood = 71198/144195 measurements
+    INFO | 2026-08-23 19:55:40 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:40 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:40 | fitting.py:bspline_profile:1257 |                      1     1.106    73113    1.00                  
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1257 |                      2     1.000    73114    1.00                  
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1257 |                      3     1.000    73114    1.00                  
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1272 |                   DONE     1.000    73114    1.00                  
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:41 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 663
+    INFO | 2026-08-23 19:55:41 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1158 |     ngood = 71484/144345 measurements
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1257 |                      1     1.067    73020    1.00                  
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1257 |                      2     1.035    73024    1.00                  
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1257 |                      3     1.034    73024    1.00                  
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1272 |                   DONE     1.034    73024    1.00                  
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:41 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 737
+    INFO | 2026-08-23 19:55:41 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1158 |     ngood = 71036/143658 measurements
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:41 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1257 |                      1     1.128    72840    1.00                  
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1257 |                      2     1.081    72842    1.00                  
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1257 |                      3     1.081    72842    1.00                  
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1272 |                   DONE     1.081    72842    1.00                  
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:42 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 810
+    INFO | 2026-08-23 19:55:42 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1158 |     ngood = 71331/144211 measurements
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1257 |                      1     1.245    73197    1.00                  
+    INFO | 2026-08-23 19:55:42 | fitting.py:bspline_profile:1257 |                      2     1.180    73212    1.00                  
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1257 |                      3     1.177    73214    1.00                  
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1257 |                      4     1.177    73214    1.00                  
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1272 |                   DONE     1.177    73214    1.00                  
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:43 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 884
+    INFO | 2026-08-23 19:55:43 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1158 |     ngood = 71310/144330 measurements
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1257 |                      1     2.022    74713    1.00                  
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1257 |                      2     1.564    74894    1.00                  
+    INFO | 2026-08-23 19:55:43 | fitting.py:bspline_profile:1257 |                      3     1.533    74913    1.00                  
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1257 |                      4     1.529    74915    1.00                  
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1257 |                      5     1.529    74915    1.00                  
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1272 |                   DONE     1.529    74915    1.00                  
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:44 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1163
+    INFO | 2026-08-23 19:55:44 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1158 |     ngood = 71404/144689 measurements
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1257 |                      1     2.291    76073    1.00                  
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1257 |                      2     1.559    76493    1.00                  
+    INFO | 2026-08-23 19:55:44 | fitting.py:bspline_profile:1257 |                      3     1.483    76559    1.00                  
+    INFO | 2026-08-23 19:55:45 | fitting.py:bspline_profile:1257 |                      4     1.471    76564    1.00                  
+    INFO | 2026-08-23 19:55:45 | fitting.py:bspline_profile:1257 |                      5     1.470    76564    1.00                  
+    INFO | 2026-08-23 19:55:45 | fitting.py:bspline_profile:1272 |                   DONE     1.470    76564    1.00                  
+    INFO | 2026-08-23 19:55:45 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:45 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1236
+    INFO | 2026-08-23 19:55:45 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:45 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:45 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:45 | fitting.py:bspline_profile:1158 |     ngood = 71663/144630 measurements
+    INFO | 2026-08-23 19:55:45 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:45 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:45 | fitting.py:bspline_profile:1257 |                      1     1.645    73905    1.00                  
+    INFO | 2026-08-23 19:55:45 | fitting.py:bspline_profile:1257 |                      2     1.370    73988    1.00                  
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1257 |                      3     1.356    74003    1.00                  
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1257 |                      4     1.353    74003    1.00                  
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1272 |                   DONE     1.353    74003    1.00                  
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:46 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1310
+    INFO | 2026-08-23 19:55:46 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1158 |     ngood = 71838/144852 measurements
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1257 |                      1     1.220    73315    1.00                  
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1257 |                      2     1.161    73326    1.00                  
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1257 |                      3     1.160    73326    1.00                  
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1272 |                   DONE     1.160    73326    1.00                  
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:46 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1384
+    INFO | 2026-08-23 19:55:46 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1158 |     ngood = 71237/144712 measurements
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:46 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1257 |                      1     1.168    73698    1.00                  
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1257 |                      2     1.084    73705    1.00                  
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1257 |                      3     1.083    73705    1.00                  
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1272 |                   DONE     1.083    73705    1.00                  
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:47 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1458
+    INFO | 2026-08-23 19:55:47 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1158 |     ngood = 71134/144669 measurements
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1257 |                      1     1.062    73687    1.00                  
+    INFO | 2026-08-23 19:55:47 | fitting.py:bspline_profile:1257 |                      2     1.031    73688    1.00                  
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1257 |                      3     1.031    73688    1.00                  
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1272 |                   DONE     1.031    73688    1.00                  
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:48 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1532
+    INFO | 2026-08-23 19:55:48 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1158 |     ngood = 71892/144784 measurements
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1257 |                      1     1.026    73012    1.00                  
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1257 |                      2     1.002    73014    1.00                  
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1257 |                      3     1.001    73014    1.00                  
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1272 |                   DONE     1.001    73014    1.00                  
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:48 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1606
+    INFO | 2026-08-23 19:55:48 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1158 |     ngood = 71398/144743 measurements
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:48 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1257 |                      1     1.031    73440    1.00                  
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1257 |                      2     1.000    73440    1.00                  
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1272 |                   DONE     1.000    73440    1.00                  
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:49 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1681
+    INFO | 2026-08-23 19:55:49 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1158 |     ngood = 71584/144957 measurements
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1257 |                      1     1.217    73465    1.00                  
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1257 |                      2     0.994    73467    1.00                  
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1257 |                      3     0.993    73467    1.00                  
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1272 |                   DONE     0.993    73467    1.00                  
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:49 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1756
+    INFO | 2026-08-23 19:55:49 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1158 |     ngood = 71489/144693 measurements
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:49 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1257 |                      1     1.013    73290    1.00                  
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1257 |                      2     0.996    73291    1.00                  
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1257 |                      3     0.996    73291    1.00                  
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1272 |                   DONE     0.996    73291    1.00                  
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:50 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1835
+    INFO | 2026-08-23 19:55:50 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1158 |     ngood = 71717/144883 measurements
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1257 |                      1     1.203    73302    1.00                  
+    INFO | 2026-08-23 19:55:50 | fitting.py:bspline_profile:1257 |                      2     0.992    73303    1.00                  
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1257 |                      3     0.992    73303    1.00                  
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1272 |                   DONE     0.992    73303    1.00                  
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:51 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1912
+    INFO | 2026-08-23 19:55:51 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1158 |     ngood = 71698/144687 measurements
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1257 |                      1     1.032    73094    1.00                  
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1257 |                      2     0.994    73096    1.00                  
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1257 |                      3     0.993    73096    1.00                  
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1272 |                   DONE     0.993    73096    1.00                  
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:51 | find_objects.py:global_skysub:583 | Global sky subtraction for slit: 1994
+    INFO | 2026-08-23 19:55:51 | skysub.py:global_skysub:195 | Full fit in global sky sub.
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1156 | B-spline fit:
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1157 |     npoly = 2 profile basis functions
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1158 |     ngood = 71244/144669 measurements
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1159 | ***************** Iter     Chi^2    N Rej  R. Fac *****************
+    INFO | 2026-08-23 19:55:51 | fitting.py:bspline_profile:1163 |                   ----  --------  -------  ------                  
+    INFO | 2026-08-23 19:55:52 | fitting.py:bspline_profile:1257 |                      1     0.999    73502    1.00                  
+    INFO | 2026-08-23 19:55:52 | fitting.py:bspline_profile:1257 |                      2     0.984    73502    1.00                  
+    INFO | 2026-08-23 19:55:52 | fitting.py:bspline_profile:1272 |                   DONE     0.984    73502    1.00                  
+    INFO | 2026-08-23 19:55:52 | fitting.py:bspline_profile:1275 | *******************************************************************
+    INFO | 2026-08-23 19:55:52 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 59
+    INFO | 2026-08-23 19:55:52 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:52 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 140
+    INFO | 2026-08-23 19:55:52 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:52 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 216
+    INFO | 2026-08-23 19:55:53 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:53 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 294
+    INFO | 2026-08-23 19:55:53 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:53 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 368
+    INFO | 2026-08-23 19:55:53 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:55:53 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 443
+    INFO | 2026-08-23 19:55:53 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:53 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:53 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:53 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:54 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:54 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 516
+    INFO | 2026-08-23 19:55:54 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:54 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:54 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:54 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:54 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:54 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 589
+    INFO | 2026-08-23 19:55:54 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:54 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:54 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:54 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:55 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:55 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 663
+    INFO | 2026-08-23 19:55:55 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:55 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:55 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:55 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:55 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:55 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 737
+    INFO | 2026-08-23 19:55:55 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:55 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:55 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:55 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:55 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:55 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 810
+    INFO | 2026-08-23 19:55:56 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:56 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:56 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:56 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:56 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:56 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 884
+    INFO | 2026-08-23 19:55:56 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:56 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:56 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:56 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:56 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:56 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1163
+    INFO | 2026-08-23 19:55:57 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:57 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:57 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:57 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:57 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:57 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1236
+    INFO | 2026-08-23 19:55:57 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:57 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:57 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:57 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:57 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:57 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1310
+    INFO | 2026-08-23 19:55:57 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:57 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:57 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:57 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:58 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:58 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1384
+    INFO | 2026-08-23 19:55:58 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:58 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:58 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:58 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:58 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:58 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1458
+    INFO | 2026-08-23 19:55:58 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:58 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:58 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:58 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:59 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:59 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1532
+    INFO | 2026-08-23 19:55:59 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:59 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:59 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:59 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:59 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:59 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1606
+    INFO | 2026-08-23 19:55:59 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:55:59 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 1 objects
+    INFO | 2026-08-23 19:55:59 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:55:59 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:55:59 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 1 objects
+    INFO | 2026-08-23 19:55:59 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1681
+    INFO | 2026-08-23 19:56:00 | findobj_skymask.py:objs_in_slit:2073 | Using slit edges as crutch for object tracing
+    INFO | 2026-08-23 19:56:00 | findobj_skymask.py:objs_in_slit:2098 | Automatic finding routine found 2 objects
+    INFO | 2026-08-23 19:56:00 | findobj_skymask.py:objs_in_slit:2102 | Fitting the traces
+ WARNING | 2026-08-23 19:56:00 | polyutils.py:_fit:662 | RankWarning: The fit may be poorly conditioned
+    INFO | 2026-08-23 19:56:00 | findobj_skymask.py:objs_in_slit:2254 | Successfully traced a total of 2 objects
+    INFO | 2026-08-23 19:56:00 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1756
+    INFO | 2026-08-23 19:56:00 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:56:00 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1835
+    INFO | 2026-08-23 19:56:01 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:56:01 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1912
+    INFO | 2026-08-23 19:56:01 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:56:01 | find_objects.py:find_objects_pypeline:788 | Finding objects on slit # 1994
+    INFO | 2026-08-23 19:56:01 | findobj_skymask.py:objs_in_slit:2095 | No objects found automatically.  Consider manual extraction.
+    INFO | 2026-08-23 19:56:01 | find_objects.py:run:373 | Either no objects were found or a user-provided sky mask was used.  Skipping second pass of sky-subtraction and object finding.
+    INFO | 2026-08-23 19:56:01 | datamodel.py:from_file:1558 | Loading BiasImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Bias_B_1_DET01.fits
+ WARNING | 2026-08-23 19:56:01 | calibrations.py:get_dark:606 | No raw dark frames found and unable to identify a relevant processed calibration frame.  Continuing...
+    INFO | 2026-08-23 19:56:01 | keck_kcwi.py:get_rawimage:1426 | Reading KCWI file: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13/KR.20240314.26057.27.fits
+    INFO | 2026-08-23 19:56:01 | datamodel.py:from_file:1558 | Loading ArcImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Arc_B_1_DET01.fits
+    INFO | 2026-08-23 19:56:01 | datamodel.py:from_file:1558 | Loading TiltImage from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tiltimg_B_1_DET01.fits
+    INFO | 2026-08-23 19:56:01 | datamodel.py:from_file:1558 | Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:56:01 | datamodel.py:from_file:1558 | Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+    INFO | 2026-08-23 19:56:01 | datamodel.py:from_file:1558 | Loading WaveTilts from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Tilts_B_1_DET01.fits
+    INFO | 2026-08-23 19:56:01 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+    INFO | 2026-08-23 19:56:01 | datamodel.py:from_file:1558 | Loading ScatteredLight from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/ScatteredLight_B_1_DET01.fits.gz
+    INFO | 2026-08-23 19:56:02 | datamodel.py:from_file:1558 | Loading FlatImages from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Calibrations/Flat_B_1_DET01.fits
+    INFO | 2026-08-23 19:56:02 | calibrations.py:run_the_steps:1459 | Calibration complete and/or fully loaded!
+    INFO | 2026-08-23 19:56:02 | calibrations.py:run_the_steps:1460 | #######################################################################
+    INFO | 2026-08-23 19:56:02 | pypeit_steps.py:extract_det:732 | Extraction skipped for KR.20240314.26057.27-feige34_KCRM_20240314T071416.771 on det=1
+    INFO | 2026-08-23 19:56:02 | wavetilts.py:fit2tiltimg:143 | Generating a tilts image from the fit parameters
+    INFO | 2026-08-23 19:56:09 | pypeit_steps.py:refframe_correct:906 | Performing a heliocentric correction
+    INFO | 2026-08-23 19:56:09 | pypeit_steps.py:refframe_correct:915 | Applying heliocentric correction = -12.26191 km/s
+    INFO | 2026-08-23 19:56:10 | spec2dobj.py:write_to_fits:721 | Wrote: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2024-03-13/pypeit_run/keck_kcrm_B/Science/spec2d_KR.20240314.26057.27-feige34_KCRM_20240314T071416.771.fits
+    INFO | 2026-08-23 19:56:10 | pypeit.py:reduce_all:232 | Finished calibration group 1
+    INFO | 2026-08-23 19:56:10 | pypeit.py:print_end_time:243 | Execution time: 2m 34.27s
+    INFO | 2026-08-23 19:56:10 | run_pypeit.py:main:97 | Data reduction complete
+    INFO | 2026-08-23 19:56:10 | run_pypeit.py:main:100 | Generating QA HTML

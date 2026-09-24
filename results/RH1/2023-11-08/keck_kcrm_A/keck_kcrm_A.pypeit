@@ -1,0 +1,78 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-24T03:43:15.030+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+[calibrations]
+    [[wavelengths]]
+        method = full_template
+        reid_arxiv = /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/pypeit_test/keck_kcrm_RH1_small.fits
+    [[slitedges]]
+        length_range = 0.3
+        exclude_regions = 1:652:655,
+
+[reduce]
+    [[skysub]]
+        user_regions = :35,64:
+
+
+
+# Setup
+setup read
+Setup A:
+  binning: 1,1
+  cenwave: 6679.9814453
+  decker: Small
+  dispname: RH1
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2023-11-08
+                   filename |            frametype |                ra |               dec |        target | dispname | decker | binning |          mjd | airmass |       exptime |      cenwave | posang | ra_off | dec_off |   idname | calpos | calib
+# KR.20231109.37769.30.fits |                 None |          67.69675 | 64.85033333333332 | N1569_hr_pos1 |      RH1 |  Small |     1,1 | 60257.437142 |    1.45 |   59.00005888 | 6679.9814453 | 114.99 |    0.2 |     0.2 |      bad |    Sky |     0
+# KR.20231109.37930.19.fits |                 None |          67.69675 | 64.85033333333332 | N1569_hr_pos1 |      RH1 |  Small |     1,1 | 60257.439007 |    1.45 |  59.000059136 | 6679.9814453 |  115.0 |    0.2 |     0.2 |      bad |    Sky |     0
+# KR.20231109.38110.74.fits |                 None | 67.69670833333333 | 64.85030555555555 | N1569_hr_pos1 |      RH1 |  Small |     1,1 | 60257.441097 |    1.45 |  59.000059136 | 6679.9814453 | 114.99 |   -0.0 |     0.0 |      bad |    Sky |     0
+# KR.20231109.38271.90.fits |                 None | 67.69670833333333 | 64.85030555555555 | N1569_hr_pos1 |      RH1 |  Small |     1,1 | 60257.442962 |    1.44 |   59.00005888 | 6679.9814453 | 114.99 |   -0.0 |     0.0 |      bad |    Sky |     0
+# KR.20231109.38452.45.fits |                 None | 67.69666666666666 | 64.85024999999999 | N1569_hr_pos1 |      RH1 |  Small |     1,1 | 60257.445052 |    1.44 |   59.00005888 | 6679.9814453 |  115.0 |   -0.2 |    -0.2 |      bad |    Sky |     0
+# KR.20231109.38613.61.fits |                 None | 67.69666666666666 | 64.85024999999999 | N1569_hr_pos1 |      RH1 |  Small |     1,1 | 60257.446917 |    1.44 |  59.000059136 | 6679.9814453 |  115.0 |   -0.2 |    -0.2 |      bad |    Sky |     0
+# KR.20231109.38846.17.fits |                 None | 67.70299999999999 |  64.8978888888889 |  sky_position |      RH1 |  Small |     1,1 | 60257.449608 |    1.44 |  59.000059136 | 6679.9814453 | 114.99 |    0.0 |     0.0 |      bad |    Sky |     0
+# KR.20231109.39007.33.fits |                 None | 67.70299999999999 |  64.8978888888889 |  sky_position |      RH1 |  Small |     1,1 | 60257.451474 |    1.43 |  59.000059136 | 6679.9814453 |  115.0 |    0.0 |     0.0 |      bad |    Sky |     0
+# KR.20231109.39303.13.fits |                 None | 67.70479166666665 | 64.84794444444444 | N1569_hr_pos2 |      RH1 |  Small |     1,1 | 60257.454897 |    1.43 |  59.000059136 | 6679.9814453 |  115.0 |    0.2 |     0.2 |      bad |    Sky |     0
+  KR.20231109.61403.71.fits |                align | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.710691 |    1.41 |     160.00016 | 6679.9814453 |   68.5 |    0.0 |     0.0 | CONTBARS | Mirror |     0
+  KR.20231109.61607.71.fits |                align | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.713052 |    1.41 |     160.00016 | 6679.9814453 |   68.5 |    0.0 |     0.0 | CONTBARS | Mirror |     0
+  KR.20231109.61809.67.fits |                align | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 |  60257.71539 |    1.41 |     160.00016 | 6679.9814453 |   68.5 |    0.0 |     0.0 | CONTBARS | Mirror |     0
+  KR.20231109.62365.58.fits |                  arc | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.721824 |    1.41 |     480.00048 | 6679.9814453 |   68.5 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+  KR.20231109.62887.82.fits |                  arc | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.727868 |    1.41 |     480.00048 | 6679.9814453 |   68.5 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+  KR.20231109.63409.40.fits |                  arc | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.733901 |    1.41 |     480.00048 | 6679.9814453 |   68.5 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+  KR.20231109.59978.76.fits |                 bias | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.694199 |    1.41 |           0.0 | 6679.9814453 |   68.5 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231109.60079.74.fits |                 bias | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.695367 |    1.41 |           0.0 | 6679.9814453 |   68.5 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231109.60181.74.fits |                 bias | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.696548 |    1.41 |           0.0 | 6679.9814453 |   68.5 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231109.60283.74.fits |                 bias | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.697729 |    1.41 |           0.0 | 6679.9814453 |   68.5 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231109.60384.72.fits |                 bias | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.698897 |    1.41 |           0.0 | 6679.9814453 |   68.5 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231109.60486.72.fits |                 bias | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.700078 |    1.41 |           0.0 | 6679.9814453 |   68.5 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231109.60588.72.fits |                 bias | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.701258 |    1.41 |           0.0 | 6679.9814453 |   68.5 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231109.58480.36.fits |      illumflat,trace | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.676856 |    1.41 | 300.000300032 | 6679.9814453 |   68.5 |    0.0 |     0.0 | DOMEFLAT |    Sky |     0
+  KR.20231109.58882.24.fits |      illumflat,trace | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.681507 |    1.41 | 300.000300032 | 6679.9814453 |   68.5 |    0.0 |     0.0 | DOMEFLAT |    Sky |     0
+  KR.20231109.59284.14.fits |      illumflat,trace | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.686159 |    1.41 | 300.000300032 | 6679.9814453 |   68.5 |    0.0 |     0.0 | DOMEFLAT |    Sky |     0
+  KR.20231109.67075.99.fits |      illumflat,trace | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.776343 |    1.41 | 300.000300032 | 6679.9814453 |   68.5 |    0.0 |     0.0 | DOMEFLAT |    Sky |     0
+  KR.20231109.67477.88.fits |      illumflat,trace | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.780994 |    1.41 | 300.000300032 | 6679.9814453 |   68.5 |    0.0 |     0.0 | DOMEFLAT |    Sky |     0
+  KR.20231109.67879.76.fits |      illumflat,trace | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.785645 |    1.41 | 300.000300032 | 6679.9814453 |   68.5 |    0.0 |     0.0 | DOMEFLAT |    Sky |     0
+  KR.20231109.65216.51.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.754821 |    1.41 | 160.000160256 | 6679.9814453 |   68.5 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+  KR.20231109.65478.65.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.757855 |    1.41 |     160.00016 | 6679.9814453 |   68.5 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+  KR.20231109.65739.77.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.760877 |    1.41 |     160.00016 | 6679.9814453 |   68.5 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+  KR.20231109.66001.92.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.763911 |    1.41 |     160.00016 | 6679.9814453 |   68.5 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+  KR.20231109.66263.40.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.766933 |    1.41 |     160.00016 | 6679.9814453 |   68.5 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+  KR.20231109.66525.19.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.769968 |    1.41 |     160.00016 | 6679.9814453 |   68.5 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+  KR.20231109.40502.65.fits |              science | 76.37758333333332 | 52.83108333333334 |       g191b2b |      RH1 |  Small |     1,1 | 60257.468781 |    1.22 | 200.000199936 | 6679.9814453 | 114.99 |    0.0 |     0.0 |   OBJECT |    Sky |     0
+  KR.20231109.40805.59.fits |              science | 76.37758333333332 | 52.83108333333334 |       g191b2b |      RH1 |  Small |     1,1 | 60257.472287 |    1.22 | 200.000200192 | 6679.9814453 | 114.99 |    0.0 |     0.0 |   OBJECT |    Sky |     0
+  KR.20231109.41104.45.fits |              science | 76.37758333333332 | 52.83108333333334 |       g191b2b |      RH1 |  Small |     1,1 | 60257.475746 |    1.21 | 200.000200192 | 6679.9814453 | 114.99 |    0.0 |     0.0 |   OBJECT |    Sky |     0
+  KR.20231109.56603.56.fits |              science | 76.37758333333332 | 52.83108333333334 |       g191b2b |      RH1 |  Small |     1,1 | 60257.655134 |    1.61 | 200.000199936 | 6679.9814453 |  24.99 |    0.0 |     0.0 |   OBJECT |    Sky |     0
+  KR.20231109.56903.44.fits |              science | 76.37758333333332 | 52.83108333333334 |       g191b2b |      RH1 |  Small |     1,1 | 60257.658605 |    1.63 | 200.000200192 | 6679.9814453 |   25.0 |    0.0 |     0.0 |   OBJECT |    Sky |     0
+  KR.20231109.63948.62.fits |                 tilt | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.740146 |    1.41 |     480.00048 | 6679.9814453 |   68.5 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+  KR.20231109.64469.86.fits |                 tilt | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.746179 |    1.41 |     480.00048 | 6679.9814453 |   68.5 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+  KR.20231109.64991.80.fits |                 tilt | 63.99999999999999 |              45.0 |    DOME FLATS |      RH1 |  Small |     1,1 | 60257.752212 |    1.41 |     480.00048 | 6679.9814453 |   68.5 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+data end
+

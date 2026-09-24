@@ -1,0 +1,15 @@
+# feige34, 2023-11-17 setup C, visit 1 of 1; airmass 1.18-1.18
+[rdx]
+    spectrograph = keck_kcrm
+
+[reduce]
+    [[cube]]
+        combine = True
+        output_filename = feige34_2023-11-17_C.fits
+        save_whitelight = True
+
+spec2d read
+filename
+Science/spec2d_KR.20231118.55587.86-feige34_KCRM_20231118T152627.859.fits
+Science/spec2d_KR.20231118.55691.92-feige34_KCRM_20231118T152811.885.fits
+spec2d end

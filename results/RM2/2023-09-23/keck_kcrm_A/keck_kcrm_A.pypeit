@@ -1,0 +1,37 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-27T07:27:28.885+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+# Setup
+setup read
+Setup A:
+  binning: 2,2
+  cenwave: 0.0
+  decker: Medium
+  dispname: None
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RM2/2023-09-23
+                   filename | frametype |                 ra |               dec |       target | dispname | decker | binning |          mjd | airmass | exptime |   cenwave | posang | ra_off | dec_off | idname | calpos | calib
+# KR.20230923.84251.34.fits |      None |  67.37958333333333 |             0.081 | HORIZON STOW |     None | Medium |     2,2 | 60210.975131 |   13.37 |     0.0 |       0.0 |  240.0 |    0.0 |     0.0 |   DARK |    Sky |     0
+# KR.20230923.84474.72.fits |      None |  67.37958333333333 |             0.081 | HORIZON STOW |     None | Medium |     2,2 | 60210.977717 |   13.37 |     0.0 |       0.0 |  240.0 |    0.0 |     0.0 |   DARK |    Sky |     0
+  KR.20230924.05214.16.fits |      bias |  63.99999999999999 |              45.0 |      unknown |      RM2 | Medium |     2,2 | 60211.060343 |    1.41 |     0.0 | 9849.9375 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20230924.17432.50.fits |      bias | 268.17654166666665 | 38.82061111111111 |    SAO 66421 |      RM2 | Medium |     2,2 | 60211.201765 |    1.07 |     0.0 | 9849.9375 |    0.0 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20230924.57365.63.fits |      bias |  67.37958333333333 |             0.081 | HORIZON STOW |      RM2 | Medium |     2,2 | 60211.663954 |   13.37 |     0.0 | 9849.9375 |   78.6 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20230924.57674.69.fits |      bias |  67.37958333333333 |             0.081 | HORIZON STOW |      RM2 | Medium |     2,2 | 60211.667531 |   13.37 |     0.0 | 9849.9375 |   78.6 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20230924.57718.55.fits |      bias |  67.37958333333333 |             0.081 | HORIZON STOW |      RM2 | Medium |     2,2 | 60211.668039 |   13.37 |     0.0 | 9849.9375 |   78.6 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20230924.57762.41.fits |      bias |  67.37958333333333 |             0.081 | HORIZON STOW |      RM2 | Medium |     2,2 | 60211.668546 |   13.37 |     0.0 | 9849.9375 |   78.6 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20230924.57806.27.fits |      bias |  67.37958333333333 |             0.081 | HORIZON STOW |      RM2 | Medium |     2,2 | 60211.669054 |   13.37 |     0.0 | 9849.9375 |   78.6 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20230924.57850.13.fits |      bias |  67.37958333333333 |             0.081 | HORIZON STOW |      RM2 | Medium |     2,2 | 60211.669562 |   13.37 |     0.0 | 9849.9375 |   78.6 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20230924.57892.97.fits |      bias |  67.37958333333333 |             0.081 | HORIZON STOW |      RM2 | Medium |     2,2 | 60211.670058 |   13.37 |     0.0 | 9849.9375 |   78.6 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20230924.57936.83.fits |      bias |  67.37958333333333 |             0.081 | HORIZON STOW |      RM2 | Medium |     2,2 | 60211.670565 |   13.37 |     0.0 | 9849.9375 |   78.6 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20230924.57980.69.fits |      bias |  67.37958333333333 |             0.081 | HORIZON STOW |      RM2 | Medium |     2,2 | 60211.671073 |   13.37 |     0.0 | 9849.9375 |   78.6 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20230924.58024.55.fits |      bias |  67.37958333333333 |             0.081 | HORIZON STOW |      RM2 | Medium |     2,2 |  60211.67158 |   13.37 |     0.0 | 9849.9375 |   78.6 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20230924.58068.41.fits |      bias |  67.37958333333333 |             0.081 | HORIZON STOW |      RM2 | Medium |     2,2 | 60211.672088 |   13.37 |     0.0 | 9849.9375 |   78.6 |    0.0 |     0.0 |   BIAS |    Sky |     0
+data end
+

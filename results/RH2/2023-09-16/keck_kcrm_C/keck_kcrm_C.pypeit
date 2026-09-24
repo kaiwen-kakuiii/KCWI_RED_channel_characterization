@@ -1,0 +1,59 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-25T01:43:26.590+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+[calibrations]
+    [[wavelengths]]
+        method = full_template
+        reid_arxiv = /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/pypeit_test/keck_kcrm_RH2.fits
+
+[reduce]
+    [[skysub]]
+        user_regions = :41,68:
+
+# Setup
+setup read
+Setup C:
+  binning: 2,2
+  cenwave: 6949.9941406
+  decker: Large
+  dispname: RH2
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH2/2023-09-16
+                 filename |            frametype |                ra |               dec |  target | dispname | decker | binning |          mjd | airmass |      exptime |      cenwave | posang | ra_off | dec_off |   idname | calpos | calib
+KR.20230917.09635.90.fits |                align | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.111523 |    1.41 | 11.600011776 | 6949.9941406 |    0.0 |    0.0 |     0.0 | CONTBARS | Mirror |     2
+KR.20230917.09671.81.fits |                align | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.111936 |    1.41 | 11.600011776 | 6949.9941406 |    0.0 |    0.0 |     0.0 | CONTBARS | Mirror |     2
+KR.20230917.09707.51.fits |                align | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.112361 |    1.41 |  11.60001152 | 6949.9941406 |    0.0 |    0.0 |     0.0 | CONTBARS | Mirror |     2
+KR.20230917.09791.15.fits |                  arc | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 |  60204.11333 |    1.41 | 20.100019968 | 6949.9941406 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+KR.20230917.09836.30.fits |                  arc | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.113837 |    1.41 | 20.100020224 | 6949.9941406 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+KR.20230917.09880.91.fits |                  arc | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.114357 |    1.41 | 20.100019968 | 6949.9941406 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+KR.20230917.07490.30.fits |                 bias | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.086696 |    1.41 |          0.0 | 7099.9731445 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+KR.20230917.07533.89.fits |                 bias | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.087204 |    1.41 |          0.0 | 7099.9731445 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+KR.20230917.07577.75.fits |                 bias | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.087711 |    1.41 |          0.0 | 7099.9731445 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+KR.20230917.07621.61.fits |                 bias | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.088219 |    1.41 |          0.0 | 7099.9731445 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+KR.20230917.07665.47.fits |                 bias | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.088715 |    1.41 |          0.0 | 7099.9731445 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+KR.20230917.07709.33.fits |                 bias | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.089223 |    1.41 |          0.0 | 7099.9731445 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+KR.20230917.07753.19.fits |                 bias | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 |  60204.08973 |    1.41 |          0.0 | 7099.9731445 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+KR.20230917.10588.79.fits |      illumflat,trace | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 |  60204.12255 |    1.41 | 60.000059904 | 6949.9941406 |    0.0 |    0.0 |     0.0 | DOMEFLAT |    Sky |     2
+KR.20230917.10692.83.fits |      illumflat,trace | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.123754 |    1.41 |  60.00006016 | 6949.9941406 |    0.0 |    0.0 |     0.0 | DOMEFLAT |    Sky |     2
+KR.20230917.10796.87.fits |      illumflat,trace | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 |  60204.12497 |    1.41 | 60.000059904 | 6949.9941406 |    0.0 |    0.0 |     0.0 | DOMEFLAT |    Sky |     2
+KR.20230917.10094.90.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.116836 |    1.41 | 11.600011776 | 6949.9941406 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+KR.20230917.10150.19.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.117473 |    1.41 |  11.60001152 | 6949.9941406 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+KR.20230917.10205.27.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.118123 |    1.41 | 11.600011776 | 6949.9941406 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+KR.20230917.10260.35.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 |  60204.11876 |    1.41 | 11.600011776 | 6949.9941406 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+KR.20230917.10316.45.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.119409 |    1.41 | 11.600011776 | 6949.9941406 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+KR.20230917.10372.55.fits | pixelflat,scattlight | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.120047 |    1.41 | 11.600011776 | 6949.9941406 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+KR.20230917.55615.72.fits |              science | 76.37758333333332 | 52.83166666666667 | g191b2b |      RH2 |  Large |     2,2 | 60204.643706 |    1.19 | 90.000090112 | 6949.9941406 |   90.0 |    0.0 |     0.0 |   OBJECT |    Sky |     2
+KR.20230917.55751.38.fits |              science | 76.37758333333332 | 52.83166666666667 | g191b2b |      RH2 |  Large |     2,2 | 60204.645265 |    1.19 | 90.000090112 | 6949.9941406 |   90.0 |    0.0 |     0.0 |   OBJECT |    Sky |     2
+KR.20230917.55886.20.fits |              science | 76.37758333333332 | 52.83166666666667 | g191b2b |      RH2 |  Large |     2,2 | 60204.646823 |    1.19 | 90.000089856 | 6949.9941406 |   90.0 |    0.0 |     0.0 |   OBJECT |    Sky |     2
+KR.20230917.09944.15.fits |                 tilt | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.115089 |    1.41 | 20.100020224 | 6949.9941406 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+KR.20230917.09989.30.fits |                 tilt | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.115608 |    1.41 | 20.100020224 | 6949.9941406 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+KR.20230917.10032.89.fits |                 tilt | 63.99999999999999 |              45.0 | unknown |      RH2 |  Large |     2,2 | 60204.116127 |    1.41 | 20.100020224 | 6949.9941406 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+data end
+

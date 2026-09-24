@@ -1,0 +1,7 @@
+# IR sensfunc; trim = counts criterion AND full
+# slice-coverage interval (measure_trim.py --spec2d).
+[sensfunc]
+    algorithm = IR
+    extr = BOX
+    trim_std_pixs = 209, 206
+    polyorder = 5

@@ -1,0 +1,15 @@
+# Coadd feige110 frames for 2024-12-04 keck_kcrm_C into one datacube.
+[rdx]
+    spectrograph = keck_kcrm
+
+[reduce]
+    [[cube]]
+        combine = True
+        output_filename = feige110_2024-12-04_C.fits
+        save_whitelight = True
+
+spec2d read
+filename
+Science/spec2d_KR.20241205.17114.49-feige110_KCRM_20241205T044514.458.fits
+Science/spec2d_KR.20241205.17226.69-feige110_KCRM_20241205T044706.691.fits
+spec2d end

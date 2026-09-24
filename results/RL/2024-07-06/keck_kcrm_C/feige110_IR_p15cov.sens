@@ -1,0 +1,10 @@
+# IR sensfunc, polyorder=15, trim = counts criterion AND full slice-coverage
+# interval (wavelengths recorded by ALL slices in ALL frames, from spec2d
+# WAVEIMG). Partial-coverage zones (~465 A each end) hold a changing subset of
+# slices, so extraction sums an incomplete star image: counts biased up to
+# ~0.2 mag with normal-looking counts. See measure_trim.py --spec2d.
+[sensfunc]
+    algorithm = IR
+    extr = BOX
+    trim_std_pixs = 264, 263
+    polyorder = 15

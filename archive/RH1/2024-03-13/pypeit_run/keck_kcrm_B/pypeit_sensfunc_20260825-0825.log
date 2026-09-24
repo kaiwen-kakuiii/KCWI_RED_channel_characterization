@@ -1,0 +1,100 @@
+ WARNING | 2026-08-24 22:25:56 | keck_kcwi.py:config_specific_par:156 | Full template solution is unavailable
+    INFO | 2026-08-24 22:25:56 | keck_kcwi.py:config_specific_par:157 | Adopting holy-grail algorithm - Check the wavelength solution!
+    INFO | 2026-08-24 22:25:56 | inputfiles.py:from_file:136 | Loading the reduction file
+    INFO | 2026-08-24 22:25:56 | inputfiles.py:from_file:214 | Sens input file loaded successfully.
+    INFO | 2026-08-24 22:25:56 | sensfunc.py:main:198 | Writing the parameters to sensfunc.par
+ WARNING | 2026-08-24 22:25:56 | parset.py:to_config:662 | Selected configuration file already exists and will be overwritten!
+    INFO | 2026-08-24 22:25:56 | spectrograph.py:tweak_standard:2160 | Trimming standard star spectrum by 138 pixels at the start and 134 pixels at the end.
+    INFO | 2026-08-24 22:25:56 | standard.py:from_coordinates:227 | Using object FEIGE34 in archive "calspec" (sep = 0.02 arcmin).
+    INFO | 2026-08-24 22:25:56 | pypeitdata.py:get_file_path:300 | feige34_stis_006.fits.gz does not exist in the expected package directory (/opt/miniconda3/envs/pypeit/lib/python3.13/site-packages/pypeit/data/standards/calspec).  Checking cache or downloading the file now.
+    INFO | 2026-08-24 22:25:56 | flux_calib.py:get_mask:495 |  Masking bad pixels
+    INFO | 2026-08-24 22:25:56 | flux_calib.py:get_mask:500 |  Masking edges
+    INFO | 2026-08-24 22:25:56 | flux_calib.py:get_mask:503 |  Masking Below the atmospheric cutoff
+    INFO | 2026-08-24 22:25:56 | flux_calib.py:mask_stellar_hydrogen:585 | Masking hydrogen recombination lines
+    INFO | 2026-08-24 22:25:56 | flux_calib.py:mask_stellar_hydrogen:588 |  Masking Balmer
+    INFO | 2026-08-24 22:25:56 | flux_calib.py:mask_stellar_hydrogen:599 |  Masking Paschen
+    INFO | 2026-08-24 22:25:56 | flux_calib.py:mask_stellar_hydrogen:610 |  Masking Brackett
+    INFO | 2026-08-24 22:25:56 | flux_calib.py:mask_stellar_hydrogen:619 |  Masking Pfund
+    INFO | 2026-08-24 22:25:56 | telluric.py:__init__:2453 | Reading in the pca-based telluric model: TellPCA_3000_26000_R15000.fits
+    INFO | 2026-08-24 22:25:56 | pypeitdata.py:get_file_path:300 | TellPCA_3000_26000_R15000.fits does not exist in the expected package directory (/opt/miniconda3/envs/pypeit/lib/python3.13/site-packages/pypeit/data/telluric/atm_grids).  Checking cache or downloading the file now.
+ WARNING | 2026-08-24 22:25:57 | cache.py:fetch_remote_file:242 | Note: If this file takes a while to download, you may wish to used one of the install scripts (e.g., pypeit_install_telluric) to install the file independent of this processing script.
+    INFO | 2026-08-24 22:25:57 | telluric.py:__init__:2510 | Initializing object model for order: 0, 1/1 with user supplied function: init_sensfunc_model
+    INFO | 2026-08-24 22:25:57 | telluric.py:run:2593 | Fitting object + telluric model for order: 0, 1/1 with user supplied function: init_sensfunc_model
+ WARNING | 2026-08-24 22:26:09 | coadd.py:renormalize_errors:120 | Error renormalization found correction factor sigma_corr = 0.3293199800549766 < 1.
+Errors are overestimated so not applying correction.
+ WARNING | 2026-08-24 22:26:18 | coadd.py:renormalize_errors:120 | Error renormalization found correction factor sigma_corr = 0.33231867946403615 < 1.
+Errors are overestimated so not applying correction.
+ WARNING | 2026-08-24 22:26:18 | fitting.py:robust_optimize:626 | Maximum number of iterations maxiter=2 reached in robust_optimize
+    INFO | 2026-08-24 22:26:18 | specobj.py:apply_flux_calib:596 | Fluxing BOX extraction for:
+<SpecObj:  items={sign: True
+OPT_WAVE: True
+OPT_COUNTS: True
+OPT_COUNTS_IVAR: True
+OPT_COUNTS_SIG: True
+OPT_MASK: True
+OPT_COUNTS_SKY: True
+OPT_FRAC_USE: True
+OPT_CHI2: True
+BOX_WAVE: True
+BOX_COUNTS: True
+BOX_COUNTS_IVAR: True
+BOX_COUNTS_SIG: True
+BOX_MASK: True
+BOX_COUNTS_SKY: True
+BOX_R_PIX: True
+S2N: True
+FLEX_SHIFT_GLOBAL: True
+FLEX_SHIFT_LOCAL: True
+FLEX_SHIFT_TOTAL: True
+DET: DET01
+PYPELINE: True
+PYP_SPEC: True
+OBJTYPE: True
+SLITID: 0
+NAME: SPAT-----SLIT0000-DET01
+RA: 159.89675892269
+DEC: 43.099917750941
+hand_extract_flag: True
+>
+    INFO | 2026-08-24 22:26:18 | flux_calib.py:get_sensfunc_factor:281 | Applying telluric correction
+ WARNING | 2026-08-24 22:26:18 | specobj.py:apply_flux_calib:610 | RuntimeWarning: invalid value encountered in divide
+ WARNING | 2026-08-24 22:26:18 | specobj.py:apply_flux_calib:611 | RuntimeWarning: divide by zero encountered in divide
+ WARNING | 2026-08-24 22:26:18 | specobj.py:apply_flux_calib:611 | RuntimeWarning: invalid value encountered in divide
+    INFO | 2026-08-24 22:26:18 | specobj.py:apply_flux_calib:614 |  Masking bad pixels
+    INFO | 2026-08-24 22:26:18 | specobj.py:apply_flux_calib:596 | Fluxing OPT extraction for:
+<SpecObj:  items={sign: True
+OPT_WAVE: True
+OPT_COUNTS: True
+OPT_COUNTS_IVAR: True
+OPT_COUNTS_SIG: True
+OPT_MASK: True
+OPT_COUNTS_SKY: True
+OPT_FRAC_USE: True
+OPT_CHI2: True
+BOX_WAVE: True
+BOX_FLAM: True
+BOX_FLAM_SIG: True
+BOX_FLAM_IVAR: True
+BOX_COUNTS: True
+BOX_COUNTS_IVAR: True
+BOX_COUNTS_SIG: True
+BOX_MASK: True
+BOX_COUNTS_SKY: True
+BOX_R_PIX: True
+S2N: True
+FLEX_SHIFT_GLOBAL: True
+FLEX_SHIFT_LOCAL: True
+FLEX_SHIFT_TOTAL: True
+DET: DET01
+PYPELINE: True
+PYP_SPEC: True
+OBJTYPE: True
+SLITID: 0
+NAME: SPAT-----SLIT0000-DET01
+RA: 159.89675892269
+DEC: 43.099917750941
+hand_extract_flag: True
+>
+    INFO | 2026-08-24 22:26:18 | flux_calib.py:get_sensfunc_factor:281 | Applying telluric correction
+    INFO | 2026-08-24 22:26:18 | specobj.py:apply_flux_calib:614 |  Masking bad pixels
+    INFO | 2026-08-24 22:26:18 | io.py:write_to_fits:672 | File written to: feige34_2024-03-13_B_sens_IR_p15cov.fits

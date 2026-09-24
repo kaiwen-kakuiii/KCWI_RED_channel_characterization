@@ -1,0 +1,30 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-26T11:11:43.571+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+# Setup
+setup read
+Setup A:
+  binning: 2,2
+  cenwave: 0.0
+  decker: Large
+  dispname: None
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RM1/2023-12-10
+                   filename | frametype |                 ra |  dec |  target | dispname | decker | binning |          mjd | airmass | exptime |      cenwave | posang | ra_off | dec_off | idname | calpos | calib
+# KR.20231210.83322.83.fits |      None | 180.99999999999997 | 90.0 | unknown |     None |  Large |     2,2 | 60288.964385 |     1.0 |     0.0 |          0.0 | -259.8 |    0.0 |     0.0 |   DARK |    Sky |     0
+  KR.20231211.04563.30.fits |      bias |  63.99999999999999 | 45.0 | unknown |      RM1 |  Large |     2,2 | 60289.052822 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231211.04608.18.fits |      bias |  63.99999999999999 | 45.0 | unknown |      RM1 |  Large |     2,2 |  60289.05333 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231211.04652.40.fits |      bias |  63.99999999999999 | 45.0 | unknown |      RM1 |  Large |     2,2 | 60289.053837 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231211.04695.90.fits |      bias |  63.99999999999999 | 45.0 | unknown |      RM1 |  Large |     2,2 | 60289.054345 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231211.04738.74.fits |      bias |  63.99999999999999 | 45.0 | unknown |      RM1 |  Large |     2,2 | 60289.054852 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231211.04782.60.fits |      bias |  63.99999999999999 | 45.0 | unknown |      RM1 |  Large |     2,2 |  60289.05536 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231211.04826.47.fits |      bias |  63.99999999999999 | 45.0 | unknown |      RM1 |  Large |     2,2 | 60289.055868 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+data end
+

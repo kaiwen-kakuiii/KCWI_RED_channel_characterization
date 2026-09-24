@@ -1,0 +1,54 @@
+    INFO | 2026-08-06 12:38:57 | pypeitsetup.py:from_file_root:197 | Found 29 keck_kcrm raw files.
+    INFO | 2026-08-06 12:38:57 | metadata.py:_build:206 | Building metadata for 29 files.
+    INFO | 2026-08-06 12:38:57 | metadata.py:_build:235 | Adding metadata for KR.20231218.00648.82.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.09492.99.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.09576.63.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.09657.22.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.09742.90.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.09794.92.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.09845.92.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.09916.30.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.09968.32.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.10019.32.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.10124.38.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.10266.16.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.10407.94.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.10549.73.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.10691.51.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.10833.29.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.11408.57.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.11670.71.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.11931.83.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.12192.95.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.12455.90.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.12716.21.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.15056.10.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.15288.66.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.15657.90.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.17261.35.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.17512.28.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.17770.37.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:_build:235 | Adding metadata for KR.20231218.18023.38.fits
+ WARNING | 2026-08-06 12:38:58 | metadata.py:_vet_instrument:180 | The instrument name in the headers of the raw files does not match the expected one! Found KCWI, expected KCRM.  You may have chosen the wrong PypeIt spectrograph name!
+    INFO | 2026-08-06 12:38:58 | metadata.py:get_frame_types:1391 | Typing files
+   DEBUG | 2026-08-06 12:38:58 | keck_kcwi.py:check_frame_type:433 | Cannot determine if frames are of type lampoffflats.
+   DEBUG | 2026-08-06 12:38:58 | keck_kcwi.py:check_frame_type:433 | Cannot determine if frames are of type slitless_pixflat.
+   DEBUG | 2026-08-06 12:38:58 | keck_kcwi.py:check_frame_type:433 | Cannot determine if frames are of type standard.
+   DEBUG | 2026-08-06 12:38:58 | keck_kcwi.py:check_frame_type:433 | Cannot determine if frames are of type sky.
+    INFO | 2026-08-06 12:38:58 | metadata.py:get_frame_types:1432 | Couldn't identify the following files:
+    INFO | 2026-08-06 12:38:58 | metadata.py:get_frame_types:1434 | KR.20231218.00648.82.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:get_frame_types:1434 | KR.20231218.15056.10.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:get_frame_types:1434 | KR.20231218.15288.66.fits
+    INFO | 2026-08-06 12:38:58 | metadata.py:get_frame_types:1434 | KR.20231218.15657.90.fits
+ WARNING | 2026-08-06 12:38:58 | metadata.py:get_frame_types:1437 | These files are commented out and will be ignored during the reduction.
+    INFO | 2026-08-06 12:38:58 | metadata.py:get_frame_types:1444 | Typing completed!
+    INFO | 2026-08-06 12:38:58 | metadata.py:unique_configurations:709 | Using metadata to determine unique configurations.
+    INFO | 2026-08-06 12:38:58 | metadata.py:ignore_frames:1203 | Unique configurations ignore frames with type: ['bias', 'dark']
+    INFO | 2026-08-06 12:38:58 | metadata.py:unique_configurations:766 | Found 2 unique configuration(s).
+    INFO | 2026-08-06 12:38:58 | metadata.py:ignore_frames:1203 | Unique configurations ignore frames with type: ['bias', 'dark']
+    INFO | 2026-08-06 12:38:58 | inputfiles.py:vet:685 | PypeIt file successfully vetted.
+    INFO | 2026-08-06 12:38:58 | inputfiles.py:write:592 | PypeIt input file written to: /Users/kaiwenzhang/PycharmProjects/KCWI/pyKOA/pypeit_test/keck_kcrm_A/keck_kcrm_A.pypeit
+    INFO | 2026-08-06 12:38:58 | inputfiles.py:vet:685 | PypeIt file successfully vetted.
+    INFO | 2026-08-06 12:38:58 | inputfiles.py:write:592 | PypeIt input file written to: /Users/kaiwenzhang/PycharmProjects/KCWI/pyKOA/pypeit_test/keck_kcrm_B/keck_kcrm_B.pypeit
+    INFO | 2026-08-06 12:38:58 | calibrations.py:association_summary:1731 | Calibration association file written to: /Users/kaiwenzhang/PycharmProjects/KCWI/pyKOA/pypeit_test/keck_kcrm_A/keck_kcrm_A.calib
+    INFO | 2026-08-06 12:38:58 | calibrations.py:association_summary:1731 | Calibration association file written to: /Users/kaiwenzhang/PycharmProjects/KCWI/pyKOA/pypeit_test/keck_kcrm_B/keck_kcrm_B.calib

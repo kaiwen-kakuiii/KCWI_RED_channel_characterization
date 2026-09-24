@@ -1,0 +1,14 @@
+2024-10-01/keck_kcrm_B: decker Medium, cenwave 8400
+   template keck_kcrm_RH3_8400.fits
+   lamps    ThArRH3_lines.dat -- the arc frames are ThAr, so the catalogue must be ThAr
+patched keck_kcrm_B.pypeit
+removed the holy-grail Calibrations/ so it cannot be reused
+running calibrations ... (log: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH3 pypeit run/2024-10-01/pypeit_run/keck_kcrm_B/gate.log)
+
+run_pypeit -c returned 0
+slices solved, unflagged and unshifted: 24 / 24
+   rms  median 0.160  max 0.825 binned px
+   17 meet the stricter seed criteria, spanning 7933.9-8851.7 A
+
+PASS: template solved 24/24 slices
+NOTE: self-consistency only -- 2024-10-01 is one of the nights this template was seeded from (2024-10-01), so this re-solves the arc it came from, as RH4's gate did.

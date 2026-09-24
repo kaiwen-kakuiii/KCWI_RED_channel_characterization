@@ -1,0 +1,19 @@
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mpypeitdata.py:get_file_path:300[0m - keck_kcrm_RM1.fits does not exist in the expected package directory (/opt/miniconda3/envs/pypeit/lib/python3.13/site-packages/pypeit/data/arc_lines/reid_arxiv).  Checking cache or downloading the file now.
+2023-12-11/keck_kcrm_C: decker Large, cenwave 6630
+   template keck_kcrm_RM1.fits   (PypeIt's own)
+   setup covers ~5902-7358 A, template covers 6293-7734 A -> 73% of the detector has template under it
+   provenance: cannot be determined from the file (PypeIt ships no SEEDNITE header)
+   lamps    PypeIt's default FeI/ArI/ArII.  Measured on 2023-12-10 C: 70-80 lines fitted per slit, so unlike RH3/RH4 no custom catalogue is needed
+patched keck_kcrm_C.pypeit
+removed the previous Calibrations/ so it cannot be reused
+running calibrations ... (log: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2023-12-11/pypeit_run/keck_kcrm_C/gate.log)
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2023-12-11/pypeit_run/keck_kcrm_C/Calibrations/WaveCalib_C_2_DET01.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2023-12-11/pypeit_run/keck_kcrm_C/Calibrations/Slits_C_2_DET01.fits.gz
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2023-12-11/pypeit_run/keck_kcrm_C/Calibrations/WaveCalib_C_2_DET01.fits
+
+run_pypeit -c returned 0
+slices solved, unflagged and unshifted: 24 / 24
+   rms median 0.184 px, worst 0.240 px
+   24 / 24 also meet the strict seed criteria
+
+PASS: 24/24 usable slices (needed 24), run_pypeit rc=0, all six calibration products present

@@ -1,0 +1,20 @@
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2024-04-01/pypeit_run/keck_kcrm_A/Calibrations/WaveCalib_A_0_DET01.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2024-04-01/pypeit_run/keck_kcrm_A/Calibrations/WaveCalib_A_0_DET01.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mtemplates.py:build_template:146[0m - wvmin, wvmax of /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2024-04-01/pypeit_run/keck_kcrm_A/Calibrations/WaveCalib_A_0_DET01.fits: 5340.94990641434, 6830.092750175929
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2024-04-01/pypeit_run/keck_kcrm_A/Calibrations/WaveCalib_A_0_DET01.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mtemplates.py:build_template:146[0m - wvmin, wvmax of /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2024-04-01/pypeit_run/keck_kcrm_A/Calibrations/WaveCalib_A_0_DET01.fits: 5365.549549492618, 6850.008107351778
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mwvutils.py:write_template:956[0m - Your arxiv solution has been written to /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/pypeit_test/_tmp_keck_kcrm_RM1_6130_small.fits
+
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mwvutils.py:write_template:972[0m - Please consider sharing your solution with the PypeIt Developers.
+scanning RM1 WaveCalib files: decker Small, seed cenwaves [6130], slice span window 1200-1700 A ...
+  ++ 2024-04-01/keck_kcrm_A (Small, 6130):  6 usable slices, 5340.9-6850.0 A, best rms 0.118, bin 1
+
+stitching 2 seed(s):
+   2024-04-01/keck_kcrm_A (cw 6130) spat 2623  5340.9-6830.1 A  rms 0.177  disp 0.3583
+   2024-04-01/keck_kcrm_A (cw 6130) spat 3211  5365.5-6850.0 A  rms 0.400  disp 0.3578
+   overlap 1465 A -> stitch at 6097.8 A
+
+
+wrote /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/pypeit_test/keck_kcrm_RM1_6130_small.fits
+   5340.9-6849.6 A, 4161 px, 0.3579 A/px, binspec 1
+   an RM1 exposure is 1456 A wide, so this covers 100% of one

@@ -1,0 +1,38 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-18T21:46:24.687+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+# Setup
+setup read
+Setup A:
+  binning: 2,2
+  cenwave: -3383.7019043
+  decker: FPCam
+  dispname: RM2
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/2024-12-22
+                   filename | frametype |                ra |   dec |  target | dispname | decker | binning |          mjd | airmass | exptime |       cenwave | posang | ra_off | dec_off | idname | calpos | calib
+# KR.20241222.84885.92.fits |      None |             341.0 | 0.081 | unknown |      RM2 |  FPCam |     2,2 | 60666.982476 |   13.37 |     0.0 | -3383.7019043 |    0.0 |    0.0 |     0.0 |   DARK |    Sky |     0
+  KR.20241222.84039.32.fits |      bias |             341.0 | 0.081 | unknown |     None |   Home |     2,2 | 60666.972677 |   13.37 |     0.0 |           0.0 |    0.0 |    0.0 |     0.0 |   BIAS |   Home |     0
+  KR.20241223.04474.29.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RM2 | Medium |     2,2 | 60667.051786 |    1.41 |     0.0 |     9849.9375 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.04518.15.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RM2 | Medium |     2,2 | 60667.052294 |    1.41 |     0.0 |     9849.9375 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.04562.10.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RM2 | Medium |     2,2 | 60667.052801 |    1.41 |     0.0 |     9849.9375 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.04605.87.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RM2 | Medium |     2,2 | 60667.053309 |    1.41 |     0.0 |     9849.9375 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.04649.73.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RM2 | Medium |     2,2 | 60667.053816 |    1.41 |     0.0 |     9849.9375 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.04693.59.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RM2 | Medium |     2,2 | 60667.054324 |    1.41 |     0.0 |     9849.9375 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.04737.45.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RM2 | Medium |     2,2 | 60667.054832 |    1.41 |     0.0 |     9849.9375 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.09699.75.fits |      bias | 63.99999999999999 |  45.0 | unknown |       RL |  Large |     2,2 | 60667.112266 |    1.41 |     0.0 |  7149.8920898 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.09743.61.fits |      bias | 63.99999999999999 |  45.0 | unknown |       RL |  Large |     2,2 | 60667.112773 |    1.41 |     0.0 |  7149.8920898 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.09787.47.fits |      bias | 63.99999999999999 |  45.0 | unknown |       RL |  Large |     2,2 | 60667.113281 |    1.41 |     0.0 |  7149.8920898 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.09831.33.fits |      bias | 63.99999999999999 |  45.0 | unknown |       RL |  Large |     2,2 | 60667.113789 |    1.41 |     0.0 |  7149.8920898 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.09875.19.fits |      bias | 63.99999999999999 |  45.0 | unknown |       RL |  Large |     2,2 | 60667.114296 |    1.41 |     0.0 |  7149.8920898 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.09919.50.fits |      bias | 63.99999999999999 |  45.0 | unknown |       RL |  Large |     2,2 | 60667.114804 |    1.41 |     0.0 |  7149.8920898 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241223.09962.91.fits |      bias | 63.99999999999999 |  45.0 | unknown |       RL |  Large |     2,2 | 60667.115312 |    1.41 |     0.0 |  7149.8920898 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+data end
+

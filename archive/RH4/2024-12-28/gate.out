@@ -1,0 +1,17 @@
+2024-12-28/keck_kcrm_B: decker Large
+   template keck_kcrm_RH4.fits
+   lamps    ThArRH4_lines.dat
+patched keck_kcrm_B.pypeit
+removed the holy-grail Calibrations/ so it cannot be reused
+running calibrations ... (log: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH4 pypeit run/2024-12-28/pypeit_run/keck_kcrm_B/gate.log)
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH4 pypeit run/2024-12-28/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH4 pypeit run/2024-12-28/pypeit_run/keck_kcrm_B/Calibrations/Slits_B_1_DET01.fits.gz
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH4 pypeit run/2024-12-28/pypeit_run/keck_kcrm_B/Calibrations/WaveCalib_B_1_DET01.fits
+
+run_pypeit -c returned 0
+slices solved, unflagged and unshifted: 24 / 24
+   rms  median 0.290  max 0.419 binned px
+   24 meet the stricter seed criteria, spanning 9415.3-10459.9 A
+
+PASS: template solved 24/24 slices
+NOTE: this is a self-consistency check -- RH4 has only the one night, so the template was gated on the arc it was seeded from.

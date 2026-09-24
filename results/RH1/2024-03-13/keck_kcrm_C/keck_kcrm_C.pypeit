@@ -1,0 +1,28 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-24T04:11:24.790+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+# Setup
+setup read
+Setup C:
+  binning: 2,2
+  cenwave: 0.0
+  decker: Large
+  dispname: None
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2024-03-13
+                   filename | frametype |                ra |  dec |  target | dispname | decker | binning |          mjd | airmass | exptime |      cenwave | posang | ra_off | dec_off | idname | calpos | calib
+# KR.20240314.77083.22.fits |      None |               0.0 |  0.0 |         |     None |  Large |     2,2 | 60383.892167 |    1.14 |     0.0 |          0.0 |    0.0 |    0.0 |     0.0 |   DARK |    Sky |     2
+  KR.20240314.06884.77.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 | 60383.079679 |    1.41 |     0.0 | 6849.9902344 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     2
+  KR.20240314.08166.51.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 |  60383.09452 |    1.41 |     0.0 | 6849.9902344 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     2
+  KR.20240314.08210.38.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 | 60383.095028 |    1.41 |     0.0 | 6849.9902344 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     2
+  KR.20240314.08254.24.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 | 60383.095535 |    1.41 |     0.0 | 6849.9902344 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     2
+  KR.20240314.08298.10.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 | 60383.096043 |    1.41 |     0.0 | 6849.9902344 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     2
+data end
+

@@ -1,0 +1,46 @@
+########## 2023-11-12  11:30:42
+2023-11-12/keck_kcrm_B: decker Medium, cenwave 8600
+   template keck_kcrm_RH3_8600.fits
+   lamps    ThArRH3_lines.dat -- the arc frames are ThAr, so the catalogue must be ThAr
+patched keck_kcrm_B.pypeit
+removed the holy-grail Calibrations/ so it cannot be reused
+running calibrations ... (log: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH3 pypeit run/2023-11-12/pypeit_run/keck_kcrm_B/gate.log)
+
+run_pypeit -c returned 0
+slices solved, unflagged and unshifted: 24 / 24
+   rms  median 0.104  max 0.168 binned px
+   24 meet the stricter seed criteria, spanning 8136.9-9038.4 A
+
+PASS: template solved 24/24 slices
+NOTE: independent -- this night's seeds are not the only ones at cenwave 8600 (2024-10-29 also seed it), so a template built from those and passing here demonstrates generalisation, not reproduction.
+########## 2024-11-06  11:40:01
+2024-11-06/keck_kcrm_B: decker Medium, cenwave 8600
+   template keck_kcrm_RH3_8600.fits
+   lamps    ThArRH3_lines.dat -- the arc frames are ThAr, so the catalogue must be ThAr
+patched keck_kcrm_B.pypeit
+removed the holy-grail Calibrations/ so it cannot be reused
+running calibrations ... (log: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH3 pypeit run/2024-11-06/pypeit_run/keck_kcrm_B/gate.log)
+
+run_pypeit -c returned 0
+slices solved, unflagged and unshifted: 24 / 24
+   rms  median 0.114  max 0.156 binned px
+   24 meet the stricter seed criteria, spanning 8136.4-9037.8 A
+
+PASS: template solved 24/24 slices
+NOTE: independent -- this night's seeds are not the only ones at cenwave 8600 (2023-11-12, 2024-10-29 also seed it), so a template built from those and passing here demonstrates generalisation, not reproduction.
+########## 2024-10-29  11:49:46
+2024-10-29/keck_kcrm_B: decker Medium, cenwave 8600
+   template keck_kcrm_RH3_8600.fits
+   lamps    ThArRH3_lines.dat -- the arc frames are ThAr, so the catalogue must be ThAr
+patched keck_kcrm_B.pypeit
+removed the holy-grail Calibrations/ so it cannot be reused
+running calibrations ... (log: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH3 pypeit run/2024-10-29/pypeit_run/keck_kcrm_B/gate.log)
+
+run_pypeit -c returned 0
+slices solved, unflagged and unshifted: 24 / 24
+   rms  median 0.117  max 0.171 binned px
+   24 meet the stricter seed criteria, spanning 8136.4-9037.8 A
+
+PASS: template solved 24/24 slices
+NOTE: independent -- this night's seeds are not the only ones at cenwave 8600 (2023-11-12, 2024-11-06 also seed it), so a template built from those and passing here demonstrates generalisation, not reproduction.
+GATES DONE 11:59:27

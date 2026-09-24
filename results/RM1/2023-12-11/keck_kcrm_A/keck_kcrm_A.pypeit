@@ -1,0 +1,31 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-26T11:11:46.322+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+# Setup
+setup read
+Setup A:
+  binning: 2,2
+  cenwave: 0.0
+  decker: Large
+  dispname: None
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RM1/2023-12-11
+                   filename | frametype |                 ra |                dec |          target | dispname | decker | binning |          mjd | airmass | exptime |      cenwave | posang | ra_off | dec_off | idname | calpos | calib
+# KR.20231211.81849.26.fits |      None | 181.79999999999998 |               90.0 |         unknown |     None |  Large |     2,2 | 60289.947324 |     1.0 |     0.0 |          0.0 | -259.8 |    0.0 |     0.0 |   DARK |    Sky |     0
+  KR.20231212.04221.16.fits |      bias |  63.99999999999999 |               45.0 |         unknown |      RM1 |  Large |     2,2 | 60290.048856 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231212.04265.20.fits |      bias |  63.99999999999999 |               45.0 |         unknown |      RM1 |  Large |     2,2 | 60290.049364 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231212.04308.88.fits |      bias |  63.99999999999999 |               45.0 |         unknown |      RM1 |  Large |     2,2 | 60290.049871 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231212.04352.74.fits |      bias |  63.99999999999999 |               45.0 |         unknown |      RM1 |  Large |     2,2 | 60290.050379 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231212.04396.60.fits |      bias |  63.99999999999999 |               45.0 |         unknown |      RM1 |  Large |     2,2 | 60290.050887 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231212.04440.46.fits |      bias |  63.99999999999999 |               45.0 |         unknown |      RM1 |  Large |     2,2 | 60290.051394 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231212.04484.32.fits |      bias |  63.99999999999999 |               45.0 |         unknown |      RM1 |  Large |     2,2 | 60290.051902 |    1.41 |     0.0 | 7509.9663086 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231212.24622.53.fits |      bias | 26.936666666666664 | 0.8183333333333334 | J0147a_offset6_ |      RM1 |  Large |     2,2 | 60290.284983 |    1.06 |     0.0 | 7509.9663086 |   0.01 |    0.0 |     2.0 |   BIAS |    Sky |     0
+data end
+

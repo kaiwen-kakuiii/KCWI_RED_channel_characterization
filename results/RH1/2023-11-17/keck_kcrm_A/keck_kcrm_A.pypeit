@@ -1,0 +1,30 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-24T04:07:23.493+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+# Setup
+setup read
+Setup A:
+  binning: 2,2
+  cenwave: 7794.5419922
+  decker: FPCam
+  dispname: RM2
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/RH1/2023-11-17
+                   filename | frametype |                ra |  dec |  target | dispname | decker | binning |          mjd | airmass | exptime |      cenwave | posang | ra_off | dec_off | idname | calpos | calib
+# KR.20231118.01796.61.fits |      None | 63.99999999999999 | 45.0 | unknown |      RM2 |  FPCam |     2,2 | 60266.020794 |    1.41 |     0.0 | 7794.5419922 |    0.0 |    0.0 |     0.0 |   DARK |    Sky |     0
+  KR.20231118.04534.90.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 | 60266.052487 |    1.41 |     0.0 | 6899.9736328 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231118.04578.77.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 | 60266.052995 |    1.41 |     0.0 | 6899.9736328 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231118.04622.64.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 | 60266.053503 |    1.41 |     0.0 | 6899.9736328 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231118.04665.51.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 | 60266.053999 |    1.41 |     0.0 | 6899.9736328 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231118.04709.38.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 | 60266.054507 |    1.41 |     0.0 | 6899.9736328 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231118.04753.25.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 | 60266.055014 |    1.41 |     0.0 | 6899.9736328 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20231118.04797.11.fits |      bias | 63.99999999999999 | 45.0 | unknown |      RH2 |  Large |     2,2 | 60266.055522 |    1.41 |     0.0 | 6899.9736328 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+data end
+

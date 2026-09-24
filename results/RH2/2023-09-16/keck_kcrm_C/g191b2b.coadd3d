@@ -1,0 +1,14 @@
+[rdx]
+    spectrograph = keck_kcrm
+[reduce]
+    [[cube]]
+        combine = True
+        output_filename = g191b2b_2023-09-16_C.fits
+        save_whitelight = True
+
+spec2d read
+filename
+Science/spec2d_KR.20230917.55615.72-g191b2b_KCRM_20230917T152656.198.fits
+Science/spec2d_KR.20230917.55751.38-g191b2b_KCRM_20230917T152910.896.fits
+Science/spec2d_KR.20230917.55886.20-g191b2b_KCRM_20230917T153125.507.fits
+spec2d end

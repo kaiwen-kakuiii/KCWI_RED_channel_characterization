@@ -1,0 +1,11 @@
+2024-04-01/keck_kcrm_A: decker Small, cenwave 6130
+   template keck_kcrm_RM1_6300.fits   (built here)
+   setup covers ~5402-6858 A, template covers 5480-7108 A -> 95% of the detector has template under it
+   provenance: seeded from 2024-03-15/keck_kcrm_B,2024-05-02/keck_kcrm_B -- this gate is an INDEPENDENT test of whether the template generalises
+   lamps    PypeIt's default FeI/ArI/ArII.  Measured on 2023-12-10 C: 70-80 lines fitted per slit, so unlike RH3/RH4 no custom catalogue is needed
+patched keck_kcrm_A.pypeit
+removed the previous Calibrations/ so it cannot be reused
+running calibrations ... (log: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2024-04-01/pypeit_run/keck_kcrm_A/gate.log)
+
+*** run_pypeit returned 1 and did not write: Flat -- see /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2024-04-01/pypeit_run/keck_kcrm_A/gate.log
+FAIL: the calibration is incomplete regardless of how the wavelength solution looks.  Missing Flat.

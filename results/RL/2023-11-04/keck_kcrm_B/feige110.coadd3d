@@ -1,0 +1,22 @@
+# Coadd the four feige110 exposures of 2023-12-17 into one datacube.
+#
+# All four sit at the same pointing -- ra_off = dec_off = 0, identical RA/DEC --
+# so combine works without alignment.  4 x 120 s, airmass 1.13 -> 1.15.
+#
+#   pypeit_coadd_datacube feige110.coadd3d
+
+[rdx]
+    spectrograph = keck_kcrm
+
+[reduce]
+    [[cube]]
+        combine = True
+        output_filename = feige110_2023-11-04.fits
+        save_whitelight = True
+
+spec2d read
+filename
+Science/spec2d_KR.20231105.16417.60-feige110_KCRM_20231105T043336.518.fits
+Science/spec2d_KR.20231105.16505.80-feige110_KCRM_20231105T043505.251.fits
+Science/spec2d_KR.20231105.16594.54-feige110_KCRM_20231105T043635.021.fits
+spec2d end

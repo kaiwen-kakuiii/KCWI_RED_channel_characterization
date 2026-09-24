@@ -1,0 +1,113 @@
+    INFO | 2026-08-24 13:22:23 | inputfiles.py:from_file:136 | Loading the reduction file
+    INFO | 2026-08-24 13:22:23 | inputfiles.py:from_file:214 | Coadd3d input file loaded successfully.
+    INFO | 2026-08-24 13:22:23 | inputfiles.py:vet:927 | .coadd3d file successfully vetted.
+    INFO | 2026-08-24 13:22:23 | coadd_datacube.py:main:55 | Restricting to detector=1
+    INFO | 2026-08-24 13:22:23 | coadd3d.py:__init__:495 | No RA or Dec offsets have been provided.
+    INFO | 2026-08-24 13:22:23 | coadd3d.py:__init__:536 | Adopting the subpixel algorithm to generate the datacube, with subpixellation scales:
+  Spectral: 5
+  Spatial: 5
+  Slices: 5
+    INFO | 2026-08-24 13:22:23 | coadd3d.py:set_default_skysub:736 | The sky model in the spec2d science frames will be used for sky subtraction
+(unless specific skysub frames have been specified)
+    INFO | 2026-08-24 13:22:23 | coadd3d.py:load:1019 | Loading PypeIt spec2d frame (1/2):
+Science/spec2d_KR.20231109.56603.56-g191b2b_KCRM_20231109T154323.578.fits
+    INFO | 2026-08-24 13:22:24 | coadd3d.py:load:1035 | Constructing slit image
+    INFO | 2026-08-24 13:22:25 | coadd3d.py:get_current_skysub:829 | Using the following frame for sky subtraction:
+image
+    INFO | 2026-08-24 13:22:25 | coadd3d.py:get_current_scalecorr:718 | Relative spectral illumination correction will not be performed.
+    INFO | 2026-08-24 13:22:25 | datacube.py:make_good_skymask:436 | Masking edge pixels where the sky model is poor
+    INFO | 2026-08-24 13:22:27 | coadd3d.py:load:1090 | Using wavelength solution: wave0=6351.908, dispersion=0.140 Angstrom/pixel
+    INFO | 2026-08-24 13:22:27 | coadd3d.py:get_alignments:962 | Loading alignments
+    INFO | 2026-08-24 13:22:27 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2023-11-08/pypeit_run/keck_kcrm_A/Calibrations/Alignment_A_0_DET01.fits
+    INFO | 2026-08-24 13:22:27 | coadd3d.py:get_alignments:978 | Generating alignment splines
+   DEBUG | 2026-08-24 13:22:27 | alignframe.py:__init__:350 | Spatial flexure is not currently implemented for the astrometric alignment
+    INFO | 2026-08-24 13:22:27 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 1/24
+    INFO | 2026-08-24 13:22:28 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 2/24
+    INFO | 2026-08-24 13:22:28 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 3/24
+    INFO | 2026-08-24 13:22:28 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 4/24
+ WARNING | 2026-08-24 13:22:29 | _interpolate.py:_call_linear:514 | RuntimeWarning: divide by zero encountered in divide
+ WARNING | 2026-08-24 13:22:29 | _interpolate.py:_call_linear:515 | RuntimeWarning: divide by zero encountered in divide
+ WARNING | 2026-08-24 13:22:29 | _interpolate.py:_call_linear:515 | RuntimeWarning: invalid value encountered in multiply
+ WARNING | 2026-08-24 13:22:29 | _interpolate.py:_call_linear:514 | RuntimeWarning: invalid value encountered in add
+    INFO | 2026-08-24 13:22:29 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 5/24
+    INFO | 2026-08-24 13:22:29 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 6/24
+    INFO | 2026-08-24 13:22:29 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 7/24
+    INFO | 2026-08-24 13:22:30 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 8/24
+    INFO | 2026-08-24 13:22:30 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 9/24
+    INFO | 2026-08-24 13:22:30 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 10/24
+    INFO | 2026-08-24 13:22:30 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 11/24
+    INFO | 2026-08-24 13:22:31 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 12/24
+    INFO | 2026-08-24 13:22:31 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 13/24
+    INFO | 2026-08-24 13:22:31 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 14/24
+    INFO | 2026-08-24 13:22:32 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 15/24
+    INFO | 2026-08-24 13:22:32 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 16/24
+    INFO | 2026-08-24 13:22:32 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 17/24
+    INFO | 2026-08-24 13:22:33 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 18/24
+    INFO | 2026-08-24 13:22:33 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 19/24
+    INFO | 2026-08-24 13:22:33 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 20/24
+    INFO | 2026-08-24 13:22:33 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 21/24
+    INFO | 2026-08-24 13:22:34 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 22/24
+    INFO | 2026-08-24 13:22:34 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 23/24
+    INFO | 2026-08-24 13:22:34 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 24/24
+    INFO | 2026-08-24 13:22:35 | keck_kcwi.py:get_wcs:634 | Generating KCRM WCS
+    INFO | 2026-08-24 13:22:35 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image
+    INFO | 2026-08-24 13:22:41 | coadd3d.py:__init__:278 | Preparing the parameters for the DAR correction
+    INFO | 2026-08-24 13:22:41 | coadd3d.py:__init__:294 | DAR correction parameters:
+   Airmass = 1.61
+   Pressure = 618.97 mbar
+   Humidity = 3.90 %
+   Temperature = 3.30 deg C
+   Reference wavelength = 4500.00 Angstrom
+    INFO | 2026-08-24 13:22:41 | coadd3d.py:load:1019 | Loading PypeIt spec2d frame (2/2):
+Science/spec2d_KR.20231109.56903.44-g191b2b_KCRM_20231109T154823.472.fits
+    INFO | 2026-08-24 13:22:43 | coadd3d.py:load:1035 | Constructing slit image
+    INFO | 2026-08-24 13:22:44 | coadd3d.py:get_current_skysub:829 | Using the following frame for sky subtraction:
+image
+    INFO | 2026-08-24 13:22:44 | coadd3d.py:get_current_scalecorr:718 | Relative spectral illumination correction will not be performed.
+    INFO | 2026-08-24 13:22:44 | datacube.py:make_good_skymask:436 | Masking edge pixels where the sky model is poor
+    INFO | 2026-08-24 13:22:46 | coadd3d.py:load:1090 | Using wavelength solution: wave0=6351.908, dispersion=0.140 Angstrom/pixel
+    INFO | 2026-08-24 13:22:46 | coadd3d.py:get_alignments:962 | Loading alignments
+    INFO | 2026-08-24 13:22:46 | datamodel.py:from_file:1558 | Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH1 pypeit run/2023-11-08/pypeit_run/keck_kcrm_A/Calibrations/Alignment_A_0_DET01.fits
+    INFO | 2026-08-24 13:22:47 | coadd3d.py:get_alignments:978 | Generating alignment splines
+   DEBUG | 2026-08-24 13:22:47 | alignframe.py:__init__:350 | Spatial flexure is not currently implemented for the astrometric alignment
+    INFO | 2026-08-24 13:22:47 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 1/24
+    INFO | 2026-08-24 13:22:47 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 2/24
+    INFO | 2026-08-24 13:22:47 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 3/24
+    INFO | 2026-08-24 13:22:48 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 4/24
+ WARNING | 2026-08-24 13:22:48 | _interpolate.py:_call_linear:514 | RuntimeWarning: divide by zero encountered in divide
+ WARNING | 2026-08-24 13:22:48 | _interpolate.py:_call_linear:515 | RuntimeWarning: divide by zero encountered in divide
+ WARNING | 2026-08-24 13:22:48 | _interpolate.py:_call_linear:515 | RuntimeWarning: invalid value encountered in multiply
+ WARNING | 2026-08-24 13:22:48 | _interpolate.py:_call_linear:514 | RuntimeWarning: invalid value encountered in add
+    INFO | 2026-08-24 13:22:48 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 5/24
+    INFO | 2026-08-24 13:22:48 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 6/24
+    INFO | 2026-08-24 13:22:48 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 7/24
+    INFO | 2026-08-24 13:22:49 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 8/24
+    INFO | 2026-08-24 13:22:49 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 9/24
+    INFO | 2026-08-24 13:22:49 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 10/24
+    INFO | 2026-08-24 13:22:50 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 11/24
+    INFO | 2026-08-24 13:22:50 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 12/24
+    INFO | 2026-08-24 13:22:50 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 13/24
+    INFO | 2026-08-24 13:22:51 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 14/24
+    INFO | 2026-08-24 13:22:51 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 15/24
+    INFO | 2026-08-24 13:22:51 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 16/24
+    INFO | 2026-08-24 13:22:51 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 17/24
+    INFO | 2026-08-24 13:22:52 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 18/24
+    INFO | 2026-08-24 13:22:52 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 19/24
+    INFO | 2026-08-24 13:22:52 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 20/24
+    INFO | 2026-08-24 13:22:53 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 21/24
+    INFO | 2026-08-24 13:22:53 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 22/24
+    INFO | 2026-08-24 13:22:53 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 23/24
+    INFO | 2026-08-24 13:22:54 | alignframe.py:build_splines:375 | Calculating astrometric transform of slit 24/24
+    INFO | 2026-08-24 13:22:54 | keck_kcwi.py:get_wcs:634 | Generating KCRM WCS
+    INFO | 2026-08-24 13:22:54 | slittrace.py:get_radec_image:536 | Generating an RA/DEC image
+    INFO | 2026-08-24 13:23:00 | coadd3d.py:__init__:278 | Preparing the parameters for the DAR correction
+    INFO | 2026-08-24 13:23:00 | coadd3d.py:__init__:294 | DAR correction parameters:
+   Airmass = 1.63
+   Pressure = 618.96 mbar
+   Humidity = 3.60 %
+   Temperature = 3.50 deg C
+   Reference wavelength = 4500.00 Angstrom
+    INFO | 2026-08-24 13:23:01 | datacube.py:set_voxel_sampling:776 | Adopting a square pixel spatial scale of 0.339462 arcsec
+    INFO | 2026-08-24 13:23:01 | datacube.py:set_voxel_sampling:779 | Adopting a wavelength sampling of 0.140038 Angstrom
+    INFO | 2026-08-24 13:23:01 | datacube.py:get_whitelight_range:606 | The white light images will cover the wavelength range: 6404.08A - 6931.75A
+   ERROR | 2026-08-24 13:23:01 | datacube.py:create_wcs:984 | ValueError: cannot convert float NaN to integer

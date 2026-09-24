@@ -1,0 +1,16 @@
+[1;38;2;215;48;39m   [ERROR][0m - [38;2;116;173;209mio.py:fits_open:782[0m - PypeItError: .fits does not exist!
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/pypeit/bin/pypeit_extract_datacube", line 6, in <module>
+    sys.exit(ExtractDataCube.entry_point())
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/envs/pypeit/lib/python3.13/site-packages/pypeit/scripts/scriptbase.py", line 118, in entry_point
+    cls.main(cls.parse_args())
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/pypeit/lib/python3.13/site-packages/pypeit/scripts/extract_datacube.py", line 53, in main
+    extcube = DataCube.from_file(args.file)
+  File "/opt/miniconda3/envs/pypeit/lib/python3.13/site-packages/pypeit/coadd3d.py", line 194, in from_file
+    with io.fits_open(ifile) as hdu:
+         ~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/envs/pypeit/lib/python3.13/site-packages/pypeit/io.py", line 782, in fits_open
+    raise PypeItError(f'{filename} does not exist!')
+pypeit.exceptions.PypeItError: .fits does not exist!

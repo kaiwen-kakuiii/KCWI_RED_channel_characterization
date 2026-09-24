@@ -1,0 +1,1334 @@
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209minputfiles.py:from_file:136[0m - Loading the reduction file
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209minputfiles.py:from_file:214[0m - Coadd3d input file loaded successfully.
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209minputfiles.py:vet:927[0m - .coadd3d file successfully vetted.
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd_datacube.py:main:55[0m - Restricting to detector=1
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:__init__:495[0m - No RA or Dec offsets have been provided.
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:__init__:536[0m - Adopting the subpixel algorithm to generate the datacube, with subpixellation scales:
+  Spectral: 5
+  Spatial: 5
+  Slices: 5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:set_default_skysub:736[0m - The sky model in the spec2d science frames will be used for sky subtraction
+(unless specific skysub frames have been specified)
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:load:1019[0m - Loading PypeIt spec2d frame (1/3):
+Science/spec2d_KR.20240707.53501.23-feige110_KCRM_20240707T145141.213.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:load:1035[0m - Constructing slit image
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_current_skysub:829[0m - Using the following frame for sky subtraction:
+image
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_current_scalecorr:718[0m - Relative spectral illumination correction will not be performed.
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:make_good_skymask:436[0m - Masking edge pixels where the sky model is poor
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:load:1090[0m - Using wavelength solution: wave0=5790.809, dispersion=1.841 Angstrom/pixel
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_alignments:962[0m - Loading alignments
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/2024-07-06/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_alignments:978[0m - Generating alignment splines
+[1;38;2;116;173;209m   [DEBUG][0m - [38;2;116;173;209malignframe.py:__init__:350[0m - Spatial flexure is not currently implemented for the astrometric alignment
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 1/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 2/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 3/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 4/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 5/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 6/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 7/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 8/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 9/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 10/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 11/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 12/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 13/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 14/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 15/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 16/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 17/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 18/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 19/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 20/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 21/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 22/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 23/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 24/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mkeck_kcwi.py:get_wcs:634[0m - Generating KCRM WCS
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:__init__:278[0m - Preparing the parameters for the DAR correction
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:__init__:294[0m - DAR correction parameters:
+   Airmass = 1.10
+   Pressure = 619.78 mbar
+   Humidity = 15.30 %
+   Temperature = 5.00 deg C
+   Reference wavelength = 4500.00 Angstrom
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:load:1019[0m - Loading PypeIt spec2d frame (2/3):
+Science/spec2d_KR.20240707.53601.19-feige110_KCRM_20240707T145321.178.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:load:1035[0m - Constructing slit image
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_current_skysub:829[0m - Using the following frame for sky subtraction:
+image
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_current_scalecorr:718[0m - Relative spectral illumination correction will not be performed.
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:make_good_skymask:436[0m - Masking edge pixels where the sky model is poor
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:load:1090[0m - Using wavelength solution: wave0=5790.808, dispersion=1.841 Angstrom/pixel
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_alignments:962[0m - Loading alignments
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/2024-07-06/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_alignments:978[0m - Generating alignment splines
+[1;38;2;116;173;209m   [DEBUG][0m - [38;2;116;173;209malignframe.py:__init__:350[0m - Spatial flexure is not currently implemented for the astrometric alignment
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 1/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 2/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 3/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 4/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 5/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 6/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 7/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 8/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 9/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 10/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 11/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 12/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 13/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 14/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 15/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 16/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 17/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 18/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 19/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 20/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 21/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 22/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 23/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 24/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mkeck_kcwi.py:get_wcs:634[0m - Generating KCRM WCS
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:__init__:278[0m - Preparing the parameters for the DAR correction
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:__init__:294[0m - DAR correction parameters:
+   Airmass = 1.10
+   Pressure = 619.78 mbar
+   Humidity = 15.50 %
+   Temperature = 5.00 deg C
+   Reference wavelength = 4500.00 Angstrom
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:load:1019[0m - Loading PypeIt spec2d frame (3/3):
+Science/spec2d_KR.20240707.53690.95-feige110_KCRM_20240707T145450.947.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:load:1035[0m - Constructing slit image
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_current_skysub:829[0m - Using the following frame for sky subtraction:
+image
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_current_scalecorr:718[0m - Relative spectral illumination correction will not be performed.
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:make_good_skymask:436[0m - Masking edge pixels where the sky model is poor
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:load:1090[0m - Using wavelength solution: wave0=5790.808, dispersion=1.841 Angstrom/pixel
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_alignments:962[0m - Loading alignments
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading Alignments from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/2024-07-06/pypeit_run/keck_kcrm_B/Calibrations/Alignment_B_1_DET01.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:get_alignments:978[0m - Generating alignment splines
+[1;38;2;116;173;209m   [DEBUG][0m - [38;2;116;173;209malignframe.py:__init__:350[0m - Spatial flexure is not currently implemented for the astrometric alignment
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 1/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 2/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 3/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 4/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 5/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 6/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 7/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 8/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 9/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 10/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 11/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 12/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 13/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 14/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 15/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 16/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 17/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 18/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 19/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 20/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 21/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 22/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 23/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209malignframe.py:build_splines:375[0m - Calculating astrometric transform of slit 24/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mkeck_kcwi.py:get_wcs:634[0m - Generating KCRM WCS
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:__init__:278[0m - Preparing the parameters for the DAR correction
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:__init__:294[0m - DAR correction parameters:
+   Airmass = 1.10
+   Pressure = 619.77 mbar
+   Humidity = 15.50 %
+   Temperature = 4.90 deg C
+   Reference wavelength = 4500.00 Angstrom
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:set_voxel_sampling:776[0m - Adopting a square pixel spatial scale of 0.678924 arcsec
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:set_voxel_sampling:779[0m - Adopting a wavelength sampling of 1.840977 Angstrom
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:get_whitelight_range:606[0m - The white light images will cover the wavelength range: 6257.22A - 9582.78A
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:generate_WCS:1049[0m - Generating WCS
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:create_wcs:1008[0m - 
+----------------------------------------
+Parameters of the WCS:
+RA   min = 349.9910610143115
+DEC  min = -5.1684858159595155
+WAVE min, max = 6257.223790455826, 9582.783264472346
+Spaxel size = 0.6789240000000001 arcsec
+Wavelength step = 3325.5594740165197 A
+----------------------------------------
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 1/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 2/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 3/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 4/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 5/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 6/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 7/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 8/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 9/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 10/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 11/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 12/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 13/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 14/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 15/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 16/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 17/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 18/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 19/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 20/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 21/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 22/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 23/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 24/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 1/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 2/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 3/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 4/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 5/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 6/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 7/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 8/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 9/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 10/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 11/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 12/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 13/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 14/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 15/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 16/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 17/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 18/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 19/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 20/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 21/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 22/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 23/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 24/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 1/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 2/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 3/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 4/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 5/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 6/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 7/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 8/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 9/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 10/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 11/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 12/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 13/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 14/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 15/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 16/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 17/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 18/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 19/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 20/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 21/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 22/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 23/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 24/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:compute_weights:1304[0m - Calculating the optimal weights of each pixel
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:compute_weights:1329[0m - Highest S/N object located at spaxel (x, y) = 10, 14
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:generate_WCS:1049[0m - Generating WCS
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:compute_weights:1353[0m - Extracting spectrum of highest S/N detection from frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 1/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 2/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 3/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 4/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 5/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 6/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 7/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 8/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 9/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 10/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 11/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 12/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 13/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 14/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 15/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 16/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 17/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 18/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 19/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 20/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 21/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 22/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 23/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 24/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:compute_weights:1353[0m - Extracting spectrum of highest S/N detection from frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 1/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 2/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 3/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 4/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 5/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 6/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 7/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 8/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 9/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 10/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 11/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 12/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 13/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 14/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 15/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 16/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 17/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 18/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 19/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 20/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 21/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 22/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 23/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 24/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:compute_weights:1353[0m - Extracting spectrum of highest S/N detection from frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 1/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 2/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 3/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 4/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 5/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 6/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 7/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 8/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 9/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 10/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 11/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 12/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 13/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 14/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 15/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 16/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 17/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 18/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 19/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 20/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 21/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 22/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 23/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1770[0m - Resampling slit 24/24
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:compute_weights:1384[0m - Optimal weighting complete
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:generate_WCS:1049[0m - Generating WCS
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:create_wcs:1008[0m - 
+----------------------------------------
+Parameters of the WCS:
+RA   min = 349.9910610142859
+DEC  min = -5.168492956580515
+WAVE min, max = 5792.379840575064, 10041.772967973182
+Spaxel size = 0.6789240000000001 arcsec
+Wavelength step = 1.8409774757310515 A
+----------------------------------------
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:get_whitelight_range:606[0m - The white light images will cover the wavelength range: 6257.22A - 9582.78A
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 1/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 2/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 3/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 4/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 5/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 6/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 7/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 8/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 9/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 10/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 11/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 12/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 13/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 14/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 15/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 16/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 17/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 18/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 19/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 20/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 21/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 22/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 23/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 24/24 of frame 1/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 1/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 2/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 3/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 4/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 5/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 6/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 7/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 8/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 9/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 10/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 11/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 12/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 13/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 14/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 15/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 16/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 17/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 18/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 19/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 20/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 21/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 22/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 23/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 24/24 of frame 2/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 1/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 2/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 3/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 4/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 5/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 6/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 7/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 8/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 9/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 10/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 11/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 12/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 13/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 14/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 15/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 16/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 17/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 18/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 19/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 20/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 21/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 22/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 23/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1772[0m - Resampling slit 24/24 of frame 3/3
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 1/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 2/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=-0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 3/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.000
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 4/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.200
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1807[0m - Resampling subslice 5/5
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mslittrace.py:get_radec_image:536[0m - Generating an RA/DEC image with slice_offset=0.400
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:subpixellate:1832[0m - Preparing subpixel weights
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:generate_cube_subpixel:1625[0m - White light image covers the wavelength range 6257.22 A - 9582.78 A
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:generate_cube_subpixel:1630[0m - Saving white light image as: feige110_2024-07-06_B_whitelight.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd3d.py:run:1479[0m - Saving datacube as: feige110_2024-07-06_B.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mio.py:write_to_fits:672[0m - File written to: feige110_2024-07-06_B.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mcoadd_datacube.py:main:75[0m - Execution time: 11m 14.67s

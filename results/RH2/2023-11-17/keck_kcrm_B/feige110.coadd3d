@@ -1,0 +1,15 @@
+[rdx]
+    spectrograph = keck_kcrm
+[reduce]
+    [[cube]]
+        combine = True
+        output_filename = feige110_2023-11-17_B.fits
+        save_whitelight = True
+
+spec2d read
+filename
+Science/spec2d_KR.20231118.16592.17-feige110_KCRM_20231118T043632.170.fits
+Science/spec2d_KR.20231118.16800.25-feige110_KCRM_20231118T044000.221.fits
+Science/spec2d_KR.20231118.16964.48-feige110_KCRM_20231118T044244.467.fits
+Science/spec2d_KR.20231118.17128.70-feige110_KCRM_20231118T044528.714.fits
+spec2d end

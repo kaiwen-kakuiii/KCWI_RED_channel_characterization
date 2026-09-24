@@ -1,0 +1,36 @@
+# RH1. No template is shipped. 6520 Large uses the one-exposure template;
+# the wide keck_kcrm_RH1.fits shifts slices by 200-340 A at that angle.
+# 6150 Large is listed because that night was reduced, then dropped.
+grating: RH1
+polyorder: 15
+bridge: 0
+lamps: null
+boxcar_arcsec: 3.4
+exptime_floor_s: 10
+min_frames: 2
+max_airmass_spread: 0.10
+count_rate_floor: null
+slice_span_A: [400, 900]
+shift_tol_A: 50
+nline_min: 20
+
+templates:
+  "6140 Large": templates/keck_kcrm_RH1.fits
+  "6150 Large": templates/keck_kcrm_RH1.fits
+  "6200 Large": templates/keck_kcrm_RH1.fits
+  "6520 Large": templates/keck_kcrm_RH1_6520.fits
+  "6600 Large": templates/keck_kcrm_RH1.fits
+  "6680 Small": templates/keck_kcrm_RH1_small.fits
+
+# Dead column 653 falls inside a lit slice only at this central wavelength.
+# The trailing comma is required. length_range was in the file that produced
+# the published cube; exclude_regions is what removes the false 25th slice.
+exclude_regions:
+  "2023-11-08/A": "1:652:655,"
+
+length_range:
+  "2023-11-08/A": 0.3
+
+drop:
+  - g191b2b_2023-11-07_B
+  - feige34_2024-03-13_B

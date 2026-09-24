@@ -1,0 +1,16 @@
+# g191b2b, 2023-10-20 setup B, visit 2 of 2; airmass 1.21-1.22
+[rdx]
+    spectrograph = keck_kcrm
+
+[reduce]
+    [[cube]]
+        combine = True
+        output_filename = g191b2b_2023-10-20_B_v2.fits
+        save_whitelight = True
+
+spec2d read
+filename
+Science/spec2d_KR.20231021.51894.80-g191b2b_KCRM_20231021T142454.086.fits
+Science/spec2d_KR.20231021.52027.77-g191b2b_KCRM_20231021T142707.747.fits
+Science/spec2d_KR.20231021.52162.48-g191b2b_KCRM_20231021T142922.445.fits
+spec2d end

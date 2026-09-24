@@ -1,0 +1,18 @@
+# g191b2b, 2024-10-01 setup B; airmass 1.21-1.22
+# align is deliberately NOT set: measured on RH2 2023-11-07 B, align=True and align=False give
+# byte-identical cube geometry, because the header WCS already places a small nod correctly.
+[rdx]
+    spectrograph = keck_kcrm
+
+[reduce]
+    [[cube]]
+        combine = True
+        output_filename = g191b2b_2024-10-01_B.fits
+        save_whitelight = True
+
+spec2d read
+filename
+Science/spec2d_KR.20241002.56083.46-g191b2b_KCRM_20241002T153443.450.fits
+Science/spec2d_KR.20241002.56227.28-g191b2b_KCRM_20241002T153707.306.fits
+Science/spec2d_KR.20241002.56371.10-g191b2b_KCRM_20241002T153931.075.fits
+spec2d end

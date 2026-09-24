@@ -1,0 +1,21 @@
+# RH3. The shipped keck_kcrm_RH3.fits covers 8599-9389 A and does not solve
+# these setups. The arc is ThAr; the default FeAr list fits 9-12 lines and
+# still reports a tiny RMS. Polynomial order 5 is the published p5cov curve.
+# bridge 5 closes the one-pixel hole at 8661.8 A on 2024-10-29 that otherwise
+# discards 353 A.
+grating: RH3
+polyorder: 5
+bridge: 5
+lamps: ThArRH3
+boxcar_arcsec: 3.4
+exptime_floor_s: 10
+min_frames: 2
+max_airmass_spread: 0.10
+count_rate_floor: null
+slice_span_A: [400, 900]
+shift_tol_A: 50
+nline_min: 20
+
+templates:
+  "8400 Medium": templates/keck_kcrm_RH3_8400.fits
+  "8600 Medium": templates/keck_kcrm_RH3_8600.fits

@@ -1,0 +1,17 @@
+*** DELIBERATE cenwave mismatch: setup is 8400, template is 8600
+    setup covers ~7983-8817 A, template covers 8136-9032 A -> 82% of the detector has template under it
+    (the shipped keck_kcrm_RH3.fits failed at ~50%)
+2024-10-01/keck_kcrm_B: decker Medium, cenwave 8600
+   template keck_kcrm_RH3_8600.fits
+   lamps    ThArRH3_lines.dat -- the arc frames are ThAr, so the catalogue must be ThAr
+patched keck_kcrm_B.pypeit
+removed the holy-grail Calibrations/ so it cannot be reused
+running calibrations ... (log: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH3 pypeit run/2024-10-01/pypeit_run/keck_kcrm_B/gate.log)
+
+run_pypeit -c returned 0
+slices solved, unflagged and unshifted: 0 / 24
+   20 SHIFTED vs their neighbours: [66, 146, 223, 301, 376, 451, 525, 672, 746, 894, 1246, 1320, 1394, 1468, 1541, 1690, 1765, 1842, 1919, 1999]   (tolerance 50 A)
+   rms  median 1.009  max 13.609 binned px
+   7 meet the stricter seed criteria, spanning 7924.5-8827.8 A
+
+FAIL: template solved 0/24 slices, and run_pypeit returned 0

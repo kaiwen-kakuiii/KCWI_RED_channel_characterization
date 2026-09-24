@@ -1,0 +1,21 @@
+# feige110, 2024-06-10 setup A, cenwave 8850; airmass 1.19-1.21
+# align is deliberately NOT set: measured on RH2 2023-11-07 B, align=True and align=False give
+# byte-identical cube geometry, because the header WCS already places a small nod correctly.
+[rdx]
+    spectrograph = keck_kcrm
+
+[reduce]
+    [[cube]]
+        combine = True
+        output_filename = feige110_2024-06-10_A.fits
+        save_whitelight = True
+
+spec2d read
+filename
+Science/spec2d_KR.20240611.53014.63-feige110_KCRM_20240611T144334.090.fits
+Science/spec2d_KR.20240611.53125.81-feige110_KCRM_20240611T144525.286.fits
+Science/spec2d_KR.20240611.53236.99-feige110_KCRM_20240611T144717.520.fits
+Science/spec2d_KR.20240611.53348.17-feige110_KCRM_20240611T144908.717.fits
+Science/spec2d_KR.20240611.53460.37-feige110_KCRM_20240611T145059.827.fits
+Science/spec2d_KR.20240611.53571.55-feige110_KCRM_20240611T145252.061.fits
+spec2d end

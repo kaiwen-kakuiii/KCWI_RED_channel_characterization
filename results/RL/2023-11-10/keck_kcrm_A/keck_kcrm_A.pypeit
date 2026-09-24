@@ -1,0 +1,57 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-18T21:46:13.877+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+# Setup
+setup read
+Setup A:
+  binning: 2,2
+  cenwave: 7099.8876953
+  decker: Medium
+  dispname: RL
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/2023-11-10
+                   filename |            frametype |                 ra |                dec |         target | dispname | decker | binning |          mjd | airmass |          exptime |      cenwave | posang | ra_off | dec_off |   idname | calpos | calib
+# KR.20231111.14845.10.fits |                 None | 300.24329166666666 | -5.165500000000001 | Twilight Flats |       RL | Medium |     2,2 | 60259.171817 |    1.15 |      2.000002048 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     0
+# KR.20231111.14906.21.fits |                 None | 300.24329166666666 | -5.165500000000001 | Twilight Flats |       RL | Medium |     2,2 | 60259.172526 |    1.15 |       5.00000512 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     0
+# KR.20231111.14956.19.fits |                 None | 300.24329166666666 | -5.165500000000001 | Twilight Flats |       RL | Medium |     2,2 | 60259.173104 |    1.15 |       5.00000512 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     0
+# KR.20231111.15018.41.fits |                 None | 300.24329166666666 | -5.165500000000001 | Twilight Flats |       RL | Medium |     2,2 | 60259.173824 |    1.15 |     20.000019968 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     0
+# KR.20231111.15114.29.fits |                 None | 300.24329166666666 | -5.165500000000001 | Twilight Flats |       RL | Medium |     2,2 | 60259.174934 |    1.15 |     45.000045056 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     0
+# KR.20231111.15205.70.fits |                 None | 300.24329166666666 | -5.165500000000001 | Twilight Flats |       RL | Medium |     2,2 | 60259.175985 |    1.16 |     45.000045056 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     0
+# KR.20231111.40334.90.fits |                 None |  38.20720833333333 | -3.389666666666667 |        cswa164 |       RL | Medium |     2,2 |  60259.46683 |     1.2 | 18446004582.8106 | 7099.8876953 |   90.0 |    0.0 |     0.0 |     BIAS |    Sky |     0
+  KR.20231111.05793.35.fits |                align |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.067053 |    1.41 |       5.00000512 | 7099.8876953 |    0.0 |    0.0 |     0.0 | CONTBARS | Mirror |     0
+  KR.20231111.05822.93.fits |                align |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.067395 |    1.41 |       5.00000512 | 7099.8876953 |    0.0 |    0.0 |     0.0 | CONTBARS | Mirror |     0
+  KR.20231111.05851.50.fits |                align |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.067726 |    1.41 |      5.000004864 | 7099.8876953 |    0.0 |    0.0 |     0.0 | CONTBARS | Mirror |     0
+  KR.20231111.05917.80.fits |                  arc |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.068493 |    1.41 |       2.50000256 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+  KR.20231111.05944.32.fits |                  arc |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 |   60259.0688 |    1.41 |       2.50000256 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+  KR.20231111.05971.86.fits |                  arc |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.069119 |    1.41 |       2.50000256 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+  KR.20231111.04528.55.fits |                 bias |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.052414 |    1.41 |              0.0 | 7999.9467773 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231111.04573.43.fits |                 bias |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.052933 |    1.41 |              0.0 | 7999.9467773 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231111.04617.29.fits |                 bias |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.053441 |    1.41 |              0.0 | 7999.9467773 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231111.04661.15.fits |                 bias |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.053949 |    1.41 |              0.0 | 7999.9467773 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231111.04703.99.fits |                 bias |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.054444 |    1.41 |              0.0 | 7999.9467773 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231111.04747.85.fits |                 bias |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.054952 |    1.41 |              0.0 | 7999.9467773 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231111.04791.71.fits |                 bias |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 |  60259.05546 |    1.41 |              0.0 | 7999.9467773 |    0.0 |    0.0 |     0.0 |     BIAS | Mirror |     0
+  KR.20231111.40263.20.fits |                 bias |  38.20720833333333 | -3.389666666666667 |        cswa164 |       RL | Medium |     2,2 | 60259.466009 |    1.19 |              0.0 | 7099.8876953 |   90.0 |    0.0 |     0.0 |     BIAS |    Sky |     0
+  KR.20231111.41766.18.fits |                 bias |         112.175125 |  69.18877777777779 |          mrk71 |       RL | Medium |     2,2 | 60259.483399 |    1.78 |              0.0 | 7999.9467773 |   90.0 |    0.0 |     0.0 |     BIAS |    Sky |     0
+  KR.20231111.08172.40.fits |      illumflat,trace |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.094584 |    1.41 |     20.000019968 | 7099.8876953 |    0.0 |    0.0 |     0.0 | DOMEFLAT |    Sky |     0
+  KR.20231111.08236.31.fits |      illumflat,trace |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.095328 |    1.41 |     20.000019968 | 7099.8876953 |    0.0 |    0.0 |     0.0 | DOMEFLAT |    Sky |     0
+  KR.20231111.08300.57.fits |      illumflat,trace |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.096071 |    1.41 |     20.000020224 | 7099.8876953 |    0.0 |    0.0 |     0.0 | DOMEFLAT |    Sky |     0
+  KR.20231111.06123.84.fits | pixelflat,scattlight |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.070878 |    1.41 |      5.000004864 | 7099.8876953 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+  KR.20231111.06172.80.fits | pixelflat,scattlight |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.071444 |    1.41 |       5.00000512 | 7099.8876953 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+  KR.20231111.06221.76.fits | pixelflat,scattlight |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.072011 |    1.41 |      5.000004864 | 7099.8876953 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+  KR.20231111.06270.72.fits | pixelflat,scattlight |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.072578 |    1.41 |      5.000004864 | 7099.8876953 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+  KR.20231111.06319.68.fits | pixelflat,scattlight |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.073144 |    1.41 |      5.000004864 | 7099.8876953 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+  KR.20231111.06369.66.fits | pixelflat,scattlight |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.073723 |    1.41 |       5.00000512 | 7099.8876953 |    0.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     0
+# KR.20231111.40224.44.fits |              science |  38.20720833333333 | -3.389666666666667 |        cswa164 |       RL | Medium |     2,2 | 60259.465561 |    1.19 |              0.0 | 7099.8876953 |   90.0 |    0.0 |     0.0 |   OBJECT |    Sky |     0
+  KR.20231111.06016.74.fits |                 tilt |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.069638 |    1.41 |       2.50000256 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+  KR.20231111.06043.26.fits |                 tilt |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.069945 |    1.41 |       2.50000256 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+  KR.20231111.06069.78.fits |                 tilt |  63.99999999999999 |               45.0 |        unknown |       RL | Medium |     2,2 | 60259.070252 |    1.41 |       2.50000256 | 7099.8876953 |    0.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     0
+data end
+

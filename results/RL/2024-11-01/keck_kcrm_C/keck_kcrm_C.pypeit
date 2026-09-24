@@ -1,0 +1,60 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-18T21:46:19.284+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+[reduce]
+    [[skysub]]
+        user_regions = :36,62:
+
+# Setup
+setup read
+Setup C:
+  binning: 2,2
+  cenwave: 7149.8920898
+  decker: Large
+  dispname: RL
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/2024-11-01
+                   filename |            frametype |                ra |                dec |     target | dispname | decker | binning |          mjd | airmass |       exptime |      cenwave | posang | ra_off | dec_off |   idname | calpos | calib
+# KR.20241102.15271.77.fits |                 None | 262.5053333333333 |  13.87663888888889 |        sky |       RL |  Large |     2,2 | 60616.176757 |    1.42 |  10.000013568 | 7149.8920898 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     2
+# KR.20241102.15380.91.fits |                 None | 262.5053333333333 |  13.87663888888889 |        sky |       RL |  Large |     2,2 |  60616.17802 |    1.44 |   20.00002688 | 7149.8920898 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     2
+# KR.20241102.15491.70.fits |                 None | 262.5053333333333 |  13.87663888888889 |        sky |       RL |  Large |     2,2 | 60616.179295 |    1.45 |  40.000053504 | 7149.8920898 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     2
+# KR.20241102.15606.33.fits |                 None | 262.5053333333333 |  13.87663888888889 |        sky |       RL |  Large |     2,2 | 60616.180629 |    1.46 |  50.000066816 | 7149.8920898 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     2
+# KR.20241102.15737.91.fits |                 None | 262.5053333333333 |  13.87663888888889 |        sky |       RL |  Large |     2,2 | 60616.182152 |    1.47 |  70.000093696 | 7149.8920898 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     2
+# KR.20241102.15897.30.fits |                 None | 262.5053333333333 |  13.87663888888889 |        sky |       RL |  Large |     2,2 | 60616.183993 |    1.49 | 100.000133888 | 7149.8920898 |    0.0 |    0.0 |     0.0 |  TWIFLAT |    Sky |     2
+  KR.20241102.58205.19.fits |                align | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.673671 |    1.41 |   3.000004096 | 7149.8920898 |   12.0 |    0.0 |     0.0 | CONTBARS | Mirror |     2
+  KR.20241102.58233.75.fits |                align | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.674002 |    1.41 |   3.000004096 | 7149.8920898 |   12.0 |    0.0 |     0.0 | CONTBARS | Mirror |     2
+  KR.20241102.58261.29.fits |                align | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.674321 |    1.41 |    3.00000384 | 7149.8920898 |   12.0 |    0.0 |     0.0 | CONTBARS | Mirror |     2
+  KR.20241102.58328.61.fits |                  arc | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 |   60616.6751 |    1.41 |   5.000006656 | 7149.8920898 |   12.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+  KR.20241102.58358.19.fits |                  arc | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.675442 |    1.41 |   5.000006656 | 7149.8920898 |   12.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+  KR.20241102.58387.77.fits |                  arc | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.675784 |    1.41 |   5.000006656 | 7149.8920898 |   12.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+  KR.20241102.57754.35.fits |                 bias | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.668453 |    1.41 |           0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+  KR.20241102.57798.21.fits |                 bias | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.668961 |    1.41 |           0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+  KR.20241102.57842.70.fits |                 bias | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.669468 |    1.41 |           0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+  KR.20241102.57885.93.fits |                 bias | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.669976 |    1.41 |           0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+  KR.20241102.57929.79.fits |                 bias | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.670484 |    1.41 |           0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+  KR.20241102.57973.65.fits |                 bias | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.670991 |    1.41 |           0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+  KR.20241102.58016.49.fits |                 bias | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.671487 |    1.41 |           0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |     BIAS | Mirror |     2
+  KR.20241102.57169.89.fits |      illumflat,trace | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.661689 |    1.41 |  10.000013312 | 7149.8920898 |   12.0 |    0.0 |     0.0 | DOMEFLAT |    Sky |     2
+  KR.20241102.57223.95.fits |      illumflat,trace | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.662314 |    1.41 |  10.000013312 | 7149.8920898 |   12.0 |    0.0 |     0.0 | DOMEFLAT |    Sky |     2
+  KR.20241102.57278.10.fits |      illumflat,trace | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 |  60616.66294 |    1.41 |  10.000013568 | 7149.8920898 |   12.0 |    0.0 |     0.0 | DOMEFLAT |    Sky |     2
+  KR.20241102.58546.89.fits | pixelflat,scattlight | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.677626 |    1.41 |   3.000004096 | 7149.8920898 |   12.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+  KR.20241102.58593.81.fits | pixelflat,scattlight | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.678169 |    1.41 |   3.000004096 | 7149.8920898 |   12.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+  KR.20241102.58640.73.fits | pixelflat,scattlight | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.678712 |    1.41 |   3.000004096 | 7149.8920898 |   12.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+  KR.20241102.58687.65.fits | pixelflat,scattlight | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.679255 |    1.41 |   3.000004096 | 7149.8920898 |   12.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+  KR.20241102.58734.57.fits | pixelflat,scattlight | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.679798 |    1.41 |   3.000004096 | 7149.8920898 |   12.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+  KR.20241102.58781.49.fits | pixelflat,scattlight | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.680341 |    1.41 |   3.000004096 | 7149.8920898 |   12.0 |    0.0 |     0.0 | FLATLAMP | Mirror |     2
+  KR.20241102.23934.73.fits |              science | 349.9932916666666 | -5.165500000000001 |   feige110 |       RL |  Large |     2,2 | 60616.277022 |     1.1 |  10.000013568 | 7149.8920898 |  -38.0 |    0.0 |     0.0 |   OBJECT |    Sky |     2
+  KR.20241102.23997.97.fits |              science | 349.9932916666666 | -5.165500000000001 |   feige110 |       RL |  Large |     2,2 | 60616.277754 |     1.1 |  10.000013312 | 7149.8920898 |  -38.0 |    0.0 |     0.0 |   OBJECT |    Sky |     2
+  KR.20241102.24052.30.fits |              science | 349.9932916666666 | -5.165500000000001 |   feige110 |       RL |  Large |     2,2 |  60616.27838 |     1.1 |  10.000013568 | 7149.8920898 |  -38.0 |    0.0 |     0.0 |   OBJECT |    Sky |     2
+  KR.20241102.58435.71.fits |                 tilt | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.676339 |    1.41 |   5.000006656 | 7149.8920898 |   12.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+  KR.20241102.58465.29.fits |                 tilt | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.676682 |    1.41 |   5.000006656 | 7149.8920898 |   12.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+  KR.20241102.58493.85.fits |                 tilt | 63.99999999999999 |               45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.677012 |    1.41 |   5.000006656 | 7149.8920898 |   12.0 |    0.0 |     0.0 |  ARCLAMP | Mirror |     2
+data end
+

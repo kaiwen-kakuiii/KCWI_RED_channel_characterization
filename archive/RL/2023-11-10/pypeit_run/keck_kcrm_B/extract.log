@@ -1,0 +1,15 @@
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:extract_point_source:240[0m - Initialising a PypeIt SpecObj spec1d file
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:extract_point_source:267[0m - Making white light image
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:extract_point_source:277[0m - Using a boxcar radius of 2.48 arcsec
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:extract_point_source:286[0m - Generating an object mask
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:extract_point_source:294[0m - Generating a sky mask
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:extract_point_source:303[0m - Subtracting the residual sky
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:extract_point_source:315[0m - Extracting a boxcar spectrum of datacube
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatacube.py:extract_point_source:346[0m - Extracting an optimal spectrum of datacube
+WARNING: VerifyWarning: Keyword name 'FRAMETYPE' is greater than 8 characters or contains characters not allowed by the FITS standard; a HIERARCH card will be created. [astropy.io.fits.card]
+WARNING: VerifyWarning: Keyword name 'TEMPERATURE' is greater than 8 characters or contains characters not allowed by the FITS standard; a HIERARCH card will be created. [astropy.io.fits.card]
+WARNING: VerifyWarning: Keyword name 'ALLSPEC2D_BKG_REDUX' is greater than 8 characters or contains characters not allowed by the FITS standard; a HIERARCH card will be created. [astropy.io.fits.card]
+WARNING: VerifyWarning: Keyword name 'ALLSPEC2D_FIND_NEGATIVE' is greater than 8 characters or contains characters not allowed by the FITS standard; a HIERARCH card will be created. [astropy.io.fits.card]
+WARNING: VerifyWarning: Keyword name 'ALLSPEC2D_DETS' is greater than 8 characters or contains characters not allowed by the FITS standard; a HIERARCH card will be created. [astropy.io.fits.card]
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mspecobjs.py:write_to_fits:936[0m - Wrote 1D spectra to spec1d_feige110_2023-11-10_B.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mextract_datacube.py:main:80[0m - Execution time: 0.20s

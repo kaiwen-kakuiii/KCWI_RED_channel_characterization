@@ -1,0 +1,30 @@
+# RM2. The FeAr catalogue thins out: a correct 9850 setup fits 10-14 lines,
+# so nline_min 20 would report zero seeds. The check that carries the weight
+# is 24 dispersions agreeing. count_rate_floor drops a 66 s frame on
+# 2025-01-01 with no star (225 times fainter than the others). 8850 is Small
+# and uses the Medium-seeded template; that was gated 24/24, dispersions
+# agreeing to 0.24 percent, because the lines out here are too far apart to blend.
+grating: RM2
+polyorder: 5
+bridge: 5
+lamps: null
+boxcar_arcsec: 3.4
+exptime_floor_s: 10
+min_frames: 2
+max_airmass_spread: 0.10
+count_rate_floor: 0.20
+slice_span_A: [1700, 2300]
+shift_tol_A:
+  Medium: 150
+  Small: 180
+nline_min: 8
+
+templates:
+  "7750 Small": templates/keck_kcrm_RM2_7750_small.fits
+  "8850 Small": templates/keck_kcrm_RM2_8900.fits
+  "8900 Medium": templates/keck_kcrm_RM2_8900.fits
+  "8950 Medium": templates/keck_kcrm_RM2_8900.fits
+  "9850 Medium": shipped
+
+drop:
+  - feige110_2023-09-23_B

@@ -1,0 +1,105 @@
+    INFO | 2026-08-16 12:06:50 | inputfiles.py:from_file:136 | Loading the reduction file
+    INFO | 2026-08-16 12:06:50 | inputfiles.py:from_file:214 | Sens input file loaded successfully.
+    INFO | 2026-08-16 12:06:50 | sensfunc.py:main:198 | Writing the parameters to sensfunc.par
+ WARNING | 2026-08-16 12:06:50 | parset.py:to_config:662 | Selected configuration file already exists and will be overwritten!
+    INFO | 2026-08-16 12:06:50 | spectrograph.py:tweak_standard:2160 | Trimming standard star spectrum by 253 pixels at the start and 1 pixels at the end.
+    INFO | 2026-08-16 12:06:50 | standard.py:from_coordinates:227 | Using object Feige110 in archive "xshooter" (sep = 0.00 arcmin).
+    INFO | 2026-08-16 12:06:50 | pypeitdata.py:get_file_path:300 | fFeige110.dat does not exist in the expected package directory (/opt/miniconda3/envs/pypeit/lib/python3.13/site-packages/pypeit/data/standards/xshooter).  Checking cache or downloading the file now.
+    INFO | 2026-08-16 12:06:50 | atmextinction.py:from_coordinates:128 | Using mkoextinct.dat for extinction corrections.
+    INFO | 2026-08-16 12:06:50 | flux_calib.py:counts2Nlam:332 | Applying extinction correction
+ WARNING | 2026-08-16 12:06:50 | atmextinction.py:correction_factor:169 | Spectral regions outside of the bounds of the atmospheric extinction curve are set to the nearest value.
+    INFO | 2026-08-16 12:06:50 | flux_calib.py:get_mask:495 |  Masking bad pixels
+    INFO | 2026-08-16 12:06:50 | flux_calib.py:get_mask:500 |  Masking edges
+    INFO | 2026-08-16 12:06:50 | flux_calib.py:get_mask:503 |  Masking Below the atmospheric cutoff
+    INFO | 2026-08-16 12:06:50 | flux_calib.py:mask_stellar_hydrogen:585 | Masking hydrogen recombination lines
+    INFO | 2026-08-16 12:06:50 | flux_calib.py:mask_stellar_hydrogen:588 |  Masking Balmer
+    INFO | 2026-08-16 12:06:50 | flux_calib.py:mask_stellar_hydrogen:599 |  Masking Paschen
+    INFO | 2026-08-16 12:06:50 | flux_calib.py:mask_stellar_hydrogen:610 |  Masking Brackett
+    INFO | 2026-08-16 12:06:50 | flux_calib.py:mask_stellar_hydrogen:619 |  Masking Pfund
+    INFO | 2026-08-16 12:06:50 | pypeitdata.py:get_file_path:300 | mktrans_zm_10_10.dat does not exist in the expected package directory (/opt/miniconda3/envs/pypeit/lib/python3.13/site-packages/pypeit/data/skisim).  Checking cache or downloading the file now.
+    INFO | 2026-08-16 12:06:51 | wavemodel.py:conv2res:581 | The binning of the wavelength array at 9179.3 is: 0.1999999999989086
+    INFO | 2026-08-16 12:06:51 | wavemodel.py:conv2res:585 | Covolving with a Gaussian kernel with sigma = 14.407969415391886 pixels
+    INFO | 2026-08-16 12:06:51 | flux_calib.py:standard_zeropoint:974 | Replacing bspline fit with polyfit over Hydrogen Recombination line regions
+   DEBUG | 2026-08-16 12:06:51 | flux_calib.py:standard_zeropoint:998 | Should pull resolution from arc line analysis
+   DEBUG | 2026-08-16 12:06:51 | flux_calib.py:standard_zeropoint:999 | At the moment the resolution is taken as the PixelScale
+   DEBUG | 2026-08-16 12:06:51 | flux_calib.py:standard_zeropoint:1000 | This needs to be changed!
+   DEBUG | 2026-08-16 12:06:51 | flux_calib.py:standard_zeropoint:1009 |  This is the passed-in R: 3000.0
+    INFO | 2026-08-16 12:06:51 | flux_calib.py:standard_zeropoint:1010 |  This is the standard pixel: 1.84 Å
+    INFO | 2026-08-16 12:06:51 | flux_calib.py:standard_zeropoint:1011 |  This is the standard resolution element: 2.49 Å
+    INFO | 2026-08-16 12:06:51 | flux_calib.py:standard_zeropoint:1012 |  Breakpoint spacing: 49.89 pixels
+    INFO | 2026-08-16 12:06:51 | flux_calib.py:standard_zeropoint:1017 | Initialize bspline for flux calibration
+    INFO | 2026-08-16 12:06:51 | flux_calib.py:standard_zeropoint:1026 | Bspline fit on zeropoint. 
+    INFO | 2026-08-16 12:06:51 | specobj.py:apply_flux_calib:596 | Fluxing BOX extraction for:
+<SpecObj:  items={sign: True
+OPT_WAVE: True
+OPT_COUNTS: True
+OPT_COUNTS_IVAR: True
+OPT_COUNTS_SIG: True
+OPT_MASK: True
+OPT_COUNTS_SKY: True
+OPT_FRAC_USE: True
+OPT_CHI2: True
+BOX_WAVE: True
+BOX_COUNTS: True
+BOX_COUNTS_IVAR: True
+BOX_COUNTS_SIG: True
+BOX_MASK: True
+BOX_COUNTS_SKY: True
+BOX_R_PIX: True
+S2N: True
+FLEX_SHIFT_GLOBAL: True
+FLEX_SHIFT_LOCAL: True
+FLEX_SHIFT_TOTAL: True
+DET: DET01
+PYPELINE: True
+PYP_SPEC: True
+OBJTYPE: True
+SLITID: 0
+NAME: SPAT-----SLIT0000-DET01
+RA: 349.99106101428
+DEC: -5.1684957958532
+hand_extract_flag: True
+>
+    INFO | 2026-08-16 12:06:51 | atmextinction.py:from_coordinates:128 | Using mkoextinct.dat for extinction corrections.
+    INFO | 2026-08-16 12:06:51 | flux_calib.py:get_sensfunc_factor:288 | Applying extinction correction
+ WARNING | 2026-08-16 12:06:51 | specobj.py:apply_flux_calib:610 | RuntimeWarning: divide by zero encountered in divide
+ WARNING | 2026-08-16 12:06:51 | specobj.py:apply_flux_calib:611 | RuntimeWarning: divide by zero encountered in divide
+    INFO | 2026-08-16 12:06:51 | specobj.py:apply_flux_calib:614 |  Masking bad pixels
+    INFO | 2026-08-16 12:06:51 | specobj.py:apply_flux_calib:596 | Fluxing OPT extraction for:
+<SpecObj:  items={sign: True
+OPT_WAVE: True
+OPT_COUNTS: True
+OPT_COUNTS_IVAR: True
+OPT_COUNTS_SIG: True
+OPT_MASK: True
+OPT_COUNTS_SKY: True
+OPT_FRAC_USE: True
+OPT_CHI2: True
+BOX_WAVE: True
+BOX_FLAM: True
+BOX_FLAM_SIG: True
+BOX_FLAM_IVAR: True
+BOX_COUNTS: True
+BOX_COUNTS_IVAR: True
+BOX_COUNTS_SIG: True
+BOX_MASK: True
+BOX_COUNTS_SKY: True
+BOX_R_PIX: True
+S2N: True
+FLEX_SHIFT_GLOBAL: True
+FLEX_SHIFT_LOCAL: True
+FLEX_SHIFT_TOTAL: True
+DET: DET01
+PYPELINE: True
+PYP_SPEC: True
+OBJTYPE: True
+SLITID: 0
+NAME: SPAT-----SLIT0000-DET01
+RA: 349.99106101428
+DEC: -5.1684957958532
+hand_extract_flag: True
+>
+    INFO | 2026-08-16 12:06:51 | atmextinction.py:from_coordinates:128 | Using mkoextinct.dat for extinction corrections.
+    INFO | 2026-08-16 12:06:51 | flux_calib.py:get_sensfunc_factor:288 | Applying extinction correction
+    INFO | 2026-08-16 12:06:51 | specobj.py:apply_flux_calib:614 |  Masking bad pixels
+    INFO | 2026-08-16 12:06:51 | io.py:write_to_fits:672 | File written to: feige110_2023-11-04_sens.fits

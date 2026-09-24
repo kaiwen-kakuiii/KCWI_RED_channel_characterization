@@ -1,0 +1,37 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-24T21:09:06.970+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+# Setup
+setup read
+Setup A:
+  binning: 2,2
+  cenwave: -3374.940918
+  decker: FPCam
+  dispname: RM2
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH2 pypeit run/../fits/by_night/RH2/2024-11-06
+                   filename | frametype |                 ra |   dec |        target | dispname | decker | binning |          mjd | airmass | exptime |      cenwave | posang | ra_off | dec_off | idname | calpos | calib
+# KR.20241107.01750.32.fits |      None |                0.0 |   0.0 |               |      RM2 |  FPCam |     2,2 | 60621.020258 |   13.37 |     0.0 | -3374.940918 |    0.0 |    0.0 |     0.0 |   DARK |    Sky |     0
+  KR.20241107.06248.53.fits |      bias | 341.77941666666663 | 0.081 |    DOME FLATS |       RL | Medium |     2,2 | 60621.072321 |   13.37 |     0.0 |  7049.987793 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241107.06292.39.fits |      bias | 341.77941666666663 | 0.081 |    DOME FLATS |       RL | Medium |     2,2 | 60621.072829 |   13.37 |     0.0 |  7049.987793 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241107.06336.25.fits |      bias | 341.77941666666663 | 0.081 |    DOME FLATS |       RL | Medium |     2,2 | 60621.073336 |   13.37 |     0.0 |  7049.987793 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241107.06379.90.fits |      bias | 341.77941666666663 | 0.081 |    DOME FLATS |       RL | Medium |     2,2 | 60621.073832 |   13.37 |     0.0 |  7049.987793 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241107.06422.95.fits |      bias | 341.77941666666663 | 0.081 |    DOME FLATS |       RL | Medium |     2,2 |  60621.07434 |   13.37 |     0.0 |  7049.987793 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241107.06466.81.fits |      bias | 341.77941666666663 | 0.081 |    DOME FLATS |       RL | Medium |     2,2 | 60621.074847 |   13.37 |     0.0 |  7049.987793 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241107.06510.67.fits |      bias | 341.77941666666663 | 0.081 |    DOME FLATS |       RL | Medium |     2,2 | 60621.075355 |   13.37 |     0.0 |  7049.987793 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241107.17531.78.fits |      bias |              170.0 | 0.081 | drip position |      RH2 |  FPCam |     2,2 | 60621.202914 |   13.37 |     0.0 | 6749.9780273 |   0.01 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20241107.17575.64.fits |      bias |              170.0 | 0.081 | drip position |      RH2 |  FPCam |     2,2 | 60621.203422 |   13.37 |     0.0 | 6749.9780273 |   0.01 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20241107.17619.50.fits |      bias |              170.0 | 0.081 | drip position |      RH2 |  FPCam |     2,2 | 60621.203929 |   13.37 |     0.0 | 6749.9780273 |   0.01 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20241107.17663.36.fits |      bias |              170.0 | 0.081 | drip position |      RH2 |  FPCam |     2,2 | 60621.204437 |   13.37 |     0.0 | 6749.9780273 |   0.01 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20241107.17707.22.fits |      bias |              170.0 | 0.081 | drip position |      RH2 |  FPCam |     2,2 | 60621.204945 |   13.37 |     0.0 | 6749.9780273 |   0.01 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20241107.17751.80.fits |      bias |              170.0 | 0.081 | drip position |      RH2 |  FPCam |     2,2 | 60621.205452 |   13.37 |     0.0 | 6749.9780273 |    0.0 |    0.0 |     0.0 |   BIAS |    Sky |     0
+  KR.20241107.17794.94.fits |      bias |              170.0 | 0.081 | drip position |      RH2 |  FPCam |     2,2 |  60621.20596 |   13.37 |     0.0 | 6749.9780273 |    0.0 |    0.0 |     0.0 |   BIAS |    Sky |     0
+data end
+

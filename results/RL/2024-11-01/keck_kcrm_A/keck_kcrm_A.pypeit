@@ -1,0 +1,31 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-18T21:46:19.279+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+# Setup
+setup read
+Setup A:
+  binning: 2,2
+  cenwave: 0.0
+  decker: Home
+  dispname: None
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/fits/by_night/2024-11-01
+                   filename | frametype |                ra |  dec |     target | dispname | decker | binning |          mjd | airmass | exptime |      cenwave | posang | ra_off | dec_off | idname | calpos | calib
+# KR.20241102.06908.66.fits |      None | 63.99999999999999 | 45.0 |    unknown |     None |   Home |     2,2 | 60616.079961 |    1.41 |     0.0 |          0.0 |    0.0 |    0.0 |     0.0 |        |    Sky |     0
+# KR.20241102.10636.82.fits |      None | 63.99999999999999 | 45.0 |    unknown |     None |   Home |     2,2 | 60616.123111 |    1.41 |     0.0 |          0.0 |    0.0 |    0.0 |     0.0 |   DARK |    Sky |     0
+  KR.20241102.57754.35.fits |      bias | 63.99999999999999 | 45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.668453 |    1.41 |     0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241102.57798.21.fits |      bias | 63.99999999999999 | 45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.668961 |    1.41 |     0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241102.57842.70.fits |      bias | 63.99999999999999 | 45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.669468 |    1.41 |     0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241102.57885.93.fits |      bias | 63.99999999999999 | 45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.669976 |    1.41 |     0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241102.57929.79.fits |      bias | 63.99999999999999 | 45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.670484 |    1.41 |     0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241102.57973.65.fits |      bias | 63.99999999999999 | 45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.670991 |    1.41 |     0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241102.58016.49.fits |      bias | 63.99999999999999 | 45.0 | DOME FLATS |       RL |  Large |     2,2 | 60616.671487 |    1.41 |     0.0 | 7149.8920898 |   12.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+data end
+

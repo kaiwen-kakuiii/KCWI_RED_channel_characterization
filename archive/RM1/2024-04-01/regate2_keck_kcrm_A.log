@@ -1,0 +1,20 @@
+2024-04-01/keck_kcrm_A: decker Small, cenwave 6130
+   template keck_kcrm_RM1_6130_small.fits   (built here)
+   setup covers ~5402-6858 A, template covers 5341-6850 A -> 99% of the detector has template under it
+   provenance: this setup SEEDED the template (2024-04-01/keck_kcrm_A) -- this gate is REPRODUCTION, not generalisation
+   lamps    PypeIt's default FeI/ArI/ArII.  Measured on 2023-12-10 C: 70-80 lines fitted per slit, so unlike RH3/RH4 no custom catalogue is needed
+patched keck_kcrm_A.pypeit
+removed the previous Calibrations/ so it cannot be reused
+running calibrations ... (log: /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2024-04-01/pypeit_run/keck_kcrm_A/gate.log)
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2024-04-01/pypeit_run/keck_kcrm_A/Calibrations/WaveCalib_A_0_DET01.fits
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading SlitTraceSet from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2024-04-01/pypeit_run/keck_kcrm_A/Calibrations/Slits_A_0_DET01.fits.gz
+[1;38;2;49;54;149m    [INFO][0m - [38;2;116;173;209mdatamodel.py:from_file:1558[0m - Loading WaveCalib from /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RM1 pypeit run/2024-04-01/pypeit_run/keck_kcrm_A/Calibrations/WaveCalib_A_0_DET01.fits
+
+run_pypeit -c returned 0
+slices solved, unflagged and unshifted: 23 / 24
+   1 blue end >100 A from median: [3975]
+   rms median 0.119 px, worst 0.167 px
+   24 / 24 also meet the strict seed criteria
+
+FAIL: 23/24 usable slices (needed 24), run_pypeit rc=0, all six calibration products present
+   NOT necessarily a dead end: 24 slices still meet the strict seed criteria, spanning 5344-6987 A.  That is what build_rm1_template.py bootstraps from (RH3 section 4).

@@ -1,0 +1,30 @@
+# Auto-generated PypeIt input file using PypeIt version: 2.0.1
+# UTC 2026-08-24T21:09:01.608+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_kcrm
+
+# Setup
+setup read
+Setup A:
+  binning: 2,2
+  cenwave: 0.0
+  decker: FPCam
+  dispname: None
+setup end
+
+# Data block 
+data read
+ path /Users/kaiwenzhang/PycharmProjects/KCWI/KCWI_RED_channel_characterization/RH2 pypeit run/../fits/by_night/RH2/2024-10-29
+                   filename | frametype |                ra |   dec |  target | dispname | decker | binning |          mjd | airmass | exptime |      cenwave | posang | ra_off | dec_off | idname | calpos | calib
+# KR.20241030.01549.76.fits |      None |             155.0 | 0.081 | unknown |     None |  FPCam |     2,2 | 60613.017937 |   13.37 |     0.0 |          0.0 | -259.8 |    0.0 |     0.0 |   DARK |    Sky |     0
+  KR.20241030.05174.90.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RH3 | Medium |     2,2 | 60613.059895 |    1.41 |     0.0 | 8599.9794922 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241030.05217.74.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RH3 | Medium |     2,2 | 60613.060391 |    1.41 |     0.0 | 8599.9794922 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241030.05261.60.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RH3 | Medium |     2,2 | 60613.060898 |    1.41 |     0.0 | 8599.9794922 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241030.05305.46.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RH3 | Medium |     2,2 | 60613.061406 |    1.41 |     0.0 | 8599.9794922 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241030.05349.32.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RH3 | Medium |     2,2 | 60613.061913 |    1.41 |     0.0 | 8599.9794922 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241030.05393.18.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RH3 | Medium |     2,2 | 60613.062421 |    1.41 |     0.0 | 8599.9794922 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+  KR.20241030.05437.40.fits |      bias | 63.99999999999999 |  45.0 | unknown |      RH3 | Medium |     2,2 | 60613.062929 |    1.41 |     0.0 | 8599.9794922 |    0.0 |    0.0 |     0.0 |   BIAS | Mirror |     0
+data end
+
